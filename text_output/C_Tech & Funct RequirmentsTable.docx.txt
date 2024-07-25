@@ -1,0 +1,5192 @@
+Evaluation Warning: The document was created with Spire.Doc for Python.
+C
+C - Technical and Functional Requirements Tables
+······························  
+
+Technical Requirements Table	1
+Functional Requirements Table	19
+Screen Shot Appendix For Functional Requirements Table	91
+
+This Page Intentionally Blank
+
+
+
+Los Angeles County Sheriff’s Dept	
+RFP #B1011 Forensic LIMS
+Porter Lee Corporation: Technical Requirements
+Technical Requirements Table
+······························  
+
+Reference Number
+Requirement
+Mandatory (M)
+or
+Optional (O)
+Vendor Response YES/NO
+Comments
+
+General Technical Requirement
+
+
+
+TEC 1.00 
+System must be a Windows browser-based software solution. A browser based software solution is defined as a solution that utilizes Web browsers as the only required component installed on the client computer, e.g., Microsoft's .NET. Note: This requirement does not apply to the analytical interface component of this application utilizing client/server technology. 
+M 
+Yes
+The proposed system contains both browser based and client server components. Browser based components are utilized in the Property management modules for case entry in the districts as well as performing status and inquiry functions. Client/Server modules are utilized in the LIMS where best suited for instrument interface and other hardware interfaces. Porter Lee Corporation is in the process of migrating additional application modules to the “.NET” interface.
+TEC 2.00 
+System must be able to install and run all components in a 3-tier architecture, Web browser, application server and/or database server(s), where the identified servers are HP / UX 64bit Itanium Superdome processors. 
+M 
+Yes
+The system is compatible with the specified architecture. The infrastructure can be extended using combinations of application and database servers strategically located to provide maximum performance and availability. 
+TEC 3.00 
+System must meet Americans with Disabilities Act (ADA) compliance rules. 
+O 
+Yes
+The proposed system takes advantage of common accommodations which are built-in to Microsoft Windows. The software can be modified to provide additional assistance if needed.
+TEC 4.00 
+System shall be based on server technology that supports vertical and horizontal scalability, fail over, clustering, and load balancing capabilities to support a user community of approximately 10,000 named end-users. 
+M 
+Yes
+The system is based on industry standard technology and is in use in several multi-site installations that utilize central, distributed, and mixed mode configurations.
+TEC 5.00 
+Support multi-site capabilities from a centralized server deployment. 
+M 
+Yes
+This configuration is fully supported. A high availability / high performance network.
+TEC 6.00 
+The system’s functionality must be capable of being accessed via a portal. 
+O 
+Yes
+Portal applications are included in the proposed system.
+TEC 7.00 
+System must provide enterprise wide visibility and still be configurable for each business area. 
+M 
+Yes
+This is supported by the ability to define individual agencies, labs, sections within the system. 
+APPLICATION TOOLSETS 
+TEC 8.00 
+Provide toolsets to accommodate the following: 
+TEC 8.01 
+Database maintenance (performance and tuning) 
+M 
+Yes
+The toolsets provided with Oracle may be utilized.
+TEC 8.02 
+Report design 
+M 
+Yes
+Crystal Reports is the system supplied and supported report design tool. The system is compatible many other reporting tools such as Microsoft Access report writer.
+TEC 8.03 
+Security administration 
+M 
+Yes
+All LIMS security administration is provided within our Configuration program. Desktop security and domain-level security layers may be administered as they are presently. 
+TEC 8.04 
+End-user interface design: Configuration engine enables users to configure event-driven business rules for tailoring system behavior and functionality without the need for programming 
+O 
+Yes
+Many aspects of system appearance and behavior are configurable using control flags in the Configuration program. No programming is required to change the Lab Control or Configuration settings.
+TEC 8.05 
+System upgrade administration 
+M 
+Yes
+PLC-designed toolsets for database upgrade/update are available. In general, all such system upgrades may be performed remotely by PLC personnel. 
+TEC 8.06 
+Application Programming Interface (API) Maintenance 
+O 
+Yes
+The proposed system includes a support plan that will provide maintenance programming. In addition the LIMS system administrators will receive training for making changes to the many user definable and extendable features of the system.
+TEC 8.07 
+Online Analytical Processing (OLAP) Maintenance 
+O 
+Yes
+The support and maintenance plan includes all supplied statistical reports. OLAP is not supplied as a separate module but statistical reports can be developed on the database using Oracle OLAP or Cognos
+TEC 8.08 
+Archiving data 
+M 
+Yes
+PLC-designed database archive tools are available. 
+DATA ENTRY 
+TEC 9.00 
+Display informational message indicating another person is 
+viewing/updating the record the second end-user has 
+just queried and if they wish to update the record, they must wait until the record has been updated and/or released by the first end-user. 
+M 
+Yes
+The message will be provided as specified.
+TEC 10.00 
+Provide the ability to define user pull down lists for any database attribute within the application. 
+O 
+Yes
+This is fully supported.  All such fields provide a drop down listing that may be searched. 
+TEC 11.00 
+Utilize a 'Soundex' like feature when the exact spelling is not known. 
+O 
+Yes
+This is provided for Name searches. In addition, all listing windows may be filtered using combinations of search criteria. 
+TEC 12.00 
+Provide immediate transfer of values from "Pop up" tables to the appropriate field when selected and to proceed to the next entry field. 
+M 
+Yes
+This is fully supported. 
+TEC 13.00 
+Allow complete validation and editing of data at the point of 
+entry based on user defined criteria (e.g., transaction, tables, 
+archived records, transaction status, etc.). 
+M 
+Yes
+Field entries are validated against the proper database table. 
+TEC 14.00 
+Provide cross-field validation for related fields upon data entry. 
+M 
+Yes
+ This is fully supported.  An example would be listings of personnel based on the outside agency selection. 
+TEC 15.00 
+Intentionally blank 
+
+XX
+
+TEC 16.00 
+Provide transaction processing controls and edits for entered transactions. 
+M 
+Yes
+Some examples of available edits include mandatory fields, date validation, code field validation, and spell checking. Other application context specific edits can be configured as needed to support business rules.
+TEC 17.00 
+End-user screens contain triggers to additional data screens based on a specific data input. 
+M 
+Yes
+Additional data screens/fields may be triggered by data input. An example of this is the automatic display of Item Attributes based on the item type selected (i.e. when a firearm item type is selected, the attribute fields for Caliber, Lands, Twists, etc…, appear automatically). 
+TEC 18.00 
+Allow mass changes by table-driven data through proper security. 
+M 
+Yes
+This is supported for system administration personnel. 
+TEC 19.00 
+Provide a consistent user interface across all components, including: 
+TEC 19.01 
+Consistent function keys 
+M 
+Yes
+An example is that our Image Vault may be accessed wherever applicable by pressing the F11 key. 
+TEC 19.02 
+Screen naming functions 
+M 
+Yes
+
+TEC 19.03 
+Navigation patterns 
+M 
+Yes
+Our user-friendly interface is recognizable from virtually any screen. Our predominant feature is the extensive use of Tabs which provide immediate feedback on where the user is as well as providing easy access to all other major areas of the applications. 
+TEC 19.04 
+Menus (as defined by security profile) 
+M 
+Yes
+Rather than extensive menus, the Crime Fighter BEAST applications use Tabs and buttons for most feature access. 
+TEC 19.05 
+Look and feel (adherence to a single user interface standard) 
+M 
+Yes
+See TEC 19.03
+TEC 20.00 
+Provide Single Sign-on capability to access all application 
+components with one logon ID and password. Access to individual components will be defined through security groups, roles, and privileges 
+M 
+Yes
+This is fully supported. Users have a single ID and password for the system. Users may be assigned to a user group(s) which contain the privileges for the group. Profiles may also be configured individually for special situations.  
+TEC 21.00 
+Provide the ability to use Active Directory to authenticate user access. 
+O 
+Yes
+This is fully supported.  We have implemented user authentication through Active Directory / LDAP in a number of client sites. 
+BAR CODE FUNCTIONALITIES 
+TEC 22.00 
+Provide the ability to read 1D bar codes 
+M 
+Yes
+This is a basic feature of our product line. 
+TEC 23.00 
+Provide the ability to produce Code 128 1-dimensional bar codes 
+M 
+Yes
+This is a basic feature of our product line.
+TEC 24.00 
+Support legacy lab receipts including Code 3 of 9 bar code 
+M 
+Yes
+We have often had to support existing barcode formats from legacy systems that we replace or interface with. One example is the interface we did in Austin, Texas. In that system, items of evidence are barcoded by their RMS system (Versadex) and the Crime Fighter BEAST reads these barcode labels when evidence is brought into the laboratory environment. 
+TEC 25.00 
+Provide the ability to design size, format, fields on bar code labels by authorized personnel 
+M 
+Yes
+This is easily accomplished by editing the label files (.lbl) using a text editor. 
+TEC 26.00 
+Provide the ability to designate bar code label size 
+M 
+Yes
+This is fully supported. 
+TEC 27.00 
+Provide ability to read 2D bar codes (PDF-417) 
+O 
+Yes
+We are one of the pioneers in this technology. These are particularly useful when accepting laboratory submissions from outside police agencies
+NETWORK REQUIREMENTS 
+TEC 28.00 
+Support multi-user capability within a Wide Area Network (WAN) environment. 
+M 
+Yes
+This is fully supported. 
+TEC 29.00 
+Support the following Network standards and protocols: 
+TEC 29.01 
+Transmission Control Protocol/Internet Protocol (TCP/IP) 
+M 
+Yes
+This is fully supported.
+TEC 29.02 
+Ethernet 
+M 
+Yes
+This is fully supported.
+TEC 29.03 
+Fast Ethernet 
+M 
+Yes
+This is fully supported.
+TEC 29.04 
+Gigabit Ethernet 
+M 
+Yes
+This is fully supported.
+TEC 29.05 
+Asynchronous Transfer Mode (ATM) 
+M 
+Yes
+This is fully supported.
+TEC 29.06 
+Virtual Private Network (VPN) 
+M 
+Yes
+This is fully supported.
+TEC 29.07 
+Frame Relay 
+M 
+Yes
+This is fully supported.
+DATABASE REQUIREMENTS 
+TEC 30.00 
+Provide full integration among all software modules. Specifically, the updating of any data element occurs only once, and is then reflected throughout all modules and processes. 
+M 
+Yes
+This is fully supported.
+TEC 31.00 
+All applications/modules must utilize the same database. 
+M 
+Yes
+As desired, all applications/modules will utilize the same Oracle database. 
+TEC 32.00 
+Application must run on Oracle 9i Release 2 or greater RDBMS technology. 
+M 
+Yes
+This is fully supported. 
+TEC 33.00 
+Provide system administration tools to perform data backup, data restoration, and data file reduction in a live environment allowed by appropriate security administration and privileges 
+O 
+Yes
+These tools are provided as a part of the Oracle Database
+TEC 34.00 
+Provide support for load balancing. 
+O 
+Yes
+If load balancing infrastructure is utilized, the proposed system supports this architecture. 
+TEC 35.00 
+Provide table entries that are future dated, that is they become effective in future date. 
+M 
+Yes
+Any code table entry can be automatically activated on a specific date in the future.
+TEC 36.00 
+Ability to archive records upon request for records within a user-defined time and criteria. 
+O 
+Yes
+Optionally, entire cases can be archived using user specified criteria. If desired a shell of the case information can be left in the live database and flagged as archived.
+TEC 37.00 
+Provide method to access and retrieve archived data. 
+O 
+Yes
+Archived data, after being restored from offline media can be accessed using existing inquiry screens or reports.
+TEC 38.00 
+Ability to retrieve archived records upon request for records within a user-defined time and criteria. 
+O 
+Yes
+Any archived data can be accessed using existing inquiry screens or reports.
+TEC 39.00 
+Validate integrity of database before and after records are archived. 
+O 
+Yes
+Database integrity is maintained through-out the archive process. Code fields are not deleted but can be made inactive.
+TEC 40.00 
+Ability to list all records included in the archive. 
+O 
+Yes
+Any existing report can be run on the archive database.
+REPORTING 
+TEC 41.00 
+Include a comprehensive report generation capability for both standard and ad-hoc report with built-in graphing and charting. 
+O 
+Yes
+An extensive Management Reporting tool is provided. A large selection of templates will be supplied, and Crystal Reports is utilized to create custom reports (including ability to graph/chart). 
+TEC 42.00 
+System must support the use of Cognos business intelligence software tools. Since the County's standard for business intelligence software is Cognos, the vendor to provide narrative explanation on how the system can use Cognos. 
+O 
+Yes
+The proposed system is based on an Oracle database. Oracle is fully supported by Cognos. Cognos can import metadata for creating and can create views and reports. Porter Lee Corporation will provide a database schema so the county can mine or warehouse any LIMS data.
+TEC 43.00 
+Provide multimedia report output (central printers, screen, data file, CD-Rom, DVD, etc.). 
+O 
+Yes
+Reports may be printed or exported to all of the listed devices. 
+TEC 44.00 
+Run on-line reports in the background and allow users to continue processing. 
+O 
+Yes
+Users can switch between multiple on-line reports by using alt-tab or clicking on the minimized window. This is a part of the Microsoft Windows user interface.
+TEC 45.00 
+Ability to schedule reports to be run at a later date and/or on a recurring basis. 
+O 
+Yes
+This is fully supported using our Autotask feature.
+TEC 46.00 
+Ability for end-user to view print progress of any report. 
+O 
+Yes
+This is fully supported. 
+TEC 47.00 
+Provide end-users with the ability to create & generate ad-hoc reports. 
+O 
+Yes
+This is fully supported using our Management Reports applications. 
+TEC 48.00 
+Allow ad-hoc report/query definitions to be stored in private folders. 
+O 
+Yes
+Users can store report and query definitions privately.
+TEC 49.00 
+Allow ad-hoc report/query definitions to be stored in public libraries. 
+O 
+Yes
+The system administrator can select reports and query definitions to be made public.
+TEC 50.00 
+Ability to link from reporting tool to graphic, spreadsheet and presentation applications. 
+O 
+Yes
+When reports are generated using Crystal Reports, they may be exported in a variety of formats and to a number of applications. 
+TEC 51.00 
+Ability to utilize wildcards in queries 
+M 
+Yes
+This is supported in the proposed system by the user interface, Crystal Reports, and by Oracle.
+TEC 52.00 
+Ability to utilize 'Soundex' like feature when the exact spelling is not known. 
+O 
+Yes
+Last, first and middle names can be queried via. soundex.
+TEC 53.00 
+Ability to create line graphs from the reporting tools. 
+O 
+Yes
+This is fully supported through Crystal Reports or through export to the application of your choice. 
+TEC 54.00 
+Ability to create bar charts from the reporting tools. 
+O 
+Yes
+This is fully supported through Crystal Reports or through export to the application of your choice.
+TEC 55.00 
+Ability to create pie charts from the reporting tools. 
+O 
+Yes
+This is fully supported through Crystal Reports or through export to the application of your choice.
+TEC 56.00 
+Ability to create stacked bar charts from the reporting tools. 
+O 
+Yes
+This is fully supported through Crystal Reports or through export to the application of your choice.
+TEC 57.00 
+Ability to create min/mid/max line graphs from the reporting tools. 
+O 
+Yes
+This is fully supported through Crystal Reports or through export to the application of your choice.
+TEC 58.00 
+Ability to create regression line from reporting tools. 
+O 
+Yes
+Reporting tools can export data to MS Excel to perform any type of supported analysis. The proposed system also can be accessed through Cognos to perform additional analysis.
+TEC 59.00 
+Allow report output to be routed to an external database. 
+O 
+Yes
+Report output may be exported in a variety of ways. When close data interchange is desired, we often create specific interfaces to the external system (AFIS, COBIS, ATF, FBI, etc…). 
+TEC 60.00 
+Allow report output to be routed to a word processing software such as MS-Word or Corel WordPerfect. 
+O 
+Yes
+This is fully supported through Crystal Reports or through export to the application of your choice.
+TEC 61.00 
+Allow report output to be routed to spreadsheet such as MS-Excel. 
+O 
+Yes
+This is fully supported through Crystal Reports or through export to the application of your choice.
+TEC 62.00 
+Allow report output to be routed to American Standard Code for Information Interchange (ASCII) files. 
+O 
+Yes
+This is fully supported through Crystal Reports or through export to the application of your choice.
+TEC 63.00 
+Allow report output as Extensible Markup Language (XML) file. 
+O 
+Yes
+This is fully supported through Crystal Reports or through export to the application of your choice.
+TEC 64.00 
+Allow report output as Hypertext Markup (HTML) report and/or file. 
+O 
+Yes
+This is fully supported through Crystal Reports or through export to the application of your choice.
+TEC 65.00 
+Allow report output in un-editable format such as PDF. 
+M 
+Yes
+This is fully supported. Ad-Hoc reports and Analytical Reports may both be rendered in PDF or in our own Proprietary raster format. The Porter Lee Corporation format requires a viewer application which provides a very high level of security. 
+TEC 66.00 
+Provide print preview capability. 
+M 
+Yes
+This is fully supported in all areas of the system that generate output. 
+TEC 67.00 
+Allow year-to-year, month-to-month, period-to-period, year to date and life to date comparison on reports. 
+O 
+Yes
+This is fully supported. 
+TEC 68.00 
+Ability to report on any date during the month or year. 
+O 
+Yes
+This is fully supported. 
+TEC 69.00 
+Ability to generate reports based on user-defined thresholds and criteria (other than date). 
+O 
+Yes
+This is fully supported. 
+TEC 70.00 
+Reports can include control breaks. 
+O 
+Yes
+Page, group, record breaks or other visual indicator (lines/color) can be inserted via formula before or after any record, section, or group.
+TEC 71.00 
+Reports can include end-user defined calculations and formulas. 
+O 
+Yes
+This is fully supported through Crystal Reports. If calculations are desired in analytical reports, there are a number of ways to include this functionality.  
+TEC 72.00 
+Reports can include end-user defined headings and borders. 
+O 
+Yes
+This is fully supported. 
+TEC 74.00 
+Provide flexibility to users to indicate round numbers (or not) in reports. 
+O 
+Yes
+This is fully supported. 
+TEC 75.00 
+Allow users to sort report by any field within the report. 
+O 
+Yes
+Fully supported.
+TEC 76.00 
+Allow users to define a sort order for reports. 
+O 
+Yes
+This is fully supported. 
+TEC 77.00 
+On-line, real-time reporting and query capability with the ability to reference a data dictionary. 
+O 
+Yes
+Fully supported
+ERROR METHODOLOGIES 
+TEC 78.00 
+Error messages appear in a consistent format across all system modules, for both batch and on-line processing. Specifically, error messages having like codes, text and screen locations. 
+O 
+Yes
+Error message are presented in using a windows standard message dialog box. Messages are uniformly presented across all modules.
+TEC 79.00 
+Error messages are integrated with on-line help function. 
+O 
+Yes
+This is fully supported.
+SECURITY AND AUDIT CAPABILITIES 
+TEC 80.00 
+Support use of "Secure ID" and similar devices. 
+O 
+Yes
+This is fully supported.  A number of our customers utilize this technology.
+TEC 81.00 
+Ability to record date, time, and user ID for all system transactions. 
+M 
+Yes
+This is fully supported. 
+TEC 82.00 
+Provide historical records (log file) of table updates for a minimum of ten years including the user ID of who made the changes and the actual changes. 
+M 
+Yes
+The system AUDITLOG provides this function.
+TEC 83.00 
+Allow users to change passwords. 
+M 
+Yes
+Users may change their passwords at any time. 
+TEC 84.00 
+System Administrator can define parameters such as requiring users to use alphanumeric and numeric characters in passwords. 
+O 
+Yes
+This is fully supported. 
+TEC 85.00 
+Provide the option for system to require password changes periodically. 
+O 
+Yes
+This is fully supported. 
+TEC 86.00 
+Administrator can reset and/or delete passwords. 
+M 
+Yes
+This is fully supported. 
+TEC 87.00 
+Can log-off a user after a specified number of denied log on attempts. 
+M 
+Yes
+This is fully supported. 
+TEC 88.00 
+Log off user and generate report to security officer if user attempts to breach system authorized level defined security parameters while on-line. 
+O 
+Yes
+This is fully supported. The report is delivered via email.
+TEC 89.00 
+Unsuccessful logon attempts are recorded by system and retained for a user defined period of time. 
+O 
+Yes
+This is fully supported. 
+TEC 90.00 
+Set security profile to define personnel authorized to: 
+TEC 90.01 
+Log on 
+M 
+Yes
+This is fully supported.
+TEC 90.02 
+Add data 
+M 
+Yes
+This is fully supported.
+TEC 90.03 
+Change data 
+M 
+Yes
+This is fully supported.
+TEC 90.04 
+View data 
+M 
+Yes
+This is fully supported.
+TEC 91.00 
+Provide option to restrict data access for each security profile by: 
+TEC 91.01 
+User ID 
+O 
+Yes
+This is fully supported.
+TEC 91.02 
+Application 
+O 
+Yes
+This is fully supported.
+TEC 91.03 
+Screen 
+O 
+Yes
+This is fully supported.
+TEC 91.04 
+Field 
+O 
+Yes
+This is supported in many selected fields. Other fields may be secured together by screen based on application logic.
+TEC 91.05 
+Menu 
+O 
+Yes
+This is fully supported.
+TEC 91.06 
+Module 
+O 
+Yes
+This is fully supported.
+TEC 91.07 
+Report 
+O 
+Yes
+This is fully supported.
+TEC 91.08 
+Transaction type 
+O 
+Yes
+This is fully supported.
+TEC 91.09 
+Role 
+O 
+Yes
+This is fully supported.
+TEC 92.00 
+Provide ability to view or obtain reports showing: 
+TEC 92.01 
+Authorized system use 
+O 
+Yes
+This is fully supported.
+TEC 92.02 
+Unauthorized system use 
+O 
+Yes
+This is fully supported.
+TEC 92.03 
+Security profiles by user 
+O 
+Yes
+This is fully supported.
+TEC 92.04 
+Security breaches or attempts 
+O 
+Yes
+This is fully supported. User accounts can be disabled based on a login attempt counter. Only authorized system security administrators can re-activate disabled user accounts.
+TEC 93.00 
+Ability to predefine, based on job function and role, a security profile and assign individuals to such profiles. 
+M 
+Yes
+This is a basic component of the system. 
+TEC 94.00 
+Ability to provide multiple security profiles to a single user. 
+O 
+Yes
+This is fully supported. 
+TEC 95.00 
+Ability to view log files on-line for all additions, changes, and modifications including: 
+TEC 95.01 
+Date /time stamp 
+M 
+Yes
+This is fully supported.
+TEC 95.02 
+User ID 
+M 
+Yes
+This is fully supported.
+TEC 95.03
+Before and after data values 
+M 
+Yes
+This is fully supported.
+TEC 95.04 
+Specific input device 
+O 
+Yes
+This is fully supported.
+TEC 96.00 
+Provide record or file encryption using Data Encryption Standard (DES) standards. 
+O 
+Yes
+The LIMS provides file encryption for report files that are distributed outside the system. This requires that the individual viewing the file install a secure viewer. 
+
+In addition, Oracle supports encrypting database information on a column level. The county can implement this feature of oracle using internal resources if desired or required. The county can also configure the server operating system to provided file/sector level encryption.
+TEC 97.00 
+Authenticate users with a single password. 
+M 
+Yes
+This is fully supported.
+TEC 98.00 
+Support standard encryption techniques for all data transmitting over the network. 
+O 
+Yes
+This is fully supported.
+APPLICATION INTERFACES 
+TEC 99.00 
+Built-in export feature for extracting data in standard formats 
+(e.g., Excel, comma delimited text, etc.) for use in importing data to other applications. 
+M 
+Yes
+This is fully supported. 
+TEC 100.00 
+Ability to utilize Messaging Application Programming Interface 
+(MAPI) compliant e-mail systems such as Outlook, pagers, cell 
+phones. 
+M 
+Yes
+MAPI is fully supported. The system can be configured to use either MAPI or SMTP
+TEC 101.00 
+Ability to support Extensible Markup Language (XML) transactions with external systems. 
+O 
+Yes
+This is fully supported, but the interface may need to be customized to support the external system. 
+ANALYTICAL INSTRUMENTATION INTERFACES 
+TEC 102.00 
+Provide interfaces to the current installed analytical instruments. 
+TEC 102.01 
+ABI 310 DNA analyzer (Biology, DNA) 
+M 
+Yes
+We have interfaced to this instrument for multiple clients. 
+TEC 102.02 
+ABI 3130 DNA Analyzer (Biology, DNA) 
+M 
+Yes
+We have interfaced to this instrument for multiple clients.
+TEC 102.03 
+ABI 7000 Real Time PCR analyzer (Biology, DNA) 
+M 
+Yes
+We have interfaced to this instrument for multiple clients.
+TEC 102.04 
+ABI 7500 Real Time PCR Analyzer (Biology, DNA) 
+M 
+Yes
+We have interfaced to this instrument for multiple clients.
+TEC 102.05 
+Agilent GCMS Chemstation (v A.03.00 to D.01.02.16) (Controlled Substances) 
+M 
+Yes
+We have interfaced to this instrument for multiple clients.
+TEC 102.06 
+Agilent GCMS Chemstation D.02.00.275 (Controlled Substances) 
+M 
+Yes
+We have interfaced to this instrument for multiple clients.
+TEC 102.07 
+Agilent GCMS Chemstation D.03.00.611 (Controlled Substances) 
+M 
+Yes
+We have interfaced to this instrument for multiple clients.
+TEC 102.08 
+Agilent GCMS Chemstation v D01.02.16 (Toxicology) 
+M 
+Yes
+We have interfaced to this instrument for multiple clients.
+TEC 102.09 
+Agilent GCMS Chemstation v D02.00.275 (Toxicology) 
+M 
+Yes
+We have interfaced to this instrument for multiple clients.
+TEC 102.10 
+Agilent GCMS Chemstation v D03.00.611 (Toxicology) 
+M 
+Yes
+We have interfaced to this instrument for multiple clients.
+TEC 102.11 
+Beckman Coulter Biomek 2000 (Biology, DNA) 
+M 
+Yes
+We have interfaced to this instrument for multiple clients.
+TEC 102.12 
+Craic QDFI 1000 Microspectrophotometer (MSP) runs Grams software (Trace) 
+M 
+Yes
+We will work with the LAB to provide an interface for this instrument.
+TEC 102.13 
+Gas Chromatograph Infrared spectrophotometer (GCIR): Agilent 6890 GC w/ G2913A Chemstation coupled with a Thermo-Electron (Nicolet) 6700 Optical spectrophotometer (Clan Lab). 
+M 
+Yes
+We will work with the LAB to provide an interface for this instrument.
+TEC 102.14 
+Olympus AU400 Auto analyzer (Toxicology) 
+M 
+Yes
+We have interfaced to this instrument. 
+TEC 102.15 
+OMNIC 4.0 (Controlled Substances) 
+M 
+Yes
+We will work with the LAB to provide an interface for this instrument.
+TEC 102.16 
+OMNIC 4.1a (Controlled Substances) 
+M 
+Yes
+We will work with the LAB to provide an interface for this instrument.
+TEC 102.17 
+OMNIC 7.3 (Controlled Substances) 
+M 
+Yes
+We will work with the LAB to provide an interface for this instrument.
+TEC 102.18 
+Perkin Elmer Turbochrom (v.6.1.2) (Blood Alcohol) 
+M 
+Yes
+We have interfaced to this instrument for multiple clients.
+TEC 102.19 
+QIAGEN BioRobet EZ1 (DNA) 
+M 
+Yes
+We have interfaced to this instrument.
+TEC 102.20 
+Tecan EVO150 Liquid Handling Robot (Biology, DNA) 
+M 
+Yes
+We have interfaced to this instrument.
+TEC 102.21 
+Tecan Minilyser Auto analyzer (DNA,Toxicology) 
+M 
+Yes
+We will work with the LAB to provide an interface for this instrument.
+TEC 102.22 
+Thermo-Electron (Nicolet) FTIR OMNIC 6.1A (Trace) 
+M 
+Yes
+We will work with the LAB to provide an interface for this instrument.
+TEC 102.23 
+Varian GC/MS CP3800(GC) / 1200 L (MS) Workstation 64 software (Trace) 
+M 
+Yes
+We will work with the LAB to provide an interface for this instrument.
+TEC 103.00 
+Ability to interface with potential upgraded instrumentation as well as develop interfaces to new instrumentation that may be available in the future. 
+M 
+Yes
+We have interfaced with many instruments for many different clients. It is a typical requirement that we are accustomed to meeting. Each new implementation of our products inevitably leads to new instrument interfaces. In general, if an instrument provides for any import/export capability we can craft a bi-directional interface. 
+BAR CODE SCANNER, BAR CODE PRINTER, and SIGNATURE CAPTURE TERMINAL INTERFACES 
+TEC 104.00 
+Ability to interface with Symbol Technologies LS2208 bar code scanner 
+M 
+Yes
+This is our preferred basic scanner. 
+TEC 105.00 
+Ability to interface with Interlink EPAD-INK Input Device W/Integrisign Signature Software 
+M 
+Yes
+Porter Lee Corporation will provide the interface as specified.
+TEC 106.00 
+Ability to interface with the below listed bar code printers: 
+TEC 106.01 
+Zebra 2746e 
+M 
+Yes
+Porter Lee Corporation will provide the interface as specified.
+TEC 106.02 
+Zebra TLP 3642 
+M 
+Yes
+Porter Lee Corporation will provide the interface as specified.
+TEC 106.03 
+Zebra TLP 3842 
+M 
+Yes
+Porter Lee Corporation will provide the interface as specified.
+TEC 106.04 
+Zebra TLP 2844 
+M 
+Yes
+Porter Lee Corporation will provide the interface as specified.
+TEC 107.00 
+Ability to interface with new barcode printers as may be available in the future. 
+M 
+Yes
+Porter Lee Corporation will provide the interface as specified.
+HELP SYSTEM CAPABILITY 
+TEC 108.00 
+Provide context sensitive on-line help feature. 
+O 
+Yes
+Porter Lee Corporation will provide the on-line help for each screen.
+TEC 109.00 
+Provide on-line help features for all screen elements (screen errors and error codes). 
+O 
+Yes
+Porter Lee Corporation will provide the on-line help for each screen.
+TEC 110.00 
+Provide a user customizable help feature. 
+O 
+Yes
+One of our supported online help features allows authorized personnel to modify help contents directly from within the applications. 
+DOCUMENTATION CAPABILITY 
+TEC 111.00 
+Provide up-to-date end-user manuals which contain clear and 
+thorough descriptions of all screen functions, screen data, 
+programs, and any processing parameters. 
+O 
+Yes
+We have up to date system administration, user and other documentation that are supplied with every system. Changes to the system that result from LASD requirements will be incorporated into these materials. 
+TEC 112.00 
+Provide on-line documentation for users. 
+M 
+Yes
+All manuals/guides can be provided as PDF files. Other options can be discussed.
+TEC 113.00 
+Provide user manuals on CD-ROM. 
+O 
+Yes
+All manuals/guides can be provided as PDF files on CD-ROM
+TEC 114.00 
+Provide comprehensive technical system documentation and technical manuals including: 
+TEC 114.01 
+Program descriptions 
+M 
+Yes
+This documentation will be provided.
+TEC 114.02 
+Screen definitions and descriptions 
+M 
+Yes
+This documentation will be provided.
+TEC 114.03 
+Database definitions, logical data model, and record layouts 
+M 
+Yes
+This documentation will be provided.
+TEC 114.04 
+System operations 
+M 
+Yes
+This documentation will be provided.
+
+This Page Intentionally Blank
+
+
+
+Los Angeles County Sheriff’s Dept	C-91
+RFP #B1011 Forensic LIMS
+Porter Lee Corporation: Functional Requirements
+Functional Requirements Table
+······························  
+Reference Code
+Critical Code
+Business Requirement
+Vendor Response
+Comments
+General 
+
+GEN 1.00 
+CR 
+Ability to utilize Oracle 9i or greater database to incorporate property and evidence tracking, laboratory management, and reporting within one database instance to facilitate the management of evidence from the time of collection, through forensic analysis, until final disposition. 
+F
+The Crime Fighter BEAST is available on Oracle 9i or greater.  The evidence tracking, laboratory management and reporting will be implemented on one database instance as requested.
+
+GEN 2.00 
+CR 
+Ability for unlimited simultaneous end-user data entry, query, and retrieval, in different geographic locations, through Web browser access. 
+F
+These features have an unlimited user access availability at any point in time through the web-browser application.
+
+GEN 3.00 
+CR 
+Ability to prevent updates/revisions to a record if that record is being simultaneously accessed by another user. 
+F
+This record locking feature is a fundamental feature of the database and program design
+
+GEN 4.00 
+CR 
+Ability to issue a message that another person has control of a record when a second person queries a record 'held' by another person. 
+F
+This currently implemented feature notifies the user whenever such events occur. 
+
+
+GEN 5.00 
+CR 
+Ability to issue a message to notify an user viewing a record being updated by another user that the record had changed and the view must be refreshed and changes re-input to affect updates. 
+F
+This currently implemented feature notifies the user whenever such events occur. 
+
+
+GEN 6.00 
+CR 
+Allow use of PIN and user ID when accepting/relinquishing custody of an item without the user having to log into the system [at that workstation]. 
+F
+The custody transfers within the Crime Fighter BEAST support this requirement.  A pin entry for both the accepting and relinquishing person will effect a person-to-person transfer without both users having to log onto the system.
+
+Screen shot in Appendix to this section.
+
+GEN 7.00 
+CR 
+Ability to support compatibility with Windows 2000 and XP workstations. 
+F
+The Crime Fighter BEAST is compatible with Windows 2000 and XP workstations. 
+
+GEN 8.00 
+CR 
+Ability to add configure the system, create user-defined data elements, and develop end-user reports as needed. 
+F
+The Crime Fighter BEAST has a program tool called Config.exe that allows the system administrator to turn system flags on and off, create user-defined fields/data elements such as attributes on items as well as update code tables and user information.  End user reports in both MSWord and crystal report can be created and linked to the system through the report format definitions or the adhoc.ini feature. 
+
+GEN 9.00 
+CR 
+Ability to maintain a user friendly interface with consistency of commands, functions, keyboard equivalents, and general look and feel throughout functions. 
+F
+The Crime Fighter BEAST GUI is consistent and user-friendly. A consistent tab and general functional toolbars ease training on the system. Lookup tables can be accessed through mouse and/or keyboard functions and the alt and tab buttons allow easy keyboard navigation without the user of the mouse.
+
+GEN 10.00 
+CR 
+Ability to support quick end-user response time utilizing efficient internal processing tools and techniques. 
+F
+
+
+GEN 11.00 
+CR 
+Ability to support integration with MS-Office for import and export of information to/from the system. 
+F
+An example of this integration would be in the use of .xls files to and from instrumentation as well as the use of MS-Word for analytical reporting. 
+
+GEN 12.00 
+DR 
+Ability to support integration with WordPerfect Office Suite for import and export of information to/from the system. 
+C
+Porter Lee Corporation would work with LASD to support this integration if desired.
+
+GEN 13.00 
+EX 
+Ability to allow creation and use of hot keys to be able to access functions without mouse movement or clicks. Have quick, customizable keyboard shortcuts to frequent functions in screens. 
+F
+Quick keys are used extensively throughout the Crime Fighter BEAST.  An example would be the use of F1 to access online help, F4 to pull up a code list or F11 to access the image vault.
+
+GEN 14.00 
+EX 
+Ability to pick one or more items from a pick list using the standard Windows protocol (control + click) or range of items (shift + click). 
+F
+The Crime Fighter BEAST uses this standard protocol.  An example would be selecting multiple analysis requests to be assigned to a particular individual in the Batch Assignment screen by using the (control + click)
+
+Screen shot in Appendix to this section.
+
+GEN 15.00 
+EX 
+Ability to search drop down lists by first letter, number, etc 
+F
+The code lookup screens default the cursor into the search field so that a user can begin typing and see the filter on the list begins in real-time.  Default of searching the code or the description can be set.
+
+Screen shot in Appendix to this section.
+
+GEN 16.00 
+EX 
+Ability to archive a case including all data/images, with easy access to archived data. 
+F
+
+
+GEN 17.00 
+CR 
+Ability to readily identify on screens all mandatory information required during data entry. 
+T
+The Crime Fighter BEAST supports this feature.  An example is the case entry screen on the website.  Mandatory fields can be highlighted in a contrasting color to give an obvious visual indicator of required data.
+
+GEN 18.00 
+CR 
+Ability to save user interface settings. 
+F
+Each user’s interface preferences may be saved. 
+
+GEN 19.00 
+CR 
+Ability to customize screens based on analytical section/service provided. 
+T
+The Crime Fighter BEAST has numerous configuration options for the section flow and reporting tool design.  Configuration tools and programs are provided for easy maintenance and further customizations after go-live.
+
+Screen shot in Appendix to this section.
+
+GEN 20.00 
+CR 
+Ability to provide user-maintainable look up tables. 
+F
+The configuration program provides a portal in which the system administrator can maintain system-wide look-up tables.  Access to this program is provided as part of the user’s security profile. 
+
+GEN 21.00 
+CR 
+Ability to display agency name and agency case number on all screens. 
+F
+
+
+GEN 22.00 
+CR 
+Ability to display lab case number on all screens. 
+F
+
+
+GEN 23.00 
+EX 
+Ability to support ISO 17025 compliance. 
+F
+The Crime Fighter BEAST supports ISO 17025 compliance in numerous ways.  An example would be extensive use of the Laboratory Asset Management system to monitor instrument service and validation and the linking of controlled documentation within the LIMS.
+Current users of the Crime Fighter BEAST LIMS have achieved ISO 17025 compliance
+
+GEN 24.00 
+EX 
+Ability to create a paperless system utilizing PRELIMS technology. 
+F
+LASD will be able to create a paperless system within the Crime Fighter BEAST 
+
+GEN 25.00 
+DR 
+Ability to take on data from in-house legacy evidence, property, and lab information management systems including at a minimum transactions/moves history and certain evidence item, case, and person information. 
+C
+Porter Lee Corporation is very experienced in legacy data conversions as it is a common element to this type of implementation. 
+
+See sample migration plan for approach
+Web Interface 
+
+
+WEB 1.00 
+CR 
+Ability to enter case information, individual evidence items, and initiate service requests through a secure web page. 
+F
+This is fully supported through use of the evidence web prelog.
+
+Screen shot in Appendix to this section.
+
+WEB 2.00 
+CR 
+Ability to query the system, produce, and print reports through a secure web page. 
+F
+
+
+WEB 3.00 
+CR 
+Ability to allow access to search, view, and print the most current version of an issued analytical reports from a web page. 
+F
+The Crime Fighter BEAST Web Inquiry screens provide this functionality.  
+
+Screen shot in Appendix to this section.
+
+WEB 4.00 
+CR 
+Ability to add additional web pages (instruction sheets, etc.). 
+F
+The Crime Fighter BEAST web pages are extremely customizable.  Quick reference guides and user manuals can be linked to existing locations on the web entry screen.
+
+WEB 5.00 
+CR 
+Ability to allow viewing of finalized analytical reports which have been finalized via web access bases on system security such as logon ID and role. 
+T
+The logon ID, password and role are defined in the web prelog access screen  within the Config.exe by the System Administrator.
+
+WEB 6.00 
+CR 
+Ability to allow viewing of finalized run sheets, examination notes, and examiner's certification, e.g., blood alcohol discipline, via web access based on system security such as user logon ID and role. 
+T
+Porter Lee Corporation will customized the information that is accessible via the web to LASD specifications.
+Security 
+
+
+
+SEC 1.00 
+CR 
+Ability to support a security system that supports group, role, and data level security. 
+T
+The group, role and date level security is all managed/defined within the Config.exe
+
+Screen shot in Appendix to this section.
+
+SEC 2.00 
+CR 
+Ability to assign group privileges and assign single users to multiple groups. 
+F
+User Security Groups are defined in Config.exe.  A user may be a part of multiple groups.
+
+Screen shot in Appendix to this section.
+
+SEC 3.00 
+CR 
+Ability to allow unlimited number of user groups that can be created. 
+F
+
+
+SEC 4.00 
+CR 
+Ability to enable/prohibit data changes based on group, role, and data level security. 
+F
+This is supported. Access may be tailored from no access, to read-only access, to full access and any combination of access in-between these. 
+
+An example would be providing “Inquiry Access Only” to Auditors.
+
+Screen shot in Appendix to this section.
+
+SEC 5.0 
+CR 
+Ability to record the authorization of staff access to and use of operational areas of the laboratory and to areas affecting the quality of the tests. (ISO 17025). 
+F
+One mechanism for defining this is the logging of locations and passes (physical keys or access cards) to staff through the Lab Asset Management System.  The quality manager can then run a custom report at any time to know who had access to a particular location at any point in the past based on this distribution.
+
+SEC 6.0 
+CR 
+Ability to document and account for all keys, magnetic cards, etc in order to limit distribution to authorized staff. (ISO 17025) 
+F
+The integrated Lab Asset Manager may be used to account for keys and magnetic cards. Full chain of custody can be maintained for these items. 
+
+SEC 7.0 
+CR 
+Ability to automatically log a user off system after a user-defined time limit of inactivity. 
+T
+The automatic log off feature is setup during system configuration.
+Audit Trail Tracking and Reporting 
+
+AUD 1.00 
+CR 
+Ability to provide complete audit history audit trail components including view, update, query requests, report creation, and access for data security and recovery of lost transactions/data. 
+F
+The auditlog.exe provides a history for access and data recovery needs.
+
+Screen shot in Appendix to this section.
+
+AUD 2.00 
+CR 
+Ability to provide audit history of items based on case number (URN and Outside Agency ORI/Record ID), lab case number, Master file number, master lab number, warrant number, booking number, court case number or any combination thereof. 
+T
+Porter Lee Corporation will work with LASD to ensure all important agency specific numbers are searchable for the item audit history. 
+
+AUD 3.00 
+CR 
+Ability to edit select data based on role; require justification for change; maintain original data in archive; and maintain the ability to produce and/or view history. 
+F
+The Crime Fighter BEAST supports editing select data based on roles.  An example would be deleting an item can trigger not only justification, but also a supervisor login and password to complete.  Within the auditlog, both the initial state of the case and the change will be recorded and part of the history report.
+
+AUD 4.00 
+CR 
+Ability for designated individuals to correct records of case information, evidence item information, person information, service request information, and/or transaction information. If original record is in error, ability to flag the record to be hidden from view of reports, etc, while maintaining the record in the database with an audit trail. 
+F
+Authorized personnel may make such corrections. All such activity is logged in the audit log. 
+
+AUD 5.00 
+CR 
+Ability to audit the viewing history of analytical reports and images. 
+F
+The Audit Log application allows you to view this as well as virtually all other system access. 
+Chain of Custody 
+
+
+CST 1.00 
+CR 
+Ability to associate evidence with any and all record identifiers, in any combination including one item to many cases, multiple items to one case etc. 
+F
+The Crime Fighter BEAST allows unlimited numbers of items to be linked to a single case.  Additionally, the Link feature on the items tab allows users to easily cross-reference items from other cases as required. 
+
+CST 2.00 
+
+The system must be able to maintain the chain of custody for individual evidence/property items by providing: 
+
+
+
+CST 2.01 
+CR 
+Ability to associate an individual evidence/property item with a case number or multiple case numbers. 
+F
+This is fully supported using case cross referencing and Item Linking. 
+
+CST 2.02 
+CR 
+Ability to associate multiple individual evidence/property items to one or more case numbers. 
+F
+This is fully supported using case cross referencing and Item Linking.
+
+CST 2.03 
+CR 
+Ability to associate lab technician with an individual evidence/property item. 
+F
+This can be accomplished through use of the Assignment feature and/or chain of custody transfer. 
+
+CST 2.04 
+CR 
+Ability to associate names and roles, e.g., victim, subject, owner, with an individual evidence/property item. 
+F
+Items of evidence may be linked to individuals or to unnamed victims, suspects, owners. 
+
+Screen shot in Appendix to this section.
+
+CST 2.05 
+CR 
+Ability to associate modified, e.g., edited or changed, case number with original case number, e.g., URN, truncated URN, Outside Agency ORI/Case number. 
+F
+Additional numbers (changed, original or referential) can be associated through the cross reference type/linking feature.
+
+
+CST 2.06 
+CR 
+Ability to associate Investigator with an individual evidence/property item. 
+F
+There are two basic ways of accomplishing this within the Crime Fighter BEAST.
+
+1)  The person who collects the property/evidence can be associated with the item.
+2)  The case office/investigator requesting analysis can be associated with that same item.
+
+Screen shot in Appendix to this section.
+
+CST 2.07 
+CR 
+Ability to associate ORI with URN or Outside Agency case number. 
+F
+ This is a basic feature of the Crime Fighter BEAST. 
+
+CST 2.08 
+CR 
+Ability to associate Court number with an individual evidence/property number. 
+F
+Item attributes can be setup for the court number entry to be associated with each evidence/property number.  Additionally court numbers/docket numbers can be linked through the Prosecutor’s area for additional information associated with lab analysis requests.
+
+
+Screen shot in Appendix to this section.
+
+CST 2.09 
+CR 
+Ability to associate Coroner's Case number with an individual evidence/property item. 
+F
+Item attributes can be setup for the Coroner’s case number entry to be associated with each evidence/property number.  
+
+See screen shot for CST 2.08 in Appendix to this section.
+
+CST 2.10 
+CR 
+Ability to associate lab analyst item number to an individual evidence/property item. 
+F
+The Crime Fighter BEAST can display both the evidence property number as well as an analyst item number.
+
+Screen shot in Appendix to this section.
+
+CST 2.11 
+CR 
+Ability to associate storage location with an individual evidence/property item. 
+F
+Chain of custody is a basic function of the Crime Fighter BEAST.  Transfers of evidence/property to locations can be performed manually or through a bar code scan.
+
+Screen shot in Appendix to this section.
+
+CST 2.12 
+CR 
+Ability to associate identity of individual performing transaction or item movement) to an individual evidence/property item. 
+F
+The users performing a transaction is documented in the Crime Fighter BEAST.
+
+Screen shot in Appendix to this section.
+
+CST 2.13 
+CR 
+Ability to associate date/time of transaction or item movement to an individual evidence/property item. 
+F
+The date and time for the transaction is documented in the Crime Fighter BEAST.
+
+Screen shot in Appendix to this section.
+
+CST 2.14 
+CR 
+Ability to associate identity of individual accepting custody of item to an individual evidence/property item. 
+F
+The user id of the individual accepting custody for the item is recorded during a custody transfer.
+
+Screen shot in Appendix to this section.
+
+CST 2.15 
+CR 
+Ability to associate the location relinquishing custody of item to an individual evidence/property item. 
+F
+The location releasing the item is displayed on the custody transfer.
+
+Screen shot in Appendix to this section.
+
+CST 3.00 
+CR 
+Ability to maintain association of “spawned” items (child) to a specific evidence/property item (parent). A new suffix identifier shall not be given to each “spawned” item. 
+F
+The format of child numbering is user configurable.  The Crime Fighter BEAST maintains the “parentage” of each item.
+
+CST 4.00 
+CR 
+Ability to maintain association of “split” items (child) to a specific evidence/property item (parent). A new suffix identifier shall be given to each “split” item. 
+F
+The format of child numbering is user configurable.
+
+CST 5.00 
+CR 
+Ability to associate updates to URN or Outside Agency ORI/case number with an originally assigned URN or Outside Agency ORI/case number. 
+F
+An URN or ORI number can be changed as the auditlog will document those changes.  The other option is to use the Case Cross-Reference feature to associate additional numbers.  In the case of the ORI numbers it is possible to store multiple ORI’s as additional number can come in with each submission if multiple agencies submit property/evidence on the same case. 
+
+CST 6.00 
+CR 
+Must have on line query capabilities to view item movement history and item modifications including: Case number, Case Investigator, Custodian/Evidence courier, Lab technician, item, location, ORI, Court Number, Names, Roles, Date Range, Item disposition. 
+F
+The Crime Fighter BEAST provides easy access to the chain of custody (all item location and process movements) that includes this desired detailed information.  Simply scanning the item barcode will also take you to the Items tab in the system where the current custody is shown. Scanning the barcode again will take you to the Custody tab where the items entire chain of custody may be viewed/printed. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+CST 7.00 
+CR 
+Ability to produce chain of custody detail in electronic and/or hard copy format and include electronic signatures where appropriate and/or required. 
+F
+The chain of custody report for selected or all items in a case can be generated and printed at any time.  This can include all relevant digital signatures as well. 
+
+CST 8.00 
+CR 
+Ability to enter comment for a move / transfer evidence items, documents, and/or assets. 
+F
+Comments can be entered on any move/transfer of item, documents and/or assets.
+
+Screen shot in Appendix to this section.
+
+CST 9.00 
+CR 
+Allow use of PIN and User-ID when accepting or relinquishing custody of an item without the user having to log into the system from that specific work station. 
+F
+This behavior may be configured to behave as the agency desires. If custody is being transferred from personnel who are not logged on, they merely enter their password (PIN) in the field provided.
+
+
+
+
+
+
+
+
+
+
+
+
+
+CST 10.00 
+CR 
+Ability to enter data from a paper chain of custody document into PRELIMS, or to scan a paper chain of custody document into PRELIMS, that documents the acceptance or release of an evidence item when PRELIMS is not availability for access at that location. 
+F
+This can be accomplished through the use of the image vault and a document scanner.  A system administrator would also have the permission to record a historical transfer in the system to make the electronic chain of custody complete if desired.
+
+CST 11.00 
+CR 
+Ability to record the transfer of evidence using a signature pad to identify the individual receiving or releasing evidence, and to be able to print a receipt that includes said identification and signature. 
+F
+The Crime Fighter BEAST integrates the use of signature capture pads into desired evidence transfers.  This electronic signature is captured within the database and can be printed at any time.
+
+Screen shot in Appendix to this section.
+
+
+
+
+
+
+
+
+
+
+
+
+
+CST 12.00 
+CR 
+Ability to edit erroneously entered transfer/transaction/move information where all references and links to the erroneous data is maintained and accessed through system audit trails. 
+F
+Authorized personnel may edit the transfer/transaction/move records. All such edits are documented in the Audit Log. The system can be configured to require comments to be entered for these types of changes. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+CST 13.00 
+CR 
+Ability to print a receipt for an evidence item to act as the submitting agency’s chain of custody record. 
+F
+Evidence submission receipts may be printed automatically or on demand. 
+
+Screen shot in Appendix to this section.
+
+CST 14.00 
+CR 
+Ability to track batch transfers of evidence items for chain of custody purposes and/or evidence processing using a single bar code label on an evidence container that references all items in said container. 
+F
+Transfers in the Crime Fighter BEAST can be made as one item in a case, multiple items in case, multiple items from multiple case or with scans of a group container from one or many cases.
+
+A single barcode can be used to move multiple items from multiple cases. (e.g. bulk container barcode).  Inventory reports can also be printed for a container with numerous contents as this can serve as a helpful “packing slip” when moving property/evidence from one location to another. 
+
+CST 15.00 
+CR 
+Ability to track changes in the custody of all items (item/sub-item/sample) from their point of entry in the system to their disposal by storing all relevant information about the change in custody. When there is a change in the custody, the new custodian name/location, date & time of transfer must be documented. 
+F
+The complete chain of custody record for each item is stored from the time it is first created in the system until ultimate disposition/retention. When transfers are made, all of the requested information is captured. 
+
+CST 16.00 
+CR 
+Ability to record movement of items between different locations. 
+F
+This is all documented in the chain of custody on each item.
+
+CST 17.00 
+CR 
+Ability to track all split and derivative (spawned) items into separate traceable sub-items. 
+F
+Split/spawned items may have their chain of custody separate or linked to the parent item. If separate, they may be linked again later if desired. 
+
+CST 18.00 
+CR 
+Ability to document receipt of evidence received by the Department from evidence route collection, over-the-counter submissions, from crime scene investigations, or generated from Crime lab processing. 
+F
+All of these evidence transactions/movements will be recorded within the Crime Fighter BEAST to present a complete chain of custody. 
+Evidence and Property Management 
+Evidence Entry 
+
+EPM 1.00 
+CR 
+Ability to document all evidence/property items and respective attributes received for a single case from point of initial entry in PRELIMS to each item's disposal. 
+F
+A case summary document can be generated to outline all evidence/property items/their attributes, processes and transfers throughout the “life” of the items.
+
+Screen shot in Appendix to this section.
+
+EPM 2.00 
+
+Ability to capture, document and edit evidence item attributes, for tracking, searching, reporting and statistical purposes, for at least the following: 
+T
+Porter Lee Corporation configuration specialist will work with LASD to ensure that all of the following data elements can be recorded in a 
+searchable method for both reporting and statistical purposes.
+
+EPM 2.01 
+CR 
+Case Number (URN) or outside agency case number. 
+F
+See EPM2.00 comments
+
+EPM 2.02 
+CR 
+Item Number (Suffix) automatically incremented by one. 
+F
+See EPM2.00 comments
+
+EPM 2.03 
+CR 
+Date of incident. 
+F
+See EPM2.00 comments
+
+EPM 2.04 
+CR 
+Date of evidence/property item collection. 
+F
+See EPM2.00 comments
+
+EPM 2.05 
+CR 
+Master File Number. 
+F
+See EPM2.00 comments
+
+EPM 2.06 
+CR 
+Report Date. 
+F
+See EPM2.00 comments
+
+EPM 2.07 
+CR 
+Name(s) and Role(s). 
+F
+See EPM2.00 comments
+
+EPM 2.08 
+CR 
+Originating Agency Identifier (ORI). 
+F
+See EPM2.00 comments
+
+EPM 2.09 
+CR 
+Investigating agency name. 
+F
+See EPM2.00 comments
+
+EPM 2.10 
+CR 
+Submitting agency name. 
+F
+See EPM2.00 comments
+
+EPM 2.11 
+CR 
+Identity of individual entering evidence into system. 
+F
+See EPM2.00 comments
+
+EPM 2.12 
+CR 
+Person information including, but not limited to, investigator(s), subject(s), victim(s) names, phone number, address, e-mail address, etc. 
+F
+See EPM2.00 comments
+
+EPM 2.13 
+CR 
+Property types - allow for property to be identified by its evidentiary value, such as found property, property for safekeeping, prisoner property, or evidence. 
+F
+See EPM2.00 comments
+
+Screen shot in Appendix to this section.
+
+EPM 2.14 
+CR 
+Property categories - allow for a generic descriptor of the property, such as a bike, knife, document, firearms, narcotic, biological, etc. validated against Department standard descriptors. 
+F
+See EPM2.00 comments.
+
+Drop down lists of generic item types can be setup for the Department.  Detailed descriptions can also be recorded if desired. 
+
+EPM 2.15 
+CR 
+Charge Level automatically populated from stat code/crime code table. 
+NV
+The delivered system will include this functionality. Scheduled for release by Jan 1 2008 in version 6.0.
+
+EPM 2.16 
+CR 
+Description of packaging for each evidence item selected from a list of Department standard descriptors. 
+F
+See EPM2.00 comments.  Drop down lists of packaging codes can be setup for the Department.  
+
+EPM 2.17 
+CR 
+Description of evidence item to be selected from a list of Department standard descriptors and/or validated against standardized ABC (Article, Brand, Category) tables. 
+F
+See EPM2.00 comments.  Drop down lists for standard descriptions can be pre-defined.  Entries in these fields will be validated against pre-set descriptions.
+
+EPM 3.00 
+CR 
+Ability to associate, reference, track an item identifier assigned (i.e. in the field, at a crime scene, etc.) by an examiner/analyst, investigator to the subsequent item identifier (suffix identifier) assigned through PRELIMS. 
+F
+An item can be cross-referenced to all of these identifiers.  This also includes any derivative items that may be created by an examiner/analyst.
+
+EPM 4.00 
+CR 
+Ability to identify and categorize items according to their evidence type as identified by the California Criminal Justice Information System (CJIS) Article Brand Category tables (ABC tables). 
+F
+Porter Lee Corporation configuration specialists will work with LASD to populate the drop down lists according to the CJIS ABC lists.
+
+EPM 5.00 
+CR 
+Ability to automatically initiate a Service Request based on item category. A Service Request shall also be available for activities, i.e. crime scene investigation, film processing, etc., for which there is no direct association with an item at the time the request is generated. 
+T
+The Crime Fighter BEAST does provide a way to log service requests on a case file without requiring an item at the time of the request.  Service requests can also be generated automatically based on an item type. 
+
+EPM 6.00 
+CR 
+Ability to initiate a Service Request when evidence is entered into the system. 
+T
+Porter Lee Corporation configuration specialists will work with LASD to define these triggers.
+
+EPM 7.00 
+CR 
+Ability to capture detailed notes with spell check capabilities. 
+F
+The Crime Fighter BEAST integrates the use of MSWord spell check.
+
+Screen shot in Appendix to this section.
+
+EPM 8.00 
+CR 
+Ability to manage packaging information, including how items are packaged and quantity of packages. 
+F
+The case summary report can immediately provide the user with a listing of how items are packaged and the quantity of packages.
+
+Screen shot in Appendix to this section.
+
+EPM 9.00 
+CR 
+Ability to identify unit of measure. 
+F
+Attributes relating to a unit a measure can be recorded within the Crime Fighter BEAST.  An example would be a weight of g or kg for narcotic evidence.  Scales can also be used to interface with the system.
+
+Screen shot in Appendix to this section.
+
+EPM 10.00 
+CR 
+Ability to validate location entry based on item category. For example, Biological = Freezer; Cash = Safe; Firearm = Gun vault; Narcotic = Narco Vault. 
+F
+Default locations can be setup for initial entry of items based on their item type.
+
+Screen shot in Appendix to this section.
+
+EPM 11.00 
+CR 
+At completion of data entry, system must have the ability to place in queue, all records/items requiring validations/approvals by first level approvers and if required, second level approvals for sensitive items such as cash or narcotics, prior to final acceptance of items. 
+T
+
+
+EPM 12.00 
+EX 
+Ability to provide a customizable drop down warning or safety field which indicates if an item is hazardous, e.g., biohazard, toxic, etc., or requires another type of special handling. 
+T
+The Crime Fighter BEAST provides a mechanism for documenting item handling.  The Porter Lee Corporation configuration specialist will work with LASD to configure all necessary handling codes.
+
+
+
+
+
+
+
+
+
+
+
+
+Evidence Management 
+
+EPM 13.00
+CR 
+Ability for laboratory to receive multiple evidence items at different times and from different contributors for a single case. 
+F
+The Crime Fighter BEAST supports this.  Unlimited submissions from different contributors can be under a single LASD case number.
+
+EPM 14.00 
+CR 
+Ability to search, query, and view using search criteria such as URN, Truncated URN, Outside Agency ORI/Case Number, Master File Number, Master Case Number, or any other evidence identifier described in the Evidence Item Identifier section; item number, date of incident, report date, names, roles, evidence type, evidence category, charge level, unit of assignment, detail, date of record entry, time, user, article, brand, model, serial number, caliber, firearm category/type, item status, location, disposition, notes, in any combination. 
+T
+The Crime Fighter BEAST provides numerous options for locating case information.  Porter Lee Corporation will work with LASD to ensure that all necessary search criteria is available for desired searches.
+
+
+
+
+
+Ability to automatically group and route Service Requests by service priority, geographic location, volume and to electronically notify lab couriers of pending items. 
+T
+
+
+EPM 15.00 
+CR 
+
+
+
+
+
+
+
+
+
+
+EPM 16.00 
+CR 
+Ability to search and retrieve/view record information by scanning an evidence item's bar coded label. The bar code label must include URN, Truncated URN, Outside Agency ORI/Case number, and/or any other evidence identifier described in the Evidence Item Identifier section. 
+F
+Scanning the item barcode in the Crime Fighter BEAST immediately brings the electronic record into view.  The format of the label will include the information as stated.
+
+
+
+
+
+
+
+
+
+
+
+
+
+EPM 17.00 
+CR 
+Ability to group multiple evidence items together to be transacted at the same time using a container bar code regardless of whether they are or are not from the same submission or case. 
+F
+The Crime Fighter BEAST bulk container barcode supports this.  Simply scan the one barcode and all included items will be transferred at the same time.
+
+EPM 18.00 
+CR 
+Ability to, accept, release, update/modify evidence item(s) individually or through batch processing using an URN, Truncated URN, Outside Agency ORI/Case number, or any other evidence identifier described in the Evidence Item Identifier section. 
+F
+
+
+EPM 19.00 
+CR 
+Ability to group Service Requests, identify individual evidence items and their locations, and notify CP&E Property Custodians and Crime Lab Couriers of required service, pickup, and delivery activities. 
+T
+
+
+EPM 20.00 
+CR 
+Ability to set evidence item retention defaults, based on legal definition, automatically with the ability to override the retention default on appropriate security privilege. 
+F
+This is accomplished through process codes.  These can be set with “timers” for disposition/retention.  Custom reports can be run to manage triggered activities based on defined rules.
+
+Screen shot in Appendix to this section.
+
+EPM 21.00 
+CR 
+Ability to generate evidence disposition notifications to investigators based on specified time, evidence category, charge level and/or any other user defined criteria. 
+F
+Dispo tracers/notifications are an integrated part of the Crime Fighter BEAST.
+
+EPM 22.00 
+CR 
+Ability to create a evidence storage location into which evidence can be transacted/transferred/moved. 
+F
+Storage locations are entirely user configurable. This may be done at any time by system administrators in the Config.exe.
+
+Screen shot in Appendix to this section.
+
+EPM 23.00 
+CR 
+Ability to assign evidence to a created location. 
+F
+This is accomplished through automatic, manual, scanner or palm transfers.
+
+EPM 24.00 
+CR 
+Ability to automatically assign evidence to a specific examiner or examiner(s) based on a set of pre-established criteria. 
+T
+The Crime Fighter BEAST manages this in a variety of ways and also allows this to be section specific.  Examples would be the drug section receiving examiner assignments based on rotation,  biology examiners receiving assignments based on people assigned to different teams based on case type or simply a service request getting assigned to a particular examiner that has done previous work for that discipline on that case. 
+
+EPM 25.00 
+CR 
+Ability to automatically assign evidence to a specific location based on a set of pre-established criteria. 
+T
+The Crime Fighter BEAST can be configured to automatically assign evidence to a specific location based on pre-established criteria.  Past examples would include location assignments based on item type, location assignments based on an initial “floor location” or a location based on a process change.
+
+EPM 26.00 
+CR 
+Ability to notify personnel of assigned evidence items, service and activity requests. 
+F
+The Crime Fighter BEAST “My Assignments” screen provides a listing of service requests.  There are also numerous notifications that can be setup within the system to send email messages on requests and activities.
+
+
+EPM 27.00 
+CR 
+Ability to add a lab analyst's notated item number to an evidence item. 
+F
+Analysts may add their own item number notations when working on their assignments. 
+
+EPM 28.00 
+CR 
+Ability to associate investigator/analyst's item number, e.g., evidence collected in the field, to URN or ORI/agency case and associated suffix number. 
+F
+The item numbers for a case (URN numbered or otherwise) are automatically associated with a case. 
+
+
+EPM 29.00 
+CR 
+Ability to associate, cross-reference, scan and track evidence/property item number, lab item number, and analyst item numbers. 
+F
+This is fully supported. 
+
+EPM 30.00 
+CR 
+Ability for laboratory to receive evidence through evidence courier routes, from Central Property, from a crime scene investigation, internally as a product of a laboratory process, over-the-counter (at the laboratory), or from a location outside of the laboratory which is not a crime scene. 
+F
+The Crime Fighter BEAST will handle the reception of evidence from all of these inputs.
+
+EPM 31.00 
+CR 
+Ability to assign/transact evidence to an evidence storage location or to an examiner for testing. 
+F
+Chain of custody transfers or assignments can handle recording this information.  This is accomplished through a simple three step barcode transfer:
+1)  Scan the location 
+2)  Scan all of the items being transferred
+3)  Scan Process
+
+Note:  A transfer can be accomplished through a manual process if necessary.
+
+EPM 32.00 
+CR 
+Ability for laboratory to receive multiple evidence items at the same time from different contributors and different cases through a batch process without having to retrieve and manually update individual evidence items. 
+F
+
+
+EPM 33.00 
+CR 
+Ability to select a single location and transact custody of multiple items to that location by manually entering, selecting from a pick list, or scanning the location's bar code one time only. 
+F
+This is fully supported.  With the Crime Fighter BEAST custody transfers can be handled with the barcode scanner by scanning:
+1.  The barcode of the new custody location.
+2.  All the evidence items (can be from multiple cases). 
+
+This also can be accomplished through manually entering the transfer information.
+
+
+EPM 34.00 
+CR 
+Ability to establish an evidence item's priority by default or assign manually. 
+T
+Default priorities may be configured based on case type for example.  If toxicology samples come in on a Case Type of child fatality it may be given a high priority setting in the LIMS by default. 
+
+EPM 35.00 
+CR 
+Ability to assign a new item number to evidence items that are generated from a laboratory and/or property handling process (evidence splitting) and to maintain the parent-child relationship. For example, one of three items submitted in one evidence package is broken out, is repackaged into its own separate package, and will not to be reunited with the original package. Must also have the ability to add text to a note field to describe the association. 
+F
+This is fully supported. The child numbering format is configurable and the parent item number is always recorder to document relationships.  If there is one package item #1 and it contains 3 items (1.1,1.2,1.3), 1.2 could be repacked and labeled to be transferred on its own.  A note field on the main package item #1 can be filled out to describe the removal of one of its components.  The BEAST also supports and alternate view of Containers. 
+
+EPM 36.00 
+CR 
+Ability to identify evidence that is "spawned" from an evidence item and to associate, cross-reference, scan and track this "spawned" evidence by its unique identifier maintaining the parent-child relationship between them (e.g. blood stain removed from shirt for DNA processing), with the ability to add text to a note field describing this association. 
+F
+This is fully supported in a similar manner to EPM 35.00. Analysts can make samples, cuttings, etc.. from parent items and then track these separately as necessary. Comments/notes are fully supported. In addition, our “Kit” feature may be used to create pre-defined kits for Sexual Assault, DUI and others to make creating child items from these standardized kits as easy as possible. 
+
+See Screen Shot in Appendix to this section. 
+
+EPM 37.00 
+CR 
+Ability to search and manage by any item attribute or by a combination of item attributes. 
+F
+This is fully supported. There is an attribute search function built in to the Find Case screens.
+
+EPM 38.00 
+CR 
+Ability to assign an item status as "to remain at facility" and require name of person requesting subsequent item status changes and the reason for the change. 
+T
+The item status is maintained in a process field on the items tab in the case file.  The system can be configured to require authorization and reasons for the change. 
+
+EPM 39.00 
+CR 
+Ability to combine Service Requests for batch processing by scanning a container bar code. 
+F
+An example of this is when samples are processed in batch together on a plate/rack.  The rack label can be scanned and all samples are linked for that step.
+
+EPM 40.00 
+CR 
+Ability to view current assignment information and storage location of an item. 
+F
+The current storage location of an item is always displayed on the Items tab and Custody Tabs. Assignment information for an item is best viewed from the Assignments tab. Items may be attached to multiple assignments at the same time. 
+
+EPM 41.00 
+CR 
+Ability to allow data entry by Department members and outside agency personnel based on defined roles and privileges. 
+F
+This is fully supported using the user configuration capabilities of the Configuration application. Privileges may be individually assigned or role-based. 
+
+EPM 42.00 
+CR 
+Ability to transfer custody and location and custody of an evidence item through manual entry or by scanning the evidence item's PRELIMS bar code label. 
+F
+This is a basic property of the system and is fully supported. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+EPM 43.00 
+CR 
+Ability to provide notification to personnel of evidence items that have either arrived at the laboratory or has been entered into the system and its associated Service Request has been marked as accepted. 
+
+This can be provided in a number of ways depending on how the evidence is handled when it arrives. If service requests are created, the section leaders can be informed, or anyone with privileges can query to see what new requests exist for the section.  The Crime Fighter BEAST also supports an auto task function which provides a notification trigger on any agency defined query in the database.
+
+
+
+
+T
+
+
+
+
+
+
+
+
+EPM 44.00 
+CR 
+Ability to notify staff of evidence items assigned to their custody by eMAIL (MS-Outlook). 
+T
+This is fully supported. There is also a My Assignments search that provides an extremely easy method for seeing current assignments.
+
+See Screen Shot in Appendix to this section.
+
+EPM 45.00 
+CR 
+Ability to add/delete evidence items on a courier's pickup/delivery route list. 
+T
+
+
+
+
+Ability to automatically transact evidence items, flagged as “ready-to-return,” to an evidence location based on a numbered route selected and the day of the week that the route function is to be executed. 
+T
+
+
+EPM 46.00 
+CR 
+
+
+
+
+
+
+
+
+
+
+EPM 47.00 
+CR 
+Ability to set a maximum time period for which an evidence item may be held in any storage location; when this time period is exceeded, ability to generate electronic notification. 
+F
+This is fully supported through auto-task.
+
+
+
+
+
+
+
+
+
+
+
+
+
+EPM 48.00 
+CR 
+Ability to perform a “pre-release” test to verify that evidence items with an “on hold” disposition are not released from the Department's custody. 
+T
+An evidence item status “on hold” can be given properties so that the system will not allow them to be released without an authorized change in status.
+
+EPM 49.00 
+CR 
+Ability to allow batch transfers of evidence items for chain of custody purposes and for evidence processing using a single bar code for evidence containers. 
+F
+Batch transfers of items can be made with a single container barcode.  This may be a case-specific container bar code or a multi-case bulk container barcode. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+EPM 50.00 
+CR 
+Ability to document that evidence items are unsuitable for analysis either at the time of evaluation of Service Request, at time of submission to the laboratory, or during evidence processing. 
+T
+This may be done in a variety of ways. One example would be at the time of evidence submission, and attribute can be entered for the unsuitability.  During evaluation of the service request, analysts could at any time also make this determination.
+
+EPM 51.00 
+CR 
+Ability to automatically update evidence item status when task(s) related to its Service Request have been completed and the evidence item is ready for its next Service Request and/or task. 
+F
+This is fully supported through the Assignment Status code. 
+
+EPM 52.00 
+CR 
+Ability to edit erroneously entered item information including, but not limited to, associated case, description, notes, custody date, submitting or receiving person, Lab Receipt Number, etc. based on security role permissions. 
+F
+
+
+EPM 53.00 
+EX 
+Ability to view and track date and time of disposition notifications and their status and appropriate approvals. 
+F
+
+
+EPM 54.00 
+EX 
+Ability to document, such as in a note field, through a check box, or pick list, that an evidence item is to be analyzed through outside funding (grant, departmental project, etc). 
+T
+Two optional ways of recording this is:
+1)  Outside funding supplement table
+2)  Matrix panel behind a section specific reporting tool.
+
+EPM 55.00 
+EX 
+Ability to flag, notify, and indicate to staff that, based on test results, an evidence item is to be forwarded to next evidence location. 
+F
+
+
+EPM 56.00 
+DR 
+Ability to document that an item of evidence was completely consumed during analysis. 
+F
+This can be recorded through status change or disposition location.
+Evidence Inventory Management 
+
+EPM 57.00 
+CR 
+Ability to perform an inventory utilizing container and/or location bar codes and to produce a reconciliation report. Reconciliation report shall list missing, misplaced, and unrecognized items in accordance with the assigned item location/disposition. 
+F
+This is accomplished through the Palm inventory program.  A reconciliation report is the output from this.
+
+See Screen Shot in Appendix to this section.
+
+EPM 58.00 
+CR 
+Ability to create multiple evidence locations configured according to the Department's specifications. 
+T
+
+
+EPM 59.00 
+CR 
+Ability to aggregate locations for searching, display, reporting, and statistical purposes, e.g. grouping all freezer locations (e.g. group all storage locations in freezers). 
+F
+This can be done through the custody inquiry button on the front screen.
+
+EPM 60.00 
+CR 
+Ability to create/delete/edit evidence locations, users, agencies, allowable by appropriate security privilege. 
+F
+System administration of this kind is managed within the Config program.
+
+EPM 61.00 
+CR 
+Ability to mandate an audit of an evidence location prior to inactivating the location to ensure that no evidence is assigned to that location; and have ability to produce a report documenting this audit. 
+NV
+Scheduled for release by Jan 1 2008 in version 6.0.
+
+EPM 62.00 
+CR 
+Ability to print evidence bar code labels on demand. 
+F
+
+
+EPM 63.00 
+CR 
+Ability to produce reconciliation reports for items in evidence locations. 
+F
+This can be done through the inventory program.
+
+EPM 64.00 
+CR 
+Ability to produce inventory reports for expected items in a specific location. 
+F
+This report can be run from the custody inquiry button on the main screen.
+
+EPM 65.00 
+CR 
+Ability to update items and locations based on individual item or batch scans. 
+F
+When items are moved in batch or individually the location of the evidence automatically is recorded in the background.
+
+EPM 66.00 
+CR 
+Ability to conduct inventories based on bar code scans of location(s), containers and items. 
+F
+The Palm inventory application gives users the ability to perform inventories through the barcode scans of the locations, containers and items.
+
+EPM 67.00 
+CR 
+Ability to update item location by scanning bar coded evidence label and/or evidence location bar code label. Must include date, time and custodian identification information, e.g., name, etc., at time of update or inventory. 
+F
+
+
+EPM 68.00 
+CR 
+Ability to conduct inventories based on location and item type. 
+F
+
+Evidence Courier System 
+
+ECR 1.00 
+CR 
+Ability to create editable courier route schedules which display evidence items to be returned to each courier route location. 
+F
+
+
+ECR 2.00 
+CR 
+Ability to add/delete evidence items in a courier route allowable by appropriate security privilege. 
+F
+
+
+ECR 3.00 
+CR 
+Ability to automatically transact evidence items, flagged as “ready-to-return,” to an evidence location based on a numbered route selected and the day of the week that the route function is to be executed. 
+F
+
+
+ECR 4.00 
+CR 
+Ability to automatically group and route Service Requests by service priority, geographic location, volume and to electronically notify lab couriers of pending items. 
+T
+
+
+ECR 5.00 
+CR 
+Ability to list all lab analysis Service Requests for items stored at Central Property that require lab courier pickup/service and to notify lab couriers of the pending items. 
+T
+
+Case Information Management 
+
+CAS 1.00 
+CR 
+Ability to support the data elements of the Uniform Reporting Number (URN) plus suffix where the suffix, i.e., last three-position block of numbers, is incremented by one each time an evidence item with an already established URN number in PRELIMS is entered into the PRELIMS for display, record retrieval, and reporting. 
+T
+
+
+CAS 2.00 
+CR 
+Ability to retrieve case information using URN, Truncated URN, Outside Agency ORI/Record-ID, Lab Receipt Number (LRN), person information, or other unique identifier for searching, reporting, and statistical purposes. 
+F
+This is currently available in the Find Case feature.
+
+CAS 3.00 
+CR 
+Ability to group multiple URN numbers under one Master File Number which uses the same format as the URN number for display, record retrieval, and reporting purposes. 
+F
+
+
+CAS 4.00 
+CR 
+Ability to group multiple URN numbers and/or outside Agency ORI/Record-ID numbers as a master case for query and reporting purposes. 
+F
+
+
+CAS 5.00 
+CR 
+Ability to utilize the truncated URN number to uniquely identify a case, for display, record retrieval, and reporting purposes. 
+F
+
+
+CAS 6.00 
+CR 
+Ability to display in alpha text the reporting district for Department cases, i.e. translate the numeric code into English. 
+F
+The reporting districts are defined in the config program.
+
+CAS 7.00 
+CR 
+Ability to record, lookup (using individual elements and wildcards), sort, group by, and display full and truncated URN file number information. 
+F
+
+
+CAS 8.00 
+CR 
+Ability to support 'masking' an outside agency 'Record-Id' to support agency format validation rules. Agency assigned evidence item numbers will be included in each agency's mask. 
+T
+This picture mask is available independently for each submitting agency.
+
+CAS 9.00 
+CR 
+Ability to support the data fields of the Agency ORI and the Record-ID as an identifier for outside agency cases. 
+F
+
+
+CAS 10.00 
+CR 
+Ability to add an evidence item suffix to the Outside Agency ORI and Record-ID. PRELIMS will automatically assign a suffix identifier, defaulting to 001 and incrementing by one. 
+T
+
+
+CAS 11.00 
+CR 
+Ability to assign a default agency/department ORI based on an user's logon-id with the ability to edit/override. 
+F
+This default is currently setup in the WEBUSER table.
+
+CAS 12.00 
+CR 
+Ability to display, search, and report on agency/department names based on that agency/department's ORI. 
+F
+
+
+CAS 13.00 
+CR 
+Ability for laboratory to link and/or associate and/or reference more than one Department and/or outside agency case number utilizing a unique identifier. 
+F
+
+
+CAS 14.00 
+CR 
+Ability to distinguish and/or aggregate a Department case by station or unit for display, record retrieval, and statistical reporting purposes. 
+F
+
+
+CAS 15.00 
+CR 
+Ability to document, edit and distinguish investigating agency/station/unit from submitting agency/station/unit. Ability to default investigating agency as the submitting agency at time of data entry. 
+F
+
+
+CAS 16.00 
+CR 
+Ability through Audit Trail to track all edited/modified data in PRELIMS documenting user-id, date and time stamp, and values before and after modification. 
+F
+
+
+CAS 17.00 
+CR 
+Ability to support OCJP (OES) number, L.A.R.C.I.S Event ID, L.A.R.C.I.S Record-Id, California Justice Information System File Control Number (FCN), Court Case Number, Coroner Case Number, Warrant Number, Lab Receipt Number (LRN), Property Control (PC) Number, Prisoner Booking Number, and/or Citation Number for searching, cross referencing, case and/or item look-up, statistical and reporting purposes. 
+T
+The Case Reference feature supports this.  All of the mentioned reference can be setup within the application.
+
+CAS 18.00 
+CR 
+Ability to assign an evidence item priority, either individually, or to all evidence items associated with a particular case 
+F
+
+
+CAS 19.00 
+CR 
+Ability to validate against an existing URN, Truncated Urn, or Outside Agency ORI/Record-Id in the system prior to adding a new URN, Outside Agency ORI/Record-Id. 
+F
+This automatically happens when requests are logged to assist with keeping all information under the same case file. (e.g. Submission 2)
+
+CAS 20.00 
+CR 
+Ability to include at least the following information for each case: offense type (e.g., civil, criminal), legal code (e.g., Penal Code, Health and Safety), and Charge Code (e.g., 187, 211). 
+F
+
+
+CAS 21.00 
+CR 
+Ability to allow for many offense types per case with one designated as the primary offense. 
+T
+
+
+CAS 22.00 
+CR 
+Ability to scan and store laboratory case related paper documents (examination and administrative documentation). 
+F
+This can be scanned at case creation or at anytime during the life of the case.  These images are stored within the Image Vault.
+
+CAS 23.00 
+CR 
+Ability to record notes regarding the case including the electronic signature or initials of person making or adding to notes. 
+F
+
+
+CAS 24.00 
+CR 
+Ability to create a laboratory record of work performed without evidence having been submitted (example: case created with crime scene investigation request only; case created for photo/digital imaging work). 
+T
+
+
+CAS 25.00 
+CR 
+Ability to view a case's most current information and status on a single screen with links to finalized laboratory analytical reports for that case. 
+F
+This case status information and hyperlinks to the finalized analytical reports is easily accessible to authorized personnel through the secure website.
+
+CAS 26.00 
+CR 
+Ability to view all evidence items related to any or all associated Department and outside agency cases. 
+F
+
+
+CAS 27.00 
+CR 
+Ability to view a case's analytical run sheets, examination notes and examiner’s certification. 
+F
+
+
+CAS 28.00 
+CR 
+Ability to generate and print a laboratory case record/case jacket bar code. 
+F
+
+
+CAS 29.00 
+CR 
+Ability to track the location of paper laboratory case records, including to whom the laboratory case record was check out, date checked out, and date returned by using bar coded labels. 
+F
+FILE tracking is a basic feature.
+
+CAS 30.00 
+CR 
+Ability to set case confidentiality to control access to information. 
+F
+The Locked Case feature is used to control this.
+
+CAS 31.00 
+CR 
+Ability to add, modify, and edit person information related to a case including, but not limited to: name, role, sex, DOB, DOD, booking number, citation number, driver’s license number, warrant number, court case number, CII number, FBI number, Main number, coroner case number, contact information with appropriate security privilege. 
+T
+
+
+CAS 32.00 
+CR 
+Ability to add, modify, and edit agency information related to a case including agency name, agency acronym, address, contact information 
+F
+
+
+CAS 33.00 
+CR 
+Ability to add electronic signature, examiner's handwritten initials, input from instrument interfaces, scanned documents and/or unique case identifier(s) to case records with appropriate security 
+F
+
+
+CAS 34.00 
+CR 
+Ability to edit erroneously entered case information including, but not limited to, year, file number, file format, charge, investigation type, priority, submitting or investigating agency, notes, persons associated, evidence items associated with appropriate security privilege and documented audit trail.. 
+F
+Any such edits are captured in the audit trail. 
+
+CAS 35.00 
+CR 
+Ability to select an URN number from a list of existing URN numbers associated to a Truncated URN when inputting a new evidence item using the Truncated URN as an evidence identifier. 
+F
+This is supported with the Global Department Case wild card feature. 
+
+CAS 36.00 
+CR 
+Ability to designate whether the URN number for select evidence items or for all evidence items currently assigned to an URN number that is to be modified will also be modified to reflect the new URN number. 
+T
+Although system generated, the URN number for select items numbers can be edited directly rather than requiring a batch update.
+Service Requests / Tasks 
+
+
+
+
+Service Requests 
+
+
+
+
+
+SVR 1.00 
+CR 
+Ability to submit, generate and/or update a Service Request electronically to indicate pending activity or status, such as notification to custodian for items needed for court, investigation, lab analysis, release back to submitting agency, or other purpose. 
+F
+The Item Due Program could be used for this purpose.
+
+SVR 2.00 
+CR 
+Ability to provide notification to laboratory personnel of incoming evidence for evidence that has either arrived at the laboratory or has been entered into the system and its associated Service Request has been marked as accepted. 
+T
+
+
+SVR 3.00 
+CR 
+Ability to initiate a Service Request with or without evidence associated with it (e.g. request for Biology Section to perform DNA analysis; request for Firearms Section to perform a comparison examination; request for crime scene investigation, request for photo/digital imaging services, etc.). 
+T
+
+
+SVR 4.00 
+CR 
+Ability to change status of Service Requests at time of courier pick-up based upon courier's review of evidence item packaging, marking, and sealing. 
+C
+Porter Lee will work with LASD to provide this functionality.
+
+SVR 5.00 
+CR 
+Ability for a laboratory case to have one or more Service Requests and each Service Request to have one or more tasks. 
+F
+
+
+SVR 6.00 
+CR 
+Ability for an evidence item to be associated with one or more Service Requests and one or more tasks. 
+F
+
+
+SVR 7.00 
+CR 
+Ability to add notes, in either free form text or from a pick list, to the Service Request at any time. 
+F
+
+
+SVR 8.00 
+CR 
+Ability to annotate each Service Request with the following: status of the Service Request (e.g. accepted, pending additional information, non-acceptance, etc), reason for non-acceptance; and any notes. 
+T
+The status of service requests can be defined by the agency.
+
+SVR 9.00 
+CR 
+Ability to notify requestor (i.e. person initiating Service Request) of all non accepted Service Requests via e-mail. 
+C
+Porter Lee Corporation will work with LASD to configure the desired functionality.
+
+SVR 10.00 
+CR 
+Ability to flag all accepted Service Requests for courier pick up of evidence recorded on Service Request. 
+T
+This would be defined by the delivery method selected on the website.
+
+SVR 11.00 
+CR 
+Ability for section supervisor(s) to be notified via eMAIL and to have ability to query system for all Service Requests for their section (i.e. TOX, CS, Latent Prints, Photo/Digital Imaging, etc.), regardless of the Service Request status, with ability to filter by date range. 
+F
+The Assignments button on the front screen provides the query area for all service requests.  Some configuration will need to be made to email the appropriate individuals.
+
+SVR 12.00 
+
+Ability to provide notification of Service Request status meets user-defined criteria, e.g., Service Requests backlog, high priority volume. 
+T
+
+
+SVR 13.00 
+CR 
+Ability to provide notifications (e.g. by email) when note/comment field in a Service Request has been updated. For example, if an investigator updates the note/comment field for a Firearms Service Request with a trial date, notification is sent to the Firearms section supervisor(s). 
+T
+Autotask can be setup up to trigger these email notifications.
+
+SVR 14.00 
+CR 
+Ability to generate one or more tasks from each Service Request. Task is defined as specific analysis or task performed by laboratory staff, (e.g. DNA extraction; cocaine analysis; shoe impression comparison, TOX screen, etc.). 
+F
+
+
+SVR 15.00 
+CR 
+Ability to create searchable notes in a task. 
+F
+
+
+SVR 16.00 
+CR 
+Ability to select, prioritize and assign tasks to an examiner(s). 
+F
+
+
+SVR 17.00 
+CR 
+Ability to link task assignments within a Service Request to the examiner’s competence required to accomplish such a task. 
+F
+This can be done within the QMS program.
+
+SVR 18.00 
+CR 
+Ability to group multiple items from the same laboratory case within one task (i.e. 5 bloodstains, 5 extracts, 5 tests). 
+F
+
+
+SVR 19.00 
+CR 
+Ability to group items from different laboratory and/or agency cases to a task (such as inter-comparisons) and have the ability to identify/cross reference the task back to each laboratory case. 
+F
+Worklist/Batch Feature
+
+
+
+
+
+
+
+
+
+
+
+
+
+SVR 20.00 
+CR 
+Ability to inter compare evidence from different laboratory and/or Department/agency cases on one task where the task is associated to both cases. 
+F
+Cross-reference and linking features are used to support this.
+
+
+
+
+
+
+
+
+
+
+
+
+
+SVR 21.00 
+CR 
+Ability to assign multiple laboratory cases to a task, and ability to identify/cross reference the Service Request or task back to each laboratory case (e.g. inter-comparing two or more items from two or more laboratory cases on one task). 
+F
+Worklist/Batch Feature.
+
+SVR 22.00 
+CR 
+Ability to report and search for Service Requests on, but not limited to the following: investigator name; victim/suspect name; requested due date; laboratory and/or Department/outside agency case number; agency/department evidence item number; lab item number; submitting agency and unit; investigating agency; type of exam (i.e. Biology, Latent Prints, Trace, etc.); examiner (currently assigned Service Requests, completed Service Requests over time period); section (pending Service Requests, completed Service Requests over time); evidence item location, or laboratory reviewer (by examiner over time, by section over time), with ability to filter or group by Service Request type, task, examiner(s), section, date of Service Request, and requestor. 
+F
+
+
+SVR 23.00 
+CR 
+Ability to display current evidence locations on same screen as Service Requests and same screen as tasks. 
+T
+
+
+SVR 24.00 
+CR 
+Ability to view who created Service Request and task. 
+F
+
+
+SVR 25.00 
+CR 
+Ability to set a Service Request status (e.g. active/accepted/pending/etc.) based on charge; type of evidence (biological), or other user defined criteria. 
+T
+
+
+SVR 26.00 
+CR 
+Ability to prioritize Service Requests and tasks. 
+F
+
+
+SVR 27.00 
+CR 
+Ability to input, view, and sort tasks and Service Requests on requested due date. 
+T
+
+
+SVR 28.00 
+CR 
+Ability to edit/add reviewer (user defined) name to task without creating a new task (e.g. TR, CR, Sup reviewer tasks, etc.). 
+F
+
+
+SVR 29.00 
+CR 
+Ability to create a panel (a group of tasks) for searching, reporting, and statistical purposes. 
+F
+
+
+SVR 30.00 
+CR 
+Ability to annotate a Service Request/task as “on hold” and mark an evidence item(s) as “on hold” so that an evidence item(s) cannot be released back to the agency or station. This “hold” is only to be added to or removed from the evidence item(s) by designated lab personnel.. The item, if it has a hold flag, it may not be sent on a route or put in a location for agency pick up. (If there is still a task pending on an evidence item, then the item can not be released unless authorized by designated lab personnel or the evidence item can not be transacted to a route location/return to agency/holding for pick up). 
+T
+This is handled through our process code feature. 
+
+SVR 31.00 
+CR 
+Ability to print a report listing all evidence items, from one or more locations, including evidence description, that have been accepted for examination via a Service Request prior to the evidence arriving at the laboratory. 
+T
+This would be a crystal report.
+
+SVR 32.00 
+CR 
+Ability for personnel, based on security role, to reject a Service Request/evidence item, and to update status to reflect rejection, document the reason for rejection, the individual rejecting the Service Request/evidence item, the date/time of rejection, and to notify requestor of rejection and to issue a report. 
+F
+
+
+SVR 33.00 
+CR 
+Ability for crime scene investigation personnel to clear tasks (mark tasks as completed) from the field, preferably via a web interface. Clearances must indicate disposition of the Service Request and must sort which Service Request are completed and which must be reassigned, along with a reason or disposition. For cleared Service Requests where latent prints are recovered, ability to enter the recovered evidence (prints) into the system and generate a bar code. Ability to enter "notes" into the clearance of the Service Request. (Latent Prints-Property Crimes calls-daily fingerprint calls). 
+C
+Web functions, Latent features for entering prints, generating bar code, etc…
+
+SVR 34.00 
+CR 
+Ability to create user defined tasks for a LATENT PRINTS Service Request, for example: chemical processing, AFIS, latent print comparison. 
+T
+
+
+SVR 35.00 
+CR 
+Ability to create user defined tasks for a FIREARMS Service Request, for example: assault weapon determination; NIBIN entry; comparison on NIBIN system hits; distance determination; crime scene investigation; full auto determination; function check examination; test fire examination; function check/test fire; gunshot residue test, clothing, targets, etc; firearms comparison and ID; preliminary examination provided for investigative lead; firearms reconstruction; firearms safety check/render safe; serial number restoration; suppressor determination; tool mark comparison; firearm type and caliber determination. 
+T
+
+
+SVR 36.00 
+CR 
+Ability to create user defined tasks for a BIOLOGY Service Request, for example: blood stain pattern interpretation; blood screen; identification of a non-routine biological sample (e. g. from feces, urine); full DNA analysis (extraction, quantitation, typing); DNA extraction, DNA quantitation; DNA typing; DNA reference sample analysis; semen identification (SAE Kit examination); biological tissue examination; and weapon screen. 
+T
+
+
+SVR 37.00 
+CR 
+Ability to create user defined tasks for a TRACE Service Request, for example: fire debris analysis; explosive debris analysis; fiber examination; fiber analysis; fingernail scrappings/clippings examination; glass fragment examination; GSR testing; hair comparisons; impression evidence comparisons; microscopic examination; miscellaneous trace evidence examination; paint examination; physical match examination; lacramytor testing; general trace evidence search; impression evidence. 
+T
+
+
+SVR 38.00 
+CR 
+Ability to create user defined tasks for a TOXICOLOGY Service Request, for example: Blood screen (TECAN); Urine screen (Olympus A4000) ; blood confirmation; urine confirmation; pre-employment testing, random drug testing. 
+T
+
+
+SVR 39.00 
+CR 
+Ability to create user defined tasks for a BLOOD ALCOHOL Service Request, for example: blood/urine analysis; alcohol content; and SAK urine. 
+T
+
+
+SVR 40.00 
+CR 
+Ability to create user defined tasks for a CONTROLLED SUBSTANCES Service Request, for example: drug analysis; clan lab analysis; seizure sampling; field sampling marijuana cite; found narcotics. 
+T
+
+
+SVR 41.00 
+CR 
+Ability to create user define tasks for a QUESTIONED DOCUMENTS Service Request, for example: handwriting/hand printing; typewriting; ink/paper; printing processes; rubber stamp; indented writing; charred document; obliteration/alteration; extraneous marks; fracture match; or other. 
+T
+
+
+SVR 42.00 
+CR 
+Ability to create user define tasks for a CRIME SCENE INVESTIGATION Service Request, for example: LP-Property, LP-Major Crimes, Trace/Bio, Arson, Clan Lab, Firearms. 
+T
+
+
+SVR 43.00 
+CR 
+Ability to create user define tasks for a PHOTO/DIGITAL Service Request, for example: such as processing negatives; studio photography; portrait photography; photo editing; photo enhancement; printing; enlargements; duplications; mounting; laminating, etc. 
+T
+
+
+SVR 44.00 
+CR 
+Ability to prioritize, categorize, and flag Service Requests and tasks for user identified offense types; such as sexual assault and blood screening cases and then route to DNA testing based upon test results. 
+T
+
+
+SVR 45.00 
+CR 
+Ability to route/assign tasks that have been prioritized, categorized or flagged. 
+F
+
+
+SVR 46.00 
+CR 
+Ability to assign, as a task within a Service Request, various types of review, such as technical review, peer review, supervisory review, clerical review; review of completed DNA cases from a contract laboratory, etc. 
+F
+
+Tasks 
+
+SVR 47.00 
+CR 
+Ability to edit erroneously entered Service Request information including, but not limited to, request type, analytical section, notes, description, assigned staff, associated evidence, associated case, associated persons, status, priority, reviews or review information. 
+F
+
+
+SVR 48.00 
+CR 
+Ability to manually assign task(s) to laboratory examiners. 
+F
+This is a user permission.
+
+SVR 49.00 
+CR 
+Ability to perform automatic assignment of task(s) to the laboratory section or examiner according to predefined criteria, such as request priority, backlog, competency of the examiner, rotational assignments, offense type, charge, etc. 
+F
+
+
+SVR 50.00 
+CR 
+Ability to review workload of examiner prior to task assignment. 
+F
+
+
+SVR 51.00 
+CR 
+Ability for examiner to view assigned tasks. 
+F
+This is found in the My Assignments screen.
+
+SVR 52.00 
+CR 
+Ability to batch assign multiple tasks from one or more Service Requests to the same examiner at the same time. 
+F
+Batch assignments can be made by authorized personnel from the main screen.
+
+SVR 53.00 
+CR 
+Ability to view and make task assignments from one or more Service Requests to multiple examiners on the same screen. 
+F
+This is done through the Batch Assign screen
+
+SVR 54.00 
+CR 
+Ability to notify examiner of assigned task. 
+T
+
+Reports 
+
+System Reports 
+
+RPT 1.00 
+CR 
+Ability to create custom or ad hoc reports on any of the data elements in the database. 
+F
+
+
+RPT 2.00 
+CR 
+Ability to produce system reports: statistical, transactional, disposal, etc. 
+F
+
+
+RPT 3.00 
+CR 
+Ability to produce a system report of aging evidence items (with the “hold” yes/no indicator). 
+F
+
+
+RPT 4.00 
+CR 
+Ability to produce a system report reflecting the number of cases/submissions in any evidence location over date range. 
+F
+
+
+RPT 5.00 
+CR 
+Ability to produce a system report reflecting all transactions/transfer of evidence by staff over a date range. 
+F
+
+
+RPT 6.00 
+CR 
+Ability to produce a system report reflecting the current location of a single evidence item or all evidence items associated with a Department/agency and/or laboratory case. 
+F
+
+
+RPT 7.00 
+CR 
+Ability to produce a system report listing evidence returned unanalyzed by date/agency, with ability to filter or group list by service request type, section, location, etc. 
+F
+
+
+RPT 8.00 
+CR 
+Ability to produce a system report reflecting agency information (agency/station, agency acronym, information, file number formats, etc). 
+F
+
+
+RPT 9.00 
+CR 
+Ability to produce a system report listing evidence en route, evidence picked up by courier while en route and name of courier in possession of evidence. 
+F
+
+
+RPT 10.00 
+CR 
+Ability to produce a system report listing evidence not currently assigned to an examiner, with ability to filter or group list by service request type, section, location, etc. 
+F
+
+
+RPT 11.00 
+CR 
+Ability to produce a system report reflecting audit history of evidence locations to include identity of auditor. 
+F
+
+
+RPT 12.00 
+CR 
+Ability to produce a system report listing user name, user role, and user’s section of assignment. 
+F
+
+
+RPT 13.00 
+CR 
+Ability to produce a system report with a complete listing of location information, including a full text description of the location. 
+F
+
+
+RPT 14.00 
+CR 
+Ability to produce a system report listing active evidence locations for specific section/facility. 
+F
+
+
+RPT 15.00 
+CR 
+Ability to produce a system report reflecting section evidence inventory over a date range. 
+F
+
+
+RPT 16.00 
+CR 
+Ability to produce a single Department/Agency and/or laboratory case summary system report with all Department/Agency and/or laboratory case information including linked cases, person information, associated evidence items, transaction histories, service requests, and associated data for the case including status and any required reviews, e.g., tech review, admin review, supervisor review, etc., and location of any exam/admin documentation. 
+F
+
+
+RPT 17.00 
+CR 
+Ability to produce a system report listing evidence ready for return to agency for those clients that do not receive courier service (will-call clients) and track notification (e.g. e-mail) to agency of such evidence. 
+F
+
+
+RPT 18.00 
+CR 
+Ability to produce a report of the number of Department/Agency and/or laboratory cases in evidence categories, e.g., sexual assault kits, GSR kits, etc., and/or crime categories, e.g., 187, 261, etc., over a date range and/or by submitting agency/Dept unit. Ability to add categories when necessary for ad hoc queries. 
+F
+
+
+RPT 19.00 
+CR 
+Ability to generate a system report listing all amended analytical reports. 
+F
+
+
+RPT 20.00 
+CR 
+Ability to generate a system report listing all analytical reports that have been reviewed, including the type of review performed, that can be further filtered, for example, by type of service request, assigned analyst, etc. 
+F
+
+
+RPT 21.00 
+CR 
+Ability to create a system report listing the service requests for evidence items assigned to a evidence location. 
+F
+
+
+RPT 22.00 
+CR 
+Ability to create a system report listing the number of cases screened/confirmed per service request over date range. 
+F
+
+
+RPT 23.00 
+CR 
+Ability to create a system report of the number of service requests and/or tasks per agency/Dept unit or multiple agencies/Dept. Units over date range (e.g., how many SA Kits were submitted from Compton Station for a date range). 
+F
+
+
+RPT 24.00 
+CR 
+Ability to report on status of Service Requests or Tasks for a given case or cases, e.g., pending, completed, cancelled, etc. 
+F
+
+
+RPT 25.00 
+CR 
+Ability to report on status of Service Requests or Tasks based on user-defined filters, e.g., date range, priority. 
+F
+
+
+RPT 26.00 
+CR 
+Ability to create a system report of the number and type of service requests performed on the same item. 
+F
+
+
+RPT 27.00 
+CR 
+Ability to create a system report of the number of laboratory cases and/or items received and/or analyzed per Sheriff’s station/Departmental unit and per reporting district (reporting district is captured as part of the sheriff’s complete file number). 
+F
+
+
+RPT 28.00 
+CR 
+Ability to create a system report of the number of laboratory cases and/or items received and/or analyzed per outside agency over a date range. 
+F
+
+
+RPT 29.00 
+CR 
+Ability to create a system report of the number of laboratory cases and/or items and/or service requests awaiting analysis over date range. 
+F
+
+
+RPT 30.00 
+CR 
+Ability to create a system report of the number of laboratory cases and/or items analyzed per agency and/or offense type over date range. 
+F
+
+
+RPT 31.00 
+CR 
+Ability to create a system report of the number of laboratory cases and/or agency cases and/or items analyzed per examiner and per service request type over date range (e.g. all FA comparisons that Jones did for Compton over a date range). 
+F
+
+
+RPT 32.00 
+CR 
+Ability to create a system report of the turn-around time per service request type and/or examiner. 
+F
+
+
+RPT 33.00 
+CR 
+Ability to create a system report of the number of laboratory cases and/or items received and/or analyzed per service request type and offense type over a date range. 
+F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPT 34.00 
+CR 
+Ability to create a system report of the number of laboratory cases awaiting technical review and/or with completed technical review over a date range. 
+F
+
+
+RPT 35.00 
+CR 
+Ability to create a system report listing, by laboratory case number, reports awaiting technical review and/or completed technical review over a specified date range. 
+F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPT 36.00 
+CR 
+Ability to create a system report of the number of service requests per examiner with ability to filter by service request status (active, pending, assigned, pending submission of reference, etc.). 
+F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPT 37.00 
+CR 
+Ability to create a system report of the number of pending service requests per section. 
+F
+
+
+RPT 38.00 
+CR 
+Ability to create a system report of the number of submissions analyzed or received per a sub-service request, such as a trace evidence sub-discipline, over date range. 
+F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPT 39.00 
+CR 
+Ability to edit pre-created reports if needed, e.g., edit a Crystal Report to alter boilerplate header info, add page numbers, etc. Pre-provided reports must not be locked or proprietary. 
+F
+All supplied crystal report templates may be modified by the customer and are not locked or proprietary.
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPT 40.00 
+CR 
+Ability to a create system report for tracking crime scene investigation service requests, with the ability to filter, group and sort by status, e.g., pending, processed, etc. 
+F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPT 41.00 
+CR 
+Ability to create a system report for tracking evidence submissions associated with crime scene investigations over a date range. 
+F
+
+
+RPT 42.00 
+CR 
+Ability to print and reprint a system report and/or evidence "submission" or "release" receipt with bar code and text information that includes the receiving/releasing person's name, date, time, and description of items received/released. 
+F
+
+
+RPT 43.00 
+CR 
+Ability to create a report listing all evidence items, from one or more Department or agency locations, including evidence descriptions, that have been accepted for examination/processing/activity via a Service Request. 
+F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPT 44.00 
+CR 
+Ability to create a report documenting the return of evidence via the courier system to the outside agency or Departmental unit, station; over-the-counter at the laboratory, at the central repository Central Property and Evidence or at other locations or by other methods, e.g., US mail, FED-EX etc. 
+F
+
+
+RPT 45.00 
+CR 
+Ability to print Chain of Custody reports with digital signatures with a single command. 
+F
+
+
+RPT 46.00 
+CR 
+Ability to generate property and personal property disposition lists based on retention requirements. 
+F
+
+
+RPT 47.00 
+CR 
+Ability to query and report various statistical information such as active cases, inactive cases, number of firearms, cash on hand and other similar statistical reports. 
+F
+
+
+RPT 48.00 
+CR 
+Ability to audit the system where items are randomly selected based on query detail. 
+NV
+Scheduled for release by Jan 1 2008 in version 6.0.
+
+RPT 49.00 
+CR 
+Ability to generate a system report listing how long laboratory case records have been checked out and to whom. 
+F
+
+
+RPT 50.00 
+EX 
+Ability to create a system report of the number of laboratory cases and/or items analyzed through outside funding (grants, departmental projects, etc). 
+F
+
+
+RPT 51.00 
+EX 
+Ability to create a system report of the tabulation of monthly mileage claim forms by month, driver, and number of miles driven. 
+F
+
+
+RPT 52.00 
+EX 
+Ability to create a system report of the number of laboratory cases screened/confirmed for batches of service requests, over date range. 
+F
+
+
+RPT 53.00 
+EX 
+Ability to report on the number of different tests (color tests, crystal tests, instrumental tests) used in analysis and the test results. 
+F
+
+Analytical Report Management 
+
+RPT 54.00 
+CR 
+Analytical reports shall contain at least the following: name of investigating agency, name of laboratory, URN, Truncated URN, and/or Outside Agency ORI/Case number(s), and evidence item identifier, analyst item identifier, date of analytical report, suspect/victim’s name, investigator, charge, description of evidence, findings, examiner’s printed name, examiner’s signature or initials. 
+T
+Analytical reports are entirely customizable to meet the needs of the individual disciplines. 
+
+RPT 55.00 
+CR 
+Ability to use Crystal Reports, MS Office, and/or WordPerfect Office Suite. 
+C
+Porter Lee will work with LASD to provide this functionality in Word Perfect if desired.
+
+RPT 56.00 
+CR 
+Ability to produce analytical reports (manually or automatically generated) from user input, instrumental interface data and/or existing case information. 
+T
+
+
+RPT 57.00 
+CR 
+Ability to create an analytical report using wizards (simplified, step-by-step questions designed to gather required data for a report). 
+F
+
+
+RPT 58.00 
+CR 
+Ability to require mandatory fields in analytical report screens and templates. 
+T
+
+
+RPT 59.00 
+CR 
+Ability to edit analytical report prior to final (user defined) review, with ability to route back to examiner, e.g., notify/indicate changes made. Ability to delete working copies of report. 
+F
+
+
+RPT 60.00 
+CR 
+Ability to include digital signatures and/or initials of examiner(s) and multiple reviewers on analytical reports and digitally scanned case notes and/or electronic case record. 
+F
+
+
+RPT 61.00 
+CR 
+Ability to associate and/or include graphic, text and digital files with or in an analytical report and/or case notes. 
+F
+
+
+RPT 62.00 
+CR 
+Ability to save non-editable analytical reports in secure and user retrievable format, such as PDF. 
+F
+
+
+RPT 63.00 
+CR 
+Ability to distribute final analytical report through fax, email, or secure website. 
+F
+
+
+RPT 64.00 
+CR 
+Ability to produce and edit a variety of preformatted analytical report templates where fields can be automatically populated by incorporating existing case information, item descriptors, analytical results and conclusions, etc. 
+F
+
+
+RPT 65.00 
+CR 
+Ability to generate and print an analytical report bar code. 
+F
+
+
+RPT 66.00 
+CR 
+Ability to lock an analytical report to prevent modifications from someone other than the author. 
+F
+
+
+RPT 67.00 
+CR 
+Ability to issue multiple (not duplicates) analytical reports for a single service request and/or task. 
+F
+
+
+RPT 68.00 
+CR 
+Ability to selectively restrict (based upon user’s system role or user ID) the viewing of examination results and/or analytical reports from laboratory and/or Department/agency cases and/or from evidence items marked as confidential or restricted. 
+T
+This is accomplished through the Case Lock feature.
+
+RPT 69.00 
+CR 
+Ability to monitor and track report posting and distribution history. 
+F
+
+
+RPT 70.00 
+CR 
+Ability to provide for multiple types of review, such as but not limited to technical, administrative, clerical, and peer for each analytical report. 
+F
+
+
+RPT 71.00 
+CR 
+Ability to create/edit/modify requirements for each type of review. 
+F
+Each review type can have a custom checklist assigned to it that can vary by lab discipline. 
+
+RPT 72.00 
+CR 
+Ability for reviewer to insert comments regarding the review into the case record, worksheet and/or report. Comments shall be visible only to author and reviewer, and date and reviewer’s initials shall be electronically recorded. 
+F
+
+
+RPT 73.00 
+CR 
+Ability to generate analytical reports from remote computers or laptops (not connected through network) for later upload to the system. 
+F
+
+
+RPT 74.00 
+CR 
+Ability to place analytical reports in queue for next required review. These reviews may be pre-assigned to examiner based upon specific, user defined, criteria, such as section of assignment, job title or role within system, qualifications, etc., or allow for manual assignment of review by supervisor. 
+T
+The routing feature can support this functionality.
+
+RPT 75.00 
+CR 
+Ability to notify author of report when required reviews have been completed. 
+F
+
+
+RPT 76.00 
+CR 
+Ability to prevent issuance of an analytical report until all required reviews have been completed based on user defined criteria. 
+F
+
+
+RPT 77.00 
+CR 
+Ability to view list of reviewed analytical reports for the purpose of documenting or performing any additional required reviews prior to the release of analytical reports. Criteria for identifying a report as reviewed shall be defined by the type of service request and/or task. (This would allow certain types of reports, e.g., CS reports, to be released with just an AR and not a TR being done.) 
+F
+
+
+RPT 78.00 
+CR 
+Ability to generate analytical reports for batches of evidence from different laboratory cases with results imported from instruments and merged with case/item data via LIMS and instrument coordinated sequence lists. 
+T
+Worklist/Batch feature.
+
+RPT 79.00 
+CR 
+Ability for reviewer to flag an analytical report, create comments for the examiner’s attention and notify examiner. 
+F
+
+
+RPT 80.00 
+CR 
+Ability for technical reviewer to flag a case and create comments for the supervisor’s attention, e.g. on possible error questions; non-compliance to policy, etc. 
+F
+
+
+RPT 81.00 
+CR 
+Ability to create an analytical report in color. 
+F
+
+
+RPT 82.00 
+CR 
+Ability to allow final, amended, and draft report formats. 
+F
+
+
+RPT 83.00 
+CR 
+Ability to provide an audit trail for amended reports. 
+F
+
+
+RPT 84.00 
+CR 
+Ability to release a report without technical review, and label such report as a draft report. (does not apply to CS reports). 
+F
+
+
+RPT 85.00 
+EX 
+Ability to extract data and automate export of such data to other agencies through .pdf or data stream (e.g. Controlled Substances Statistical report -NFLS reporting). 
+F
+Porter Lee Corporation’s triangle.exe application handles this functionality.
+Bar Code 
+
+
+
+BAR 1.00 
+CR 
+Ability to utilize bar code processes to facilitate access to cases and items and allow the functions to be performed from any location within the application to reduce the need to navigate through a specific window or an excessive number of menus. 
+F
+The Crime Fighter BEAST supports this through the use of Active Barcoding.
+
+BAR 2.00 
+CR 
+Ability to print bar codes of different sizes and formats. 
+F
+
+
+BAR 3.00 
+CR 
+Ability to customize the format of bar code labels using user-defined fields. 
+F
+
+
+BAR 4.00 
+CR 
+Ability to print case and item bar codes on multiple types of media including adhesive labels. 
+F
+
+
+BAR 5.00 
+CR 
+Ability to scan case bar code once to automatically load and display case information. 
+F
+
+
+BAR 6.00 
+CR 
+Ability to scan item bar code once to automatically load and display item information. 
+F
+
+
+BAR 7.00 
+CR 
+Ability to associate, cross-reference, scan and track lab item number, associated agency/department item number and associated analyst item numbers using one bar code label on the item. 
+F
+
+
+BAR 8.00 
+CR 
+Ability to print and reprint a system report and/or evidence receipt with bar code and text information that includes the receiving person’s name, date, time, and description of items received. 
+F
+
+
+BAR 9.00 
+CR 
+Ability to combine any combination of service requests for batch processing by scanning a container bar code. 
+F
+
+
+BAR 10.00 
+CR 
+Ability to allow personnel to enter evidence into the system prior to the evidence arriving at Central Property and Evidence (CPE) or the Crime Lab. Evidence is physically received at CPE, at the Crime Lab or by an evidence courier by scanning a single bar code. If evidence is not associated with a pre-existing laboratory case, have the ability to create a laboratory case at that time. If the evidence is associated with a pre-existing laboratory case, have the ability to assign a new/different laboratory case. 
+F
+
+
+BAR 11.00 
+CR 
+Ability to print a bar code label generated through PRELIMS at the time of data entry identifying an evidence item has having been entered into the system. 
+F
+
+
+BAR 12.00 
+CR 
+Ability to stop the input of multiple evidence items when there is a failure in reading a bar code label. The error must be resolved before reading the next evidence item bar code label. 
+F
+
+
+BAR 13.00 
+CR 
+Ability to allow batch transfers of evidence items for chain of custody purposes and for evidence processing using a single bar code for evidence containers. 
+F
+
+
+BAR 14.00 
+CR 
+Ability to generate and print a laboratory case record jacket bar code. 
+F
+
+
+BAR 15.00 
+CR 
+Ability to track (including via bar code) the location of paper laboratory case records, including to whom the laboratory case record was check out, date checked out, and date returned. 
+F
+
+
+BAR 16.00 
+CR 
+Ability to perform inventories of evidence locations using bar code technology to electronically scan bar codes attached to physical storage locations and to individual items. Must have the ability to produce inventory activity system reports. 
+F
+
+
+BAR 17.00 
+CR 
+Ability to add/remove evidence items to/from a worksheet with the use of bar code technology. 
+F
+
+
+BAR 18.00 
+CR 
+Ability to populate items from one worksheet into another worksheet using bar code technology. 
+F
+
+
+BAR 19.00 
+CR 
+Ability to generate and print an analytical report bar code. 
+F
+
+
+BAR 20.00 
+CR 
+Ability to create sequence file for Chem Station for GC/MS analysis of samples using bar code information from item labels. 
+T
+
+
+BAR 21.00 
+CR 
+Ability to create sequence file for Perkin Elmer Turbochrom for GC analysis of samples using bar code information from item labels. 
+T
+
+
+BAR 22.00 
+CR 
+Ability to create and print labels for GC and GC/MS instrument vials with bar code and case and item information. 
+T
+
+
+BAR 23.00 
+CR 
+Ability to create bar code labels for extraction tubes and other purposes that can be used with each type of instrumentation presently in use in the laboratory. 
+T
+
+
+BAR 24.00 
+CR 
+Ability to create bar code labels that can be read by Olympus AU400 and Tecan Minilyser instrument. 
+F
+
+
+BAR 25.00 
+CR 
+Ability to create bar code labels than can be read by Tecan Minilyser software. 
+F
+
+
+BAR 26.00 
+CR 
+Ability to create bar code labels that can be read by Perkin Elmer Turbochrom software. 
+T
+
+
+BAR 27.00 
+CR 
+Ability to bar code evidence for automated retrieval and tracking. 
+T
+
+
+BAR 28.00 
+CR 
+Ability to group multiple items together to be treated at the same time even if they are not from the same submission or lab case using a container bar code. 
+F
+A rack or plate label is created for this purpose.
+
+BAR 29.00 
+CR 
+Ability to transfer the custody of an individual item or a group of selected items at one time using a container bar code. 
+F
+
+
+BAR 30.00 
+CR 
+All property information must be linked to a single database entry by the Case Number. The printed bar codes must protect against being invalidated in the event of a case number correction in the system. 
+F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BAR 31.00 
+CR 
+Ability to print bar codes on reports such as inventory discrepancy reports, disposition tracers, auction planners and return to owner letters. The system must be able to automatically identify these bar codes and allow processing of these reports without requiring the user to navigate to a bar code scanning section of the program. 
+F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BAR 32.00 
+CR 
+Ability to automatically populate employee information when Employee ID bar codes are scanned or manually input. 
+F
+
+
+BAR 33.00 
+CR 
+Ability for PRELIMS to generate a bar code from data provided at entry containing all pertinent and relevant evidence and/or property item information, as defined by the Department. Ability for PRELIMS to auto populate various screens with this data from scanning an item bar code. 
+F
+
+
+BAR 34.00 
+CR 
+Ability to scan multiple items via bar code into one location. 
+F
+
+
+BAR 35.00 
+CR 
+Ability to System Administrator to configure bar code labels to display the following information: brief item description, case number, item number, storage location, and the name or logo of the law enforcement agency. 
+F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BAR 36.00 
+CR 
+Ability to move/transfer/transact item utilizing bar code technology and electronic signature. 
+F
+
+
+BAR 37.00 
+CR 
+Ability to generate bar code labels on demand. Generated bar codes shall include: the case number; employee identification number; individual item number; location identifiers; item status changes, such as disposed; item analysis results; and lab analysis requests. 
+F
+
+
+BAR 38.00 
+CR 
+Ability to provide active bar codes which provides for a direct link to a case and/or item information screen. 
+F
+
+
+BAR 39.00 
+CR 
+Ability to provide referential data integrity at the bar code level. If information regarding a case or item is modified, previously printed bar code labels containing original case or item numbers shall be linked to the corrected data. 
+F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BAR 40.00 
+CR 
+Ability to enter data, e.g., case/evidence item information, analysis requests, etc. into PRELIMS one time without the need to transfer that data and be able to access that data by utilizing a bar code. 
+F
+The Crime Fighter BEAST offers the option of the PDF barcode for this purpose.
+
+
+
+
+
+
+
+
+
+
+
+
+
+BAR 41.00 
+CR 
+The system must employ the latest in bar code technology for uploading case information to the system (for example: submitting agency, offense, county, address, etc.) and tracking of evidence items. 
+F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BAR 42.00 
+CR 
+Ability to bar code evidence locations within the central repository and crime lab, e.g., shelves, bins, etc. for location assignment and tracking . 
+F
+
+
+BAR 43.00 
+CR 
+Ability to reprint bar code labels on demand. 
+F
+
+
+BAR 44.00 
+CR 
+The system shall be fully compatible with bar code reading devices for data entry of selected information such as evidence identification, user and location identification and tracking, as well as for inventory. The use of bar codes must be fully supported and integrated throughout all functional units. 
+F
+
+
+BAR 45.00 
+CR 
+Ability to assign a unique bar code utilizing user defined format(s) for each item/sub-item/sample, container, and location. 
+F
+
+
+BAR 46.00 
+CR 
+Ability to use bar codes on a variety of media (forms, receipts, evidence, shelves, reports, etc) for instant access to information. 
+F
+
+
+BAR 47.00 
+CR 
+Ability to read standard tracking bar codes, e.g., those used by US Mail, UPS, FEDEX and other delivery services. 
+F
+
+
+BAR 48.00 
+CR 
+Ability to utilize bar code processes to facilitate access to cases and items and allow the functions to be performed from any location within the application to reduce the need to navigate through a specific window or an excessive number of menus. 
+F
+Scanning a barcode in the BEAST will initiate the appropriate action for that type of barcode regardless of the screen currently displayed. 
+
+BAR 49.00 
+CR 
+Ability to customize the format of bar code labels using user-defined fields. 
+F
+
+
+BAR 50.00 
+CR 
+Ability to add/edit/remove reagents, standards and controls and unique identifiers (lot #) to worksheet with use of bar code technology. 
+F
+The chemical inventory system is a fully integrated system that utilizes bar code technology for these purposes.
+
+BAR 51.00 
+EX 
+Ability to read bar code labels and validate the existence of the information in the system. 
+F
+
+Analysis and Result Management 
+
+ARM 1.00 
+CR 
+Ability for examiner, working through the examination of evidence, to enter results for later retrieval into a report; provide for entry of narrative, qualitative results, and quantitative results, based on the type of task being performed. 
+F
+
+
+ARM 2.00 
+CR 
+Ability to override and update a reported result uploaded from an instrument. For example, if a TOX quantitation result is a very low number, examiner could change it to “Present”. 
+F
+
+
+ARM 3.00 
+CR 
+Ability to digitally create and save examiner notes made during examination process to include electronic signature or initials of examiner. Subsequent changes, alterations, and additional notations made in the notes to require secure electronic initials/signature of the person making the additions/corrections. 
+F
+
+
+ARM 4.00 
+CR 
+Ability to define pre-formatted conclusions for the results of specific tasks. 
+F
+
+
+ARM 5.00 
+CR 
+Ability to generate a worksheet automatically or manually. 
+F
+
+
+ARM 6.00 
+CR 
+Ability to generate a work list for batch analysis. 
+F
+
+
+ARM 7.00 
+CR 
+Ability to add/edit/delete items from a work list. 
+F
+
+
+ARM 8.00 
+CR 
+Ability to manually enter, at different times for the same or different laboratory cases, examiner notes, instrumental data and results, and results from screening and confirmation testing processes, into case record using drop down menus and free form text. 
+F
+
+
+ARM 9.00 
+CR 
+Ability for examiner to view and edit notes prior to report generation. 
+F
+
+
+ARM 10.00 
+CR 
+Ability to generate individual analytical reports for each evidence item contained in a batch run of a user defined number (up to at least 96) and include any controls, standards, etc. include with that run, from data obtained from analytical instrumentation, such as headspace gas chromatograph. 
+F
+
+
+ARM 11.00 
+CR 
+Ability to create and edit worksheet for batch processing of items from same or different laboratory case(s) 
+F
+
+
+ARM 12.00 
+CR 
+Ability to create/edit/print a worksheet. 
+F
+
+
+ARM 13.00 
+CR 
+Ability to add/remove evidence items to/from a worksheet with the use of bar code technology. 
+F
+
+
+ARM 14.00 
+CR 
+Ability to create/edit/modify worksheet templates. 
+F
+
+
+ARM 15.00 
+CR 
+Ability to add/edit/remove reagents, standards and controls and unique identifiers (lot #) to worksheet with use of bar code technology. 
+F
+
+
+ARM 16.00 
+CR 
+Ability to add narrative (notes) to worksheet. 
+F
+
+
+ARM 17.00 
+CR 
+Ability to add administrative type notes, such as contact log information, to either the case record or another document [administrative documentation]. 
+F
+
+
+ARM 18.00 
+CR 
+Ability to batch multiple worksheets from a single run for the purposes of printing, etc. 
+F
+
+
+ARM 19.00 
+CR 
+Ability to batch multiple items from the same laboratory case on same worksheet . 
+F
+
+
+ARM 20.00 
+CR 
+Ability to batch multiple laboratory cases. 
+F
+
+
+ARM 21.00 
+CR 
+Ability to populate items from one worksheet into another worksheet using bar code technology. 
+F
+
+
+ARM 22.00 
+EX 
+Ability to indicate (with different color, background, etc) controls not in range on screens showing result uploads. 
+F
+
+
+ARM 23.00 
+EX 
+Ability to access external databases for comparison spectra and/or monographs and include information in case notes. 
+F
+
+Imaging Management 
+
+
+IMG 1.00 
+CR 
+Ability to search, view, and print images captured with Mideo Systems, Inc. EZDocPlus and CaseWorks software tools. 
+T
+
+
+IMG 2.00 
+CR 
+Ability to access images stored on Mideo Systems' image databases from PRELIMS using PRELIMS record identifiers to search and view images.. 
+T
+
+
+IMG 3.00 
+CR 
+Ability to link images to one or more laboratory cases; preview thumbnails of linked images and click to view larger image; display all images for a case, print, and sort 
+F
+
+Crime Scene Investigation (CSI) Management 
+
+
+CSI 1.00 
+CR 
+Ability to record crime scene investigation information, such as, but not limited to, report status, examiner(s), Department/agency and laboratory case number, suspect/victim’s name, CSI date, charge, summary of CSI, comments, LASD area or outside agency area, investigator(s), and contact information. 
+F
+Recording of this information is provided by the proposed CSI management module.
+
+
+
+
+
+
+
+CSI 2.00 
+CR 
+Ability to designate crime scene investigations (CSI) as a service request, prior to evidence being submitted to laboratory. 
+F
+Service requests can be created with or without evidence being submitted. After evidence is available additional service requests can be created or newly submitted evidence can be linked to the prior requests when it becomes available.
+
+CSI 3.00 
+CR 
+Ability to differentiate between crime scenes based on charge. 
+F
+Crime Scenes can be classified with Charges codes. 
+
+CSI 4.00 
+CR 
+Ability to generate a CSI service request from a web interface. 
+F
+This function is provided as specified by the proposed system.  The screen below depicts creation of a CSI service request from the WEB interface. 
+
+CSI 5.00 
+CR 
+Ability to use agency case information (stat code portion of the RD from URN) from a CSI laboratory service request to assign a task related to this service request to an examiner based upon examiner’s level of competency. 
+T
+The proposed system includes an extensible, trigger driven mechanism for assigning service requests to examiners. The implemented system will include configuration required to meet the requirement.
+
+
+
+
+
+
+
+CSI 6.00 
+CR 
+Ability to list all pending tasks for a particular type of crime scene investigation (based on charge), and ability to sort via reporting district portion of URN. Ability to allow user to select certain service requests (based on type of crime) and sort by RD to facilitate assignment of tasks to examiners. Ability to sort RD, but not necessarily in numerical order of RD, as sequentially numbered RD’s are not necessarily adjacent (geographically) to one another. Ability to print this information out of the system for convenient manual sorting and assignment of calls (tasks). 
+T
+The proposed system includes a multitude of reporting options which can all be customized to meet the needs of the customer. The implementation includes configuration of the inquiry functions to fully meet this requirement.
+
+CSI 7.00 
+CR 
+Ability to batch assign CSI service requests (i.e. assign several service requests to a single examiner at one time). 
+F
+Manual batch assignment is fully supported out of the box in the proposed system.
+
+CSI 8.00 
+CR 
+Ability to schedule appointments (with victim) for CSI service requests and flag these appointments for assignment (assign task to examiner) at a pre-specified time prior to the scheduled appointment. 
+T
+The proposed system includes a schedule component which can be used to track these appointments. Porter Lee Corporations AUTOTASK module will be configured to send email message to responsible users when it is time for an examiner to be assigned.
+
+CSI 9.00 
+CR 
+Ability for CSI personnel to clear tasks (mark tasks as completed) from the field, preferably via web interface. Clearances must indicate disposition of the service request and must sort which service requests are completed and which must be reassigned, along with a reason or disposition. For cleared service requests where latent prints are recovered, ability to enter the recovered evidence (prints) into the system and generate a bar code. Ability to enter “notes” into the clearance of the service request. (Latent Prints-Property Crimes calls-daily fingerprint calls) 
+C
+Porter Lee Corporation will work with LASD to customize this functionality as desired.
+
+CSI 10.00 
+CR 
+Ability for examiner to update/modify information entered by investigator in initial service request to correct errors/omissions. Ability to keep an audit train of these updates/modifications. 
+F
+The proposed system included a detailed audit function that will fully satisfy the requirement.
+
+CSI 11.00 
+CR 
+Ability for examiner to update/modify information entered by investigator in initial service request to correct errors/omissions. Ability to keep an audit trail of these updates/modifications. 
+F
+*This is a duplicate of CSI 10.00
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSI 12.00 
+EX 
+Ability to maintain electronic on-call schedules with contact numbers. 
+T
+The proposed system includes the In/Out board module which can be used to track on-call individuals and contact numbers.  
+
+CSI 13.00 
+EX 
+Ability to send CSI task assignment information and related agency case information through e-mail and/or allow viewing and printing of CSI task assignment information and related agency case information through a web interface; and allow for this information to be downloaded to a portable computer. 
+T
+The proposed system includes the Porter Lee Corporation AUTOTASK module which can be configured to send emails to users. The content of the messages is database drive and can include documents that can be save to a laptop and viewed while offline.
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSI 14.00 
+EX 
+Ability for examiner assigned a CSI task to 1) populate a template from downloaded data, 2) input data from service request, 3) upload data to system, and 4) generate an analytical report, including an electronic signature. 
+F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSI 15.00 
+DR 
+Ability to download service requests to a laptop computer, then enter evidence information into this laptop computer in the field, and later upload the information into PRELIMS. Ability to print bar-codes from the laptop in the field. 
+F
+
+Instrument Interface 
+
+ITR 1.00 
+CR 
+Ability to set up sequence file of specified format for Perkin Elmer Turbochrom software and capture both the chromatogram and data for reporting. Must incorporate standards and quality control samples used in the run. 
+T
+
+
+ITR 2.00 
+CR 
+Ability to create sequence file for Chem Station for GC/MS analysis of samples using bar code information from item labels. 
+T
+
+
+ITR 3.00 
+CR 
+Ability to create sequence file for Perkin Elmer Turbochrom for GC analysis of samples using bar code information from item labels. 
+T
+
+
+ITR 4.00 
+CR 
+Ability to interface Thermo Omnic and Thermo GRAMS software for use with the infrared spectrometer (Omnic) or micro spectrophotometer (GRAMS) into PRELIMS. 
+T
+
+
+ITR 5.00 
+CR 
+Ability to create and print labels for GC and GC/MS instrument vials with bar code and case and item information. 
+F
+
+
+ITR 6.00 
+CR 
+Ability to create sequence file for GC/MS (Agilent and Varian) through Chem Station and Varian’s software and capture results and chromatograms. 
+T
+
+
+ITR 7.00 
+CR 
+Ability to incorporate standard and quality control samples in a sequence file used for a GC or GC/MS batch run and flag readings outside acceptable range. 
+T
+
+
+ITR 8.00 
+CR 
+Ability to create a sequence file for the Tecan Minilyser (toxicology blood screens) for input and capture results that can be exported into a report. 
+T
+
+
+ITR 9.00 
+CR 
+Ability to create a sequence file for the Olympus AU400 auto analyzer (toxicology urine screens) for input and capture results that can be exported into a report. 
+T
+
+
+ITR 10.00 
+CR 
+Ability to create bar code labels for extraction tubes and other purposes that can be used with each type of instrumentation presently in use in the laboratory. 
+F
+
+
+ITR 11.00 
+CR 
+Ability to create a pre-amplification worksheet, importing data from worksheet used for the quantitation by the ABI 7000, that calculates quantities to be added to the sample needed for the target amplification amount. 
+F
+
+
+ITR 12.00 
+CR 
+Ability to use well number (instead of or in addition to tube number) in DNA quant plate / worksheet manual process. 
+F
+
+
+ITR 13.00 
+CR 
+Ability to automatically generate a DNA analysis report from worksheet and report writing template or wizard. 
+F
+
+
+ITR 14.00 
+CR 
+Ability to print small sample labels for DNA robot extraction tubes. 
+F
+
+
+ITR 15.00 
+CR 
+Ability to import quantitations and other results from each type of instrumentation presently in use in the laboratory back into a worksheet or other media following analysis. Instrumentation presently in use, includes, but is not limited to: Olympus AU400; Tecan Minilyser; Agilient GCMS Chemstation; Perkin Elmer Turbochrom; ABI 310/3130; ABI 7000; Varien GCMS Saturn 2000. 
+T
+
+
+ITR 16.00 
+CR 
+Ability to create sample dilution worksheet that calculates the proper dilutions to be used for beverage samples prior to analysis, depending on the beverage type (suspected alcohol concentration). 
+T
+
+
+ITR 17.00 
+CR 
+Ability to import results from GC analysis (Turbochrom) back into a worksheet containing computations for alcohol concentration following beverage content analysis. 
+T
+
+
+ITR 18.00 
+CR 
+Ability to create an export file from 310/3130 Genetic Analyzer containing sample sheet information to identify samples for analysis that can be used by the instrument software. Ability to input results into LIMS of analysis of 15 loci to create report of sample analysis. 
+F
+
+
+ITR 19.00 
+EX 
+Ability to create bar code labels that can be read by Olympus AU400 and Tecan Minilyser instrument. 
+T
+
+
+ITR 20.00 
+EX 
+Ability to create bar code labels than can be read by Tecan Minilyser software. 
+T
+
+
+ITR 21.00 
+EX 
+Ability to create bar code labels that can be read by Perkin Elmer Turbochrom software. 
+T
+
+
+ITR 22.00 
+EX 
+Ability to create an analytical report from result input from ABI 310/3130 Genetic Analyzer. 
+F
+
+
+ITR 23.00 
+EX 
+Ability to create a plate set up file for the ABI 7000 from a worksheet. Ability to predefine detectors and standards for plate set up. 
+F
+
+
+ITR 24.00 
+EX 
+Ability to import quantity from ABI 7000 analysis back into worksheet following analysis. 
+F
+
+
+ITR 25.00 
+EX 
+Ability to visibly distinguish those result quantities from analysis that are out of range on worksheets following ABI 7000 analysis. 
+F
+
+Asset Management 
+This functionality is included in the Laboratory Asset Module.
+
+ASM 1.00 
+EX 
+Ability to identify, via a bar code, various asset items, such as analytical instrumentation and equipment; reference collections such as firearms, controlled substances, etc.; electronic devices such as phones, laptops, projectors, etc.; literature references such as books, journals, journal articles, etc. and track their location within a facility. 
+F
+
+
+ASM 2.00 
+EX 
+Ability to support check-out/check-in functionality by tracking movement from facility to facility, off the premises, and/or out of the Department as well as tracking individual requesting the move and individual releasing item. 
+F
+
+
+ASM 3.00 
+EX 
+Ability to provide a notification when checked-out item has not been returned. 
+F
+
+
+ASM 4.00 
+EX 
+Ability to suspend individual’s right to check-out items if individual is delinquent in returning items. 
+F
+
+
+ASM 5.00 
+EX 
+Ability to support multiple descriptor fields for each category of item. For example, necessary descriptors for firearms reference collection would include: make, model, model number, barrel length, caliber, firearm type, etc 
+F
+
+
+ASM 6.00 
+EX 
+Ability to provide reports on inventory, items check-out, etc. 
+F
+
+Inventory Control 
+Instrument Inventory 
+
+
+INSTR 1.00 
+EX 
+Ability to maintain an inventory of all instruments, spare parts, calibration logs, and maintenance schedules and send an automatic notification when maintenance is due. 
+F
+This functionality is included in the Laboratory Asset Module.
+
+INSTR 2.00 
+EX 
+Ability to capture and store instrument calibration data. 
+F
+This functionality is included in the Laboratory Asset Module.
+
+INSTR 3.00 
+EX 
+Ability to capture and store instrument verification and validation data. 
+F
+This functionality is included in the Laboratory Asset Module.
+Consumable Inventory 
+
+CONSM 1.00 
+EX 
+Ability to maintain an inventory of chemicals, test fire ammunition, or other consumable items in order to predict shortage and schedule orders. 
+F
+This functionality is included in the Laboratory Asset Module.
+
+CONSM 2.00 
+EX 
+Ability to inventory chemicals, reagents, quality controls, and standards with preparation, qualification, date purchased and/or received, and expiration dates. 
+F
+This functionality is included in the Laboratory Asset Module.
+General Inventory 
+
+GNRL 1.00 
+EX 
+Ability to maintain an inventory of cell phones, authorization codes, and other County equipment and to whom the equipment/code is issued. 
+F
+This functionality is included in the Laboratory Asset Module.
+
+GNRL 2.00 
+EX 
+Ability to maintain an inventory of motor vehicles, track maintenance due dates, and mileage of each vehicle. 
+F
+This functionality is included in the Quartermaster Module.
+
+GNRL 3.00 
+EX 
+Ability to maintain an inventory of fire extinguishers and first aid kits, their locations, and document the periodic inspection of these items. 
+F
+This functionality is included in the Laboratory Asset Module.
+
+GNRL 4.00 
+EX 
+Ability to maintain an inventory of literature, including books, journals, and documents) that is searchable by author, title, journal, year, subject matter, and keyword; actual article in pdf format readable when retrieved from search. 
+NV
+This functionality is included in the QMS module which will be a part of the next release of the software. Scheduled for release by Jan 1 2008 in version 6.0.
+
+GNRL 5.00 
+DR 
+Ability to prepare purchase requisitions for the ordering of consumables. 
+T
+This function is included in the Laboratory Asset Manager application.
+Quality Assurance 
+Reagents, Standards, Controls 
+
+QA 1.00 
+EX 
+Ability to identify who prepared a reagent, control, and/or standard. 
+F
+
+
+QA 2.00 
+EX 
+Ability to document that reagents worked as expected or, if not, to mark the electronic reagent log accordingly; ability to provide notification of reagent expiration date; ability to input expiration date into analytical reports and/or worksheets. 
+F
+
+
+QA 3.00 
+EX 
+Ability to inventory chemicals, reagents, controls, and standards as well as documentation of MSDS and documentation of verification of controls and standards. 
+F
+
+Court Monitoring 
+
+QA 4.00 
+EX 
+Ability to record and report on court monitoring to include date of testimony, who testified, source of information, subject of testimony (discipline), identification of case testified (agency number, agency name), outcome of the monitoring; hours in court, contact information, field for narrative, etc. 
+F
+
+
+QA 5.00 
+EX 
+Ability to demonstrate the review of the monitoring between examiner and supervisor by requiring both examiner’s and supervisor’s electronic signature or initials. Data, including narrative, associated with the monitoring shall be kept secure and access based upon user’s system role. 
+NV
+Laboratory Activity module includes court monitoring. The Signature feature will be added to the next version of the software to meet the requirement. Scheduled for release by Jan 1 2008 in version 6.0.
+
+QA 6.00 
+EX 
+Ability to send automatic notifications when personnel who have testified have not been monitored for a specific time period; ability to record who monitored the testimony. 
+T
+This functionality exists in the Laboratory Activity module. The notifications would need to be configured using the AUTOTASK module.
+Proficiency Testing 
+
+QA 7.00 
+EX 
+Record and report on proficiency testing to include ability to record purchase and anticipated date of receipt of proficiency tests from external providers, record time period between completion of required proficiency tests (DNA), and record completion of sub-discipline proficiency tests. 
+NV
+This functionality is included in the QMS module which will be a part of the next release of the software. Scheduled for release by Jan 1 2008 in version 6.0.
+
+QA 8.00 
+CR 
+Ability to link required proficiency tests to discipline qualifications, such that only examiners that have passed the required competency tests can be assigned specific task [proficiency test analysis]. 
+T
+The current version of the software supports the proficiency test links through the laboratory activity module.  This functionality is included in the QMS module which will be a part of the next release of the software.
+Document Control (Management System) / Quality Assurance 
+
+
+QA 9.00 
+EX 
+Ability to control management system (Quality Assurance) documents with respect to approval and issue of documents, revisions and amendments made to documents, and ability to archive and immediately remove, and appropriately mark, obsolete documents from secure electronic location. Such documents include: policy and procedures manual, forms, etc (ISO 17025). 
+NV
+This functionality is included in the QMS module which will be a part of the next release of the software. Scheduled for release by Jan 1 2008 in version 6.0.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+QA 10.00
+EX 
+Ability to uniquely identify management system (Quality Assurance) documents generated by the laboratory. Such identification shall include the date of issue and/or revision identification, page numbering, the total number of pages or a mark to signify the end of the document and the issuing authority(ies). (ISO 17025). 
+NV
+This functionality is included in the QMS module which will be a part of the next release of the software. Scheduled for release by Jan 1 2008 in version 6.0.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+QA 11.00 
+EX 
+Ability to securely maintain and make electronically available current management system (Quality Assurance) documents, particularly policy and procedures at all bureau locations. (ISO 17025). 
+NV
+This functionality is included in the QMS module which will be a part of the next release of the software. Scheduled for release by Jan 1 2008 in version 6.0.
+
+
+
+
+
+
+
+
+
+
+
+
+
+QA 12.00 
+EX 
+Ability to notify staff of required periodic reviews of management system (Quality Assurance) documents, i.e. policies, procedures, forms, etc. (ISO 
+17025). 
+NV
+This functionality is included in the QMS module which will be a part of the next release of the software. Scheduled for release by Jan 1 2008 in version 6.0.
+
+
+
+
+
+
+
+
+
+
+
+
+
+QA 13.00 
+EX 
+Ability to notify staff when revisions to management system (Quality Assurance) documents are issued. 
+NV
+This functionality is included in the QMS module which will be a part of the next release of the software. Scheduled for release by Jan 1 2008 in version 6.0.
+
+QA 14.00 
+EX 
+When necessary, ability to identify altered or new text in a particular document. (ISO 17025). 
+NV
+This functionality is included in the QMS module which will be a part of the next release of the software. (Actual comparison functions are a part of the Word processor). Scheduled for release by Jan 1 2008 in version 6.0.
+
+QA 15.00 
+EX 
+Ability to include electronic signatures on related management system (Quality Assurance) documents. 
+NV
+This functionality is included in the QMS module which will be a part of the next release of the software. Scheduled for release by Jan 1 2008 in version 6.0.
+
+QA 16.00 
+EX 
+Ability to identify those individuals authorized to make changes to management system (Quality Assurance) documents. (ISO 17025) 
+NV
+This functionality is included in the QMS module which will be a part of the next release of the software. Scheduled for release by Jan 1 2008 in version 6.0.
+Health and Safety 
+
+QA 17.00 
+EX 
+Ability to notify appropriate staff of pending action items, such as inspections, training, etc., related to the laboratory’s Health and Safety Program. 
+T
+The current version of the software supports the proficiency test links through the laboratory activity module.  This functionality is included in the QMS module which will be a part of the next release of the software.
+
+QA 18.00 
+EX 
+Ability to record required medical examinations, certifications, etc related to the laboratory’s Health and Safety Program. 
+T
+The current version of the software supports the proficiency test links through the laboratory activity module.  This functionality is included in the QMS module which will be a part of the next release of the software.
+
+QA 19.00 
+EX 
+Ability to record required personnel training with respect to the laboratory’s Health and Safety Program. 
+NV
+This functionality will be provided in the QMS module as a part of the next release. Scheduled for release by Jan 1 2008 in version 6.0.
+
+QA 20.00 
+EX 
+Ability to record notifications sent to personnel regarding CAL-OSHA mandates. 
+NV
+This functionality will be provided in the QMS module as a part of the next release. Scheduled for release by Jan 1 2008 in version 6.0.
+
+QA 21.00 
+EX 
+Ability to record Material Safety Data Sheets (MSDS). 
+F
+This functionality is provided by the laboratory asset manager module.
+Equipment and Instrumentation 
+
+QA 22.00 
+EX 
+Record item of equipment and its software name and version are significant to the tests and/or calibrations performed to include the identity of the item and its software, the manufacturer’s name, and serial number or other unique identification. (ISO 17025). 
+F
+This functionality is provided by the laboratory asset manager module.
+
+QA 23.00 
+EX 
+Ability to record any damage, malfunction, modification or repair to the items of equipment/instrumentation. (ISO 17025). 
+F
+This functionality is provided by the laboratory asset manager module.
+
+QA 24.00 
+EX 
+Ability to notify staff of required calibrations. 
+F
+This functionality is provided by the laboratory asset manager module.
+
+QA 25.00 
+EX 
+Record results of required calibrations. 
+F
+This functionality is provided by the laboratory asset manager module.
+
+QA 26.00 
+EX 
+Ability to monitor, control and record environmental conditions as required by methods and procedures or where they influence the quality of the results. (ISO 17025). 
+F
+This functionality is provided by the laboratory asset manager module.
+
+QA 27.00 
+EX 
+Record and report on instrument maintenance and calibration. 
+F
+This functionality is provided by the laboratory asset manager module.
+
+QA 28.00 
+EX 
+Ability to record balance and pipette verifications. 
+F
+This functionality is provided by the laboratory asset manager module.
+Other: 
+
+
+QA 29.00 
+EX 
+Ability to send automatic notification of availability of library periodicals and other quality assurance related reference documents. 
+T
+This functionality is provided by the laboratory asset manager module. (A custom report will be required and will be run from the AUTOTASK module)
+Administration/Operations/Management/Supervision 
+Personnel 
+
+AOM 1.00 
+EX 
+Ability to record the shooting requirement for sworn staff including name, score, and date. 
+F
+
+
+AOM 2.00 
+EX 
+Ability to record injury and traffic accident reports including name, file number, and date. 
+T
+
+
+AOM 3.00 
+EX 
+Ability to record mandated Departmental training including name, training class, and date. 
+F
+
+
+AOM 4.00 
+EX 
+Ability to record the distribution of mandatory documents to personnel including name, distribution date, and document type. 
+F
+
+
+AOM 5.00 
+EX 
+Ability to record monthly mileage of personnel including personnel, number of miles driven, and month. 
+F
+
+
+AOM 6.00 
+EX 
+Ability to maintain roster of personnel to include employee identification (employee number), section of current assignment, contact numbers, date of hire, date of section assignment, date of transfer within the laboratory, date of successful competency testing for each assigned discipline. 
+F
+
+
+AOM 7.00 
+EX 
+Ability to schedule, record, and report on personnel training received. 
+F
+
+
+AOM 8.00 
+EX 
+Ability to schedule, record, and report on training provided by staff (both internal to the Bureau and external to the Bureau). 
+F
+
+
+AOM 9.00 
+EX 
+Ability to maintain current job descriptions, performance standards, etc. for managerial, technical and key support personnel involved in tests and/or calibrations (ISO 17025). 
+F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AOM 10.00 
+EX 
+Ability to authorize certain personnel to perform particular tasks, types of sampling, test and/or calibration, to issue test reports and calibration certificates, to give opinions and interpretations and to operate particular types of equipment (ISO 17025). 
+F
+
+
+AOM 11.00 
+EX 
+Ability to maintain Table of Organizations to include the number, title, and names of examiners assigned to each section, record changes, dates of changes, and reasons for changes in the number of staff assigned. 
+NV
+Although the table of Organizations exists and is used in the system, the complete functionality as described will be provided in the QMS module as a part of the next release. Scheduled for release by Jan 1 2008 in version 6.0.
+
+
+
+
+
+
+
+
+
+
+
+
+
+AOM 12.00 
+EX 
+Ability to maintain a complete qualification file (name, training course attended, proficiency test history) for each examiner. 
+NV
+This functionality will be provided in the QMS module as a part of the next release. Scheduled for release by Jan 1 2008 in version 6.0.
+
+AOM 13.00 
+EX 
+Ability to maintain records of relevant authorization(s), competence, educational and professional qualifications, training, skills and experience of all technical personnel, including contracted personnel. 
+NV
+This functionality will be provided in the QMS module as a part of the next release. Scheduled for release by Jan 1 2008 in version 6.0.
+
+
+
+
+
+
+
+
+
+
+
+
+
+AOM 14.00 
+DR 
+Ability to access most current Department form(s) related to injury and traffic accident reports. 
+T
+
+
+AOM 15.00 
+DR 
+Ability to record subpoenas. 
+F
+
+Bureau Operations 
+
+AOM 16.00 
+CR 
+Ability to document that a record was created at a different time from the actual activity, following emergency shut down and restoration of system. 
+F
+
+
+AOM 17.00 
+CR 
+Ability to uniquely identify each laboratory facility using site name, address, and contact information for searching, reporting, and statistical purposes. 
+F
+
+
+AOM 18.00 
+CR 
+Ability to uniquely identify each laboratory section using section name, site name, address, contact information for searching, reporting, and statistical purposes. 
+F
+
+
+AOM 19.00 
+EX 
+Ability to manage performance and utilization of resources by analysis, due date, examiner, and instrument. 
+F
+
+Biology / DNA 
+
+DNA 1.00 
+CR 
+Ability to allow for a DNA case number and record the following information for all DNA cases: DNA case number (format: YYYYDXXXX: YYYY is 4-digit year, XXXX is unique sequence number); agency; case number; victim; suspect; charge; sample type; date request made; date assigned to DNA examiner; date due; date completed; CODIS submission date; initial examiner; DNA examiner; typing; description; results; if sent to outside laboratory for analysis; lab name; outside lab file number; estimated cost; invoiced cost. 
+T
+All of these requirements are currently supported and in operation with existing clients. Configuration will be necessary to accommodate the exact operational processes of LASD.
+
+DNA 2.00 
+CR 
+Ability to create a worksheet for use with either a manual extraction procedure or instrumental extraction procedure using the BioMech 2000. 
+F
+This exact feature is in daily use in the New York State crime labs.
+
+DNA 3.00 
+CR 
+Ability to create a worksheet for a blood extraction or differential extraction (for use with sexual assault items). 
+F
+
+
+DNA 4.00 
+CR 
+Ability to use an on-line worksheet to record batch processes from sample inventory to remaining volume for manual and robotic analyses, to include the ability to track both the sample and volume at each step 
+F
+
+
+DNA 5.00 
+CR 
+Ability to integrate data from on-line worksheet to track reagent usage; to monitor reagent lot numbers, expiration dates and instruments used, e.g., BioMek, ABI 7000, 310, 3130) 
+F
+This feature is in daily use with the Wisconsin Dept. of Justice.
+
+DNA 6.00 
+CR 
+Ability to configure reports to import allele tables, DNA profile checker for analyst DNA contamination and cross case references. 
+F
+This is part of our Matrix reporting tool for DNA assignments. 
+Controlled Substances Section 
+
+CSB 1.0 
+CR 
+Ability to enter description of evidence, item count, weights (net and gross) of item(s), total weight (net and gross) of items, tablet descriptive drawings, tablet counts, description of repackaging of items, addition of narrative, and analytical results into a worksheet or case record. 
+F
+Drug chemistry/controlled substance sections in multiple Porter Lee customers utilize each of these features to craft their reports using our Matrix reporting tools. 
+
+CSB 2.0 
+CR 
+Ability to display calculations of net weights in case notes. 
+F
+
+
+CSB 3.0 
+EX 
+It is the intent to create as paperless a system as is possible for the Controlled Substances Section. 
+F
+Many of our customers have this same intent. The Crime Fighter BEAST  will allow you to approach as closely to this ideal as possible.
+Firearms Section 
+
+FRM 1.0 
+CR 
+Ability to inventory and track firearms reference collection using bar code technology and allow for firearms to be stored within the section, assigned to an examiner or released to persons external to the laboratory. Tracking function shall include original assigned storage location, current location of firearm (either a storage location or checked out to an individual) and comment field to record who received firearm, date/time of release, expected return date, etc. These firearms are not to be tracked as evidence. 
+F
+This is supported using our Laboratory Asset Manager.
+Latent Prints / Crime Scene Investigation Section 
+
+LAT 1.00 
+CR 
+Ability to track reference (exemplar) print cards using bar code technology and allow for these cards to be stored (temporarily in the section or permanently in the case record), assigned to an individual examiner, or released to persons external to the laboratory. These print cards are not to be tracked as evidence. 
+F
+This is supported using our Laboratory Asset Manager.
+
+LAT 2.0 
+EX 
+Ability to record all individuals whose fingerprints or palm prints were compared to a specific latent print associated with a specific case. 
+T
+The Latent reporting module (MATRIX) can be configured to include an entry panel to hold the information. Additional panels can be added to the report for each individual compared.
+Quality Assurance Section 
+Accreditation Issues 
+
+ACC 1.0 
+EX 
+Ability to record and notify examiners, supervisors, lab managers, or QA manager of pending quality assurance requirements, action item completion date or due date. 
+NV
+The proposed system will include the QMS module which will be customized to provide the functionality. The QMS module is currently under development and is scheduled for release by Jan 1 2008 in version 6.0.
+Auditing 
+
+
+
+
+
+ADT 1.0 
+EX 
+Ability to schedule and notify supervisors and staff of any required internal/external audits, to include any necessary management audits. 
+NV
+The QMS module can be used to track audits and the AUTOTASK module will be configured to provide the notifications. Scheduled for release by Jan 1 2008 in version 6.0.
+
+ADT 2.0 
+EX 
+Ability to record client feedback of management audits. (ISO 17025) 
+NV
+The proposed system will include the QMS module which will be customized to provide the functionality. Scheduled for release by Jan 1 2008 in version 6.0.
+
+ADT 3.0 
+EX 
+Ability to flag or identify those case records, evidence locations, standards, reagents, controls, etc that were reviewed as part of an audit. 
+NV
+Audit and Inventory reports exist that can be used as is or modified to meet this requirement. Scheduled for release by Jan 1 2008 in version 6.0.
+
+ADT 4.0 
+EX 
+Ability to record audit schedule and audit completions to ensure that audits are conducted at least annually. (ISO 17025) 
+NV
+This functionality is included in the proposed QMS module. Scheduled for release by Jan 1 2008 in version 6.0.
+
+ADT 5.0 
+EX 
+Ability to notify outside agencies, and record such notifications, when results of internal audits show that the laboratory results may have been affected. (ISO 17025) 
+NV
+The DEPARTMENT (DEPTNAME) module will be integrated into the QMS module and customized to provide this functionality. Scheduled for release by Jan 1 2008 in version 6.0.
+
+ADT 6.0 
+EX 
+Ability to securely record audit findings and maintain such documentation for at least one ASCLD/LAB international cycle. (ISO 17025) 
+NV
+The proposed system will include the QMS module which will be customized  to provide the secure storage of the  audit findings. Scheduled for release by Jan 1 2008 in version 6.0.
+
+ADT 7.0 
+EX 
+Ability to record follow-up audit activities to verify and record the implementation and effectiveness of the corrective actions. 
+NV
+This will be provided by the QMS module. Scheduled for release by Jan 1 2008 in version 6.0.
+
+ADT 8.0 
+EX 
+For audit purposes, ability to extract a list of completed service requests and/or tasks per examiner for a over a time period. 
+NV
+This will be provided by the QMS module. Scheduled for release by Jan 1 2008 in version 6.0.
+
+ADT 9.0 
+EX 
+Ability to extract a list of cases for which an examiner provided a technical review and/or supervisory, peer, and/or technical review for a defined period of time. 
+NV
+This will be provided by the QMS module. Scheduled for release by Jan 1 2008 in version 6.0.
+Corrective Actions 
+
+
+
+ADT 10.0 
+EX 
+Ability to uniquely identify corrective actions and record issuance, milestones of achievement and completion dates as well as party responsible for completion, necessary approvals by management, etc as well as notify responsible part of pending due dates for corrective actions. 
+NV
+This will be provided by the QMS module. Scheduled for release by Jan 1 2008 in version 6.0.
+
+ADT 11.0 
+EX 
+Ability to suspend an examiner from being assigned case work and/or ability to provide technical review of other examiner(s) work when said examiner is the subject of a corrective action stemming from founded proficiency test error(s). 
+NV
+Although this feature exists elsewhere in the system it will be integrated with  the QMS module. Scheduled for release by Jan 1 2008 in version 6.0.
+
+ADT 12.0 
+EX 
+Ability to monitor, where practical and appropriate, the results of corrective actions to ensure that the corrective actions implemented have been effective. (ISO 17025) 
+NV
+There is a notes area for the corrective action in the QMS module where this can be recorded for audit purposes. Scheduled for release by Jan 1 2008 in version 6.0.
+
+ADT 13.0 
+EX 
+Ability to record compliance monitoring for corrective actions. (ISO 17025) 
+NV
+The QMS module provides an entry point for this information. Scheduled for release by Jan 1 2008 in version 6.0.
+Trace Evidence 
+
+TRC 1.0 
+EX 
+Ability to track sub-discipline/case (arson, GSR, physical match), type of comparison (hair/fiber, shoe, impression, etc), and result (exclusion, match, etc). 
+F
+This functionality is fully supported.
+
+TRC 2.0 
+EX 
+Ability to categorize evidence into at least 6 categories: (1) crime scene investigation (2) cases with no service request (3) cases requested by not assigned (4) cases assigned but in progress (5) cases completed and may need review (6) case rejected. Ability to maintain notes for each category. 
+T
+This would simply be a customer crystal report for this unit as this data can be captured within the LIMS system.
+
+
+
+
+Los Angeles County Sheriff’s Dept	C-91
+RFP #B1011 Forensic LIMS
+Porter Lee Corporation: Screen Shot Appendix for Functional Requirements
+Screen Shot Appendix For Functional Requirements Table
+······························  
+This section contains screenshots relevant to our responses to the functional requirements table. 
+The table is presented on the following pages with the requirement listed and illustrations attached. Requirements without a screen shot have been omitted.  
+This Page Intentionally Blank
+
+Reference Code
+Critical             Code
+Business 
+Requirement
+Screen Illustration
+GEN 6.00
+CR
+Allow use of PIN and user ID when accepting/relinquishing custody of an item without the user having to log into the system [at that workstation].
+Person who is receiving custody is not logged on. They simply enter their PIN/Password here.
+
+GEN 14.00
+EX
+Ability to pick one or more items from a pick list using the standard Windows protocol (control + click) or range of items (shift + click).
+
+GEN 15.00
+EX
+Ability to search drop down lists by first letter, number, etc
+Can also filter by Code
+Filtered so that only descriptions containing “rap” are displayed…
+
+GEN 19.00
+CR
+Ability to customize screens based on analytical section/service provided.
+This is the “matrix” report writing tool. This shows customized panels for a DNA section.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+These are two of the setup windows for configuring the matrix report panels. 
+
+
+
+Web Interface
+
+WEB 1.00
+CR
+Ability to enter case information, individual evidence items, and initiate service requests through a secure web page.
+Case Search
+This is an example of a web-based portal for evidence prelog, case inquiry and report viewing. 
+
+Case inquiry. 
+
+WEB 3.00
+CR
+Ability to allow access to search, view, and print the most current version of an issued analytical reports from a web page.
+Case Report search and viewing/printing.
+
+
+
+
+
+SEC 1.00
+CR
+Ability to support a security system that supports group, role, and data level security.
+User Group Security Settings
+
+
+Security Configuration for Item Types and Commands
+                                                
+SEC 2.00
+CR
+Ability to assign group privileges and assign single users to multiple groups.
+This user is assigned to three user groups: 
+ADMIN, FADMIN, FS
+
+SEC 4.00
+CR
+Ability to enable/prohibit data changes based on group, role, and data level security.
+This shows the Configuration program as it appears to a user who has no permissions to View/Edit users. That tab is grayed out and inaccessible. 
+They have also tried to edit a code table to which they do not have permission.
+User receives this message if they attempt to run a program they haven’t been given permission to run.
+ 
+
+
+
+
+
+
+
+AUD 1.00
+CR
+Ability to provide complete audit history audit trail components including view, update, query requests, report creation, and access for data security and recovery of lost transactions/data.
+
+Audit Log Showing:
+
+Case was Accessed
+
+Item Type was Changed
+
+Custody Update for Item
+
+CST 2.04
+CR
+Ability to associate names and roles, e.g., victim, subject, owner, with an individual evidence/property item.
+Selected Items are linked to the named individual. 
+
+CST 2.06
+CR
+Ability to associate Investigator with an individual evidence/property item.
+The Collected By field and the Submitted By fields can default to the Case Officer, but may be modified.  In addition, the property/evidence can be associated with an “Owner” by selecting from the case names using the Owner button.  Another name can be associated as a Finder.
+                    
+CST 2.08
+CR
+Ability to associate Court number with an individual evidence/property number.
+Court Number as an Attribute for the item. Attributes can be used to collect virtually ANY type of information regarding an item.
+
+This could also include the Coroner Case Number from 
+CST 2.09 below.
+ 
+CST 2.10
+CR
+Ability to associate lab analyst item number to an individual evidence/property item.
+Analyst Item Number
+
+CST 2.11
+CR
+Ability to associate storage location with an individual evidence/property item.
+Items are transferred to a storage location. 
+New location is updated on the Items tab.
+                                                            
+CST 2.12
+CR
+Ability to associate identity of individual performing transaction or item movement) to an individual evidence/property item.
+A great deal of information is stored regarding each transfer. The data can be scrolled through using the Left/Right scroll bar.
+
+
+The following may be stored currently for all custody transactions:
+Date, Time Custody Of, Location, Entry Time, Entered By, Batch Sequence, Container Key, Package Weight, Officer ID, Department Code, Entry Analyst, Entry Time Stamp, OS User Name, OS Computer Name, Source, Stat, Weight, Stat Time, Sync Key, Sync Flag, Tracking Number, Hotsync Time Stamp, Hotsync Batch Seq, Override By, Override Comments, Verified By, Confirmation Date, Confirmed, Confirmed By.  
+These may be added to as necessary. 
+CST 2.13
+CR
+Ability to associate date/time of transaction or item movement to an individual evidence/property item.
+See 2.12
+CST 2.14
+CR
+Ability to associate identity of individual accepting custody of item to an individual evidence/property item.
+See 2.12
+CST 2.15
+CR
+Ability to associate the location relinquishing custody of item to an individual evidence/property item.
+See 2.12
+CST 8.00
+CR
+Ability to enter comment for a move / transfer evidence items, documents, and/or assets.
+Comments box in LIMS Item Transfer and Lab Asset Manager transfer windows. 
+                                                            
+CST 11.00
+CR
+Ability to record the transfer of evidence using a signature pad to identify the individual receiving or releasing evidence, and to be able to print a receipt that includes said identification and signature.
+Transfer Receipt showing signatures of receiving / relinquishing personnel. 
+
+These may be reprinted at any time. 
+
+CST 13.00
+CR
+Ability to print a receipt for an evidence item to act as the submitting agency’s chain of custody record.
+See CST 11.00 above.
+Evidence Entry
+
+
+
+EPM 1.00
+CR
+Ability to document all evidence/property items and respective attributes received for a sincle case from point of initial entry in PRELIMS to each item's disposal.
+This Case Jacket may be configured to include any case data that you desire. 
+
+It is accessed by clicking a single, “Case Jacket” button on the Case Info tab of the LIMS. 
+
+EPM 2.13
+CR
+Property types - allow for property to be identified by its evidentiary value, such as found property, property for safekeeping, prisoner property, or evidence. 
+These codes are agency configurable and may be set up as necessary. 
+
+EPM 7.00
+CR
+Ability to capture detailed notes with spell check capabilities.
+Right-clicking on text entry fields will display this menu which includes Spell Check and Thesaurus. These call the spell checker and thesaurus from MS-Office. 
+
+EPM 8.00
+CR
+Ability to manage packaging information, including how items are packaged and quantity of packages.
+Outer Packaging, Quantities and Item Types may all be editied /  modified as necessary at any time. 
+
+EPM 9.00
+CR
+Ability to identify unit of measure. 
+The Units of measure may be added as an Attribute, as can other pertinent information. The weight can be captured by scales. 
+
+This can also be done by the analyst from within the report writing / analyst workbench areas of the LIMS. 
+
+EPM 10.00
+CR
+Ability to validate location entry based on item category. For example, Biological = Freezer; Cash = Safe; Firearm = Gun vault; Narcotic = Narco Vault.
+Default Custody Location setup in the Configuration application.
+
+Evidence Management
+
+
+EPM 20.00
+CR
+Ability to set evidence item retention defaults, based on legal definition, automatically with the ability to override the retention default on appropriate security privilege.
+
+EPM 22.00
+CR
+Ability to create a evidence storage location into which evidence can be transacted/transferred/moved.
+Storage locations are easy to add in the Configuration application.
+
+EPM 36.00
+CR
+Ability to identify evidence that is "spawned" from an evidence item and to associate, cross-reference, scan and track this "spawned" evidence by its unique identifier maintaining the parent-child relationship between them (e.g. blood stain removed from shirt for DNA processing), with the ability to add text to a note field describing this association.  
+Creating Samples
+
+
+Selecting  Kit Items
+
+EPM 44.00
+CR
+Ability to notify staff of evidence items assigned to their custody by eMAIL (MS-Outlook).
+These e-mail notifications may be formatted as desired.
+
+Evidence Inventory Management
+
+EPM 57.00
+CR
+Ability to perform an inventory utilizing container and/or location bar codes and to produce a reconciliation report.  Reconciliation report shall list missing, misplaced, and unrecognized items in accordance with the assigned item location/disposition. 
+This report may be customized as desired.
+
+
+This Page Intentionally Blank
+Los Angeles County Sheriff’s Dept	C-91
+RFP #B1011 Forensic LIMS

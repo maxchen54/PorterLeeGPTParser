@@ -1,0 +1,842 @@
+Response to Illinois State Police
+IPB #22038769
+July 22, 2016 2:00 PM 
+Evaluation Warning: The document was created with Spire.Doc for Python.
+Section 3 - LIMS Requirements and Deliverables Checklist 
+LIMS Requirements Instructions -Offeror’s LIMS must satisfy several mandatory requirements.  For each requirement listed in the table below, Offerors are instructed to do the following:
+Indicate, for each requirement, whether the proposed solution or offeror meets or does not meet the requirement by placing an “X” in the appropriate column. In the row labeled “Explanation:” under each requirement provide a detailed explanation of how the requirement is met.
+Section 3.0 - LIMS Requirements
+3.0 LIMS Requirements
+Meets
+Does not Meet
+3.0.1
+The Offeror must have successfully deployed a LIMS and remains in production for a laboratory receiving at least 20,000 cases annually. 
+X
+
+Explanation: Porter Lee Corporation's Crime Fighter BEAST LIMS is currently in production at the NYPD Forensic Laboratory, which receives approximately 195,000 cases annually, and the Florida Department of Law Enforcement (FDLE), which receives over 20,000 cases annually. 
+3.0.2
+The Offeror’s LIMS must have been successfully deployed and remains in production for at least 3 laboratory systems currently accredited according to the International Organization for Standardization (ISO) 17025:2005.
+X
+
+Explanation: The majority of Porter Lee Corporation's customers are accredited. Specific agencies include the NYPD, Idaho State Police, Alabama Department of Forensic Sciences (ADFS), and the Florida Department of Law Enforcement (FDLE). 
+3.0.3
+The Offeror’s LIMS must have been successfully deployed and remains in production for at least 2 laboratory systems with each system having at least 3 separate laboratories.  
+X
+
+Explanation: Porter Lee Corporation has extensive experience deploying multi-site systems. Our LIMS has been successfully installed in a number of state and county laboratory systems. Three specific examples include the Wisconsin Department of Justice and the Idaho State Police, which both have three separate facilities, and the Florida Department of Law Enforcement (FDLE), which consists of six regional laboratories. 
+3.0.4
+The Offeror must provide system documentation, user manuals as well as discipline specific and end user training. Training must have both in person and online offerings.  
+X
+
+Explanation:  Porter Lee Corporation will provide the manuals and training as required. The documentation is provided in the following volumes: System Administrators Guide, User's Guide, LIMS Configuration Guide, and "Walkthrough Documents".  During configuration PLC and Laboratory staff will work together to create these Walkthrough Documents.  Initially the Walkthroughs are used to document workflow and validate testing.  Subsequently they are used during system acceptance and training. Online Training videos are available for system administrators to learn basic administrative tasks such as: User Profiles, Code maintenance, Item Type and Kit Setup, and maintenance of Custody Locations.
+3.0.5
+The Offeror must provide technical support, development, and software maintenance.  Service levels agreements must be included in contracts.
+X
+
+Explanation: Please see the following copy of Porter Lee Corporation's standard Support and Maintenance Agreement.
+
+Porter Lee Corporation Support and Maintenance Agreement
+
+
+
+Prepared by Porter Lee Corporation		Page 3 of 41
+Response to Illinois State Police
+IPB #22038769
+July 22, 2016 2:00 PM 
+1.  Parties. This Porter Lee Corporation Software Support and Maintenance Agreement is between Porter Lee Corporation ("PLC") and __________ ("Customer").  This Support and Maintenance Agreement is subject to the terms of the Professional Services Agreement and the Contract Documents, as defined in the Professional Services Agreement, entered into contemporaneously with this Support and Maintenance Agreement and to which this Support and Maintenance Agreement is attached.
+2.  Effective Date. The effective date of this Porter Lee Corporation Software Support and Maintenance Agreement ("Agreement") is the effective date of the Professional Services Agreement.
+3.  Term. The term of this Agreement shall commence upon Final Acceptance as defined in ____. of the Professional Services Agreement (“Commencement Date”) and shall be in effect and continue for a period of one (1) year unless and until terminated pursuant to Section 4 of this agreement and subject to Customer's proper performance of its obligations hereunder. This agreement shall automatically renew for a period of one (1) year, and will continue to automatically renew each year thereafter, until and unless either party provides written notice of intent to terminate renewal, no less than sixty (60) days prior to the Renewal Date. The Renewal Date shall be one (1) year, and each consecutive year thereafter, following the anniversary of the Commencement Date.
+4.  Termination. Either party may terminate this Agreement if the other party is in default of any of the terms and conditions of this Agreement, including but not limited to non-payment of fees and material breach, and fails to correct such default within thirty (30) days after written notice thereof from the other party.
+5.  Scope. Upon payment of the required Software Maintenance and Support Fee by Customer, PLC hereby agrees to provide software maintenance and support for the Crime Fighter Beast (Software) to Customer for the agreed upon term. PLC shall provide such software support and maintenance as may be necessary to maintain the Software in good operating condition and to meet the warranties set forth in the Contract Documents.  
+6.  Maintenance. PLC will provide all updates, enhancements to existing features, bug fixes, patches, upgrades, new releases, new versions, and modifications for the Software when it reaches production code for other customers at a rate of one free upgrade on an annual basis.  PLC will provide the corresponding up-to-date documentation with all such updates, patches, upgrades, new enhancements, bug fixes, new releases, new versions, and modifications. PLC will provide Customer with detailed documentation of all new features, updates, patches, upgrades, enhancements, bug fixes, new releases, new versions, and modifications as and when they reach production code for other customers. Customer has the option to incorporate these new features into existing systems. If additional customization hours are required by PLC to add these features, Customer must explicitly approve in writing the additional costs due PLC before implementation. PLC will not introduce enhancements to existing systems which require Customer to add such features. However, PLC reserves the right to incorporate new features to the base Software, provided it is implemented in such a manner as to be consistent with the previous sentence. Customer reserves the right to not upgrade to a new release of the Software. PLC will provide to Customer continued maintenance on previous Software versions should such an upgrade be released. All releases of the Software will be certified in Windows 7, and 10. All updates, patches, upgrades, enhancements, bug fixes, new releases, new versions, and modifications shall be compatible with the then most recent versions of Microsoft Internet Explorer.  No later than six (6) months following the release of a new version of the operating system, PLC will notify Customer of PLC's intention to convert the Software to the new release. Conversion will not require Customer to update to the new operating system. All customizations described in the Contract Documents (and any customizations subsequently acquired by Customer from PLC) shall be incorporated within the new releases and versions provided to Customer and Customer shall not be required to retrofit any of the customizations with the new releases or versions.
+7. Support. PLC establishes the following Technical Support guidelines:
+a. PLC Obligations. All support requests (toll free phone or email) will be given a ticket number and assigned to a PLC Support Staff Individual. When contacting PLC, Customer shall classify the priority level of the problem based on the criteria set forth below.  PLC shall not re-classify the problem without the County’s prior approval.  PLC shall respond to any problems reported by Customer according to the following priority levels:
+
+	Priority Level 1:
+(a) Definition:  The problem causes an immediate major impact on Customer’s business.  The Software or a significant component thereof is inoperable or substantially deviates from the specifications. No availability of an acceptable workaround or alternative solution.  
+(b)  Response:  PLC shall (1) respond to Customer within one hour of receipt of Customer’s report during standard support hours; and (2) provide an initial status report to Customer and regularly communicate thereafter.
+		(c)  Resolution:  Within one business day or an agreed upon due date.
+
+	Priority Level 2:
+(a) Definition:  The problem impacts daily processing or day-to-day functions of Customer.  An acceptable workaround or alternative solution is available.  
+(b)  Response:  PLC shall (1) respond to Customer within four (4) hours of receipt of Customer’s report during standard support hours; and (2) provide an initial status report to Customer and regularly communicate thereafter.
+(c)  Resolution:  Within five business days or an agreed upon due date.  
+
+	Priority Level 3: 
+(a)  Definition:  The problem requires correction but does not affect daily processing.  An acceptable workaround or alternative solution may be available. 
+(b) Response:  PLC shall (1) respond to Customer within twenty-four (24) hours of receipt of Customer’s report during standard support hours; and (2) provide an initial status report to Customer and regularly communicate thereafter.
+(c)  Resolution:  Within ten business days or an agreed upon due date.
+
+ 	At all priority levels, if a workaround is available or reasonably feasible, PLC shall provide a workaround to Customer within two (2) hours of discovery of the workaround. Once an available workaround or alternative solution is provided, the Parties shall mutually agree upon a reclassification of the Priority Level.  
+	
+	A “Root Cause” analysis shall be conducted to determine the nature of the reported issue.  If it is determined that the source of the system failure is due to Company software failure, the support services will be at no additional charge to Customer.  If the root cause is determined to arise from Customer negligence, misuse, third-party software or hardware failures, and/or new requirements, Customer may be invoiced for the additional support services provided by Company in efforts to resolve the reported issue.  Following Root Cause analysis, the Parties shall mutually agree upon a reclassification of the Priority Level.  
+
+ Standard Support Hours are Monday through Friday from 7:30 a.m. (CST) to 5:30 p.m. (CST), excluding federally observed holidays.  The Company will maintain an emergency support number for exceptional situations, to be used during Non-Standard Support Hours.  It is provided to the Customer’s designee. The number is answered by the Company’s Director of Customer Support, or his/her designee.  Because this contact is provided only for the most extreme of circumstances, Customer will ensure Priority Level 1 criteria are met prior to initiating contact, and the Company will treat the situation as Priority Level 1 upon the start of the next period of Standard Support Hours.
+b. Customer Obligations. Only Customer's trained technical staff is granted permission to contact PLC's Support Center for assistance without the express written consent of PLC. Customer agrees to supply PLC with the means to remote access to the Customer's technical architecture for trouble shooting, problem resolution, and general support. Customer will provide the necessary access for a limited time for such support, as well as for releases and patches.  PLC agrees to comply with Customer’s remote access policies, procedures, and guidelines.  Prior to obtaining remote access, PLC’s employees shall agree in writing to comply with all of Customer’s remote access policies, procedures, and guidelines.  
+8.  Fees.  Final Acceptance of the Software, as defined in ______ of the Professional Services Agreement, annual maintenance and support shall commence and PLC shall invoice Customer for the annual support and maintenance fee set forth in the Cost Proposal. In subsequent years, PLC shall invoice annual maintenance and support fees prior to the expiration of the prior annual maintenance and support period and Customer shall pay such invoice within thirty (30) days of its receipt, unless support is terminated.  The annual cost for the Software Maintenance and Technical Support is specified in the Cost Proposal.  Payment shall be due and payable as set forth in the Payment Schedule, to the Professional Services Agreement.   Any such increases shall be set forth in the annual renewal notice. All software additions related to the reliability or operation of the Crime Fighter BEAST (Software), including updates, patches, upgrades, enhancements, bug fixes, new releases, new versions, and modifications will be provided at no additional cost. Customer will be granted one upgrade to the latest version of the Software annually, without additional cost. Further upgrades or individualized customizations will be billed to the Customer on a case by case basis.
+9.  Programming Credit Plan. A programming credit of eleven percent (11%) of the total support and maintenance cost is available to Customer per the PLC programming credit policy. 
+10.  Notices. The Professional Services Agreement shall govern the provision of notices hereunder.
+11.  Successors. This Agreement will be binding upon and will inure to the benefit of the parties hereto and their respective representatives, successors and assigns except as otherwise provided herein.
+12.  Severability. In the event any provision of this Agreement is determined to be invalid or unenforceable, the remainder of this Agreement shall remain in force as if such provision were not a part hereof.
+13.  Governing Law/Forum. This Agreement shall be governed and interpreted by the laws of the State of Illinois. Cook County, Illinois shall be the appropriate venue and jurisdiction for the resolution of any disputes hereunder to the exclusion of all other venues, forums, and jurisdictions. 
+14.  Non-Assignment. This Agreement and the rights assigned within it may not be reassigned, sublicensed, or otherwise transferred by either party without the prior written consent of the other party.
+15.  Entire Agreement. The Contract Documents, as defined in the Professional Services Agreement to which this Agreement is attached to and incorporated in sets forth the entire understanding between the parties with respect to the subject matter hereof, and merges and supersedes all prior agreements, discussions and understandings, express or implied. This Agreement shall take precedence over any additional or conflicting terms which may be contained in Customer's purchase order or PLC's order acknowledgment forms.
+16.  Warranty.  PLC warrants that all maintenance and support provided under this Agreement shall be provided by qualified, trained individuals in a professional and workmanlike manner consistent with industry standards and in accordance with the terms, specifications, and requirements of the Professional Services Agreement.  PLC makes the warranties set forth in the Software Warranty Agreement, which is the Professional Services Agreement, which are incorporated herein by this reference.
+17.  Additional Services.  Additional services, including additional customizations, can be requested by Customer and PLC will make these services available at a cost of $168.75 per hour as authorized by the Customer.  This rate will remain in effect for three years from Final Acceptance and then will be available at PLC’s then current hourly rate.
+
+Prepared by Porter Lee Corporation		Page 3 of 41
+Response to Illinois State Police
+IPB #22038769
+July 22, 2016 2:00 PM 
+LIMS Deliverables Checklist Instructions -Offeror shall complete the entire LIMS Deliverables Checklist included below. For each category on the checklist, the Offeror shall assign a numeric score to indicate how their LIMS solution addresses each deliverable. The Offeror will assign a numeric score of 1, 2, 3, 4, or 5 for each category on the checklist. The below table defines the criteria for the numeric scores. The State reserves the right to make awards to multiple vendors. Vendors may be contracted to perform different categories of LIMS deliverables. 
+
+Definition 
+Score
+Out-of-the box/user configurable – The functionality is available without modification to the application or through configuration available to the end user.
+5
+Administrative configuration – The functionality is available through configuration settings or tools intended for use by trained application experts.
+4
+Minor administrative customization or dependence on third-party product included – The functionality is available through a third party product included or delivered with the system and intended to be performed by systems experts.
+3
+Major administrative customization or dependence on third party product not included – The functionality is available through a third-party product not included or via advanced programming by the offeror.
+2
+Partially met requirement or supplier-supported customization required – The functionality is not available or customization is not supported.
+1
+
+In the row labeled “Explanation:” under each deliverable, the Offeror should provide an explanation of how the deliverable is met. For all scores of “3” and “2”, the Offeror must include the estimated number of hours required to complete the customization or third party product integration in the associated row labeled “Explanation”. 
+The Offeror may also include additional information (e.g., application screenshots or other documentation to demonstrate how their LIMS solution satisfies the deliverable). This information should be included after each sub section in space labeled “Additional Information by Offeror:”
+Offerors will be provided with additional documentation on FSC systems and protocols during the mandatory Offeror conference.
+
+
+Section 3.1 - LIMS Deliverables Checklist 
+
+Scoring Criteria
+3.1 Evidence Intake and Tracking
+3.1.1
+The LIMS documents the chain of custody for all evidence from laboratory submission to final disposition. 
+5
+Explanation: Each item of evidence that enters the laboratory system will have its own complete chain of custody that identifies each location and person where the item has traveled through the final disposition.  The complete chain of custody for any item can be found on the Custody within the case.  This can also be printed for one or more items within the case as well.
+3.1.2
+The LIMS allows for all of the information on forms to be imported or manually entered. 
+5
+Explanation: The Crime Fighter BEAST LIMS provides functionality for the importing of data from forms or manually entered at intake of submissions of evidence.  The Intake Screen <screenshot> can be populated manually or from the import of data from the Web Prelog function or 2D barcode scan from departments who have the Porter Lee Property and Evidence program or have been issued the Porter Lee stand- alone Evidence logging application.  Additionally, interfaces to other systems (e.g. etrack from Chicago PD) will also populate the intake screen.
+3.1.3
+The LIMS records each person taking possession of an exhibit of evidence, the date and time of the transfer, and the location of the exhibit(s) and sub-exhibit(s). 
+5
+Explanation: The transfer of custody of every exhibit and sub-exhibit involves the recording of the person performing the transaction, the person/location where the item(s) are moving, the person/location where the item(s) are currently located and the date and time of the transfer.  
+3.1.4
+The LIMS produces identification labels for evidence with relevant case information. 
+5
+Explanation: All labels generated by the Crime Fighter BEAST LIMS, including evidence labels, are completely configurable to display any relevant case information.  Below is an example.
+
+3.1.5
+The LIMS performs both single and multiple item transfers while maintaining a record of chain-of-custody.
+5
+Explanation: The Crime Fighter BEAST LIMS provides for transactions involving single and multiple items and automatically updates each item’s chain of custody with the transactional information.
+3.1.6
+The LIMS requires two person chain of custody transfers which require unique credentials to be logged to effect transfers. 
+5
+Explanation: When two person transfers occur, the BEAST LIMS requires both credentials from the involved parties before the transfer can be completed.
+3.1.7
+The LIMS permits the creation of specific locations and sub locations within the Laboratory where evidence may be stored. 
+5
+Explanation: The LIMS provides for the complete creation and management of all locations and sub locations within the entire Laboratory system.
+
+Scoring Criteria
+3.1.8
+The LIMS utilizes bar coding for evidence receiving, tracking, and inventory. Bar code symbology should be capable of capturing relevant case information.
+5
+Explanation: The use of bar coding in the LIMS is extensive and includes tracking of evidence, inventory and evidence receiving.  Porter Lee incorporates both 1D and 2D (PDF417) bar code technology.  For example, evidence submissions from disconnected systems (e.g. Porter Lee stand-alone evidence logging application) utilize 2D barcodes which contain all necessary case information which, when scanned will be imported into the LIMS evidence intake screen.
+3.1.9
+The LIMS provides the ability to print the entire chain-of-custody for each submitted exhibit(s) and sub-exhibit(s).
+5
+Explanation: On the Custody Tab in LIMS, users can see and print complete the complete chain of custody for any and all items within the case. 
+3.1.10
+The LIMS allows the ability to manage packaging and repackaging information for containers with multiple cases and exhibits and sub exhibits within cases. 
+5
+Explanation: Packaging and repackaging information can be recorded in the LIMS under the Items and Container functions.  The container feature of the LIMS provides for the packaging of items from single cases and multiple cases for easy handling of several items.  Case containers are utilized for the packaging of multiple items from a single case whereas Bulk container provide for the packaging of multiple items and case containers from multiple cases together in a single package.
+3.1.11
+The LIMS generates an evidence receipt for the submitting agency as a record of transaction. The record will contain a complete chain-of custody record for all exhibit(s) and sub-exhibit(s) listed.  
+5
+Explanation: Upon evidence submission, the LIMS generates a receipt for the submitting agency which can be configured to show whatever information ISP desires, including complete chain of custody.  It should be noted, however, that since the chain of custody actually begins with evidence submission, it is not customary to include a complete chain of custody, but it certainly can be displayed.  Porter Lee will work with ISP to ensure all required information will be displayed on the Evidence Submission Receipt.
+3.1.12
+The LIMS allows the creation of multiple sub-exhibits (i.e., parent, child, grandchild); the relationship shall be apparent in the numbering scheme; repackaging of sub-exhibits must be allowed and tracked. 
+5
+Explanation: The LIMS provides for the creation of multiple sub-exhibits and multiple generations of offspring from parent items.  Typically, most laboratories follow a numbering scheme such as 1.1 or 1.1.3, etc. but the LIMS is configurable to allow for an Alpha-numeric nomenclature such as 1A, 2B, and 1C1.  Each sub-exhibit’s packaging/repackaging is recorded and its chain of custody tracked.
+3.1.13
+The LIMS allows evidence intake staff, analysts, and managers to conduct inventories of items assigned to specific locations and persons. 
+5
+Explanation: The inventory function of the LIMS provides for any authorized users to conduct inventory audits of items assigned to specific locations and persons. 
+3.1.14
+The LIMS allows chain of custody evidence audits of locations and persons. 
+5
+Explanation: The inventory function of the LIMS provides for any authorized users to conduct inventory audits of locations and persons where evidence is assigned.  A reconciliation report is then provided to show which items are missing and which are included but should not be.
+
+Scoring Criteria
+3.1.15
+The LIMS allows for law enforcement agencies to submit case and evidence information prior to submitting evidence via a secure web connection or portable electronic media. Specific interfaces will be required for some agencies (i.e., Chicago Police Department). 
+5
+Explanation: The Prelog functionality of the LIMS provides for the complete electronic entry and monitoring of evidence by submitting agencies over a secure web application.  Agencies are able to not only enter case and evidence information but also specific forensic requests with supplemental information requested by the laboratory.   Additionally, the use of electronic media and 2D barcodes is also supported.  Porter Lee acknowledges and accepts that specific interfaces may need to be developed for some agencies such as Chicago Police Department.
+3.1.16
+The LIMS searches existing cases by submitting agency and displays results prior to permitting the issuance of a new case number. 
+5
+Explanation: At intake, users will search the existing cases within the LIMS to see if evidence submissions belong to an existing case or if a new case number must be generated.  
+3.1.17
+The LIMS allows for multiple law enforcement agencies to submit evidence under the same laboratory case number.
+5
+Explanation: The LIMS is designed to provide for multiple agencies to submit under the same laboratory case number.  Thus, each submission records the submitting agency, agency case number, investigating officer and other agency specific information.
+3.1.18
+The LIMS has a modifiable type and status function for each item which permits tracking of item type (e.g., sexual assault kit), forensic discipline(s), criminal offense code, and workflow status (e.g., received, pending, completed).  
+5
+Explanation: LIMS extensively uses code tables and status tables to track a multitude of elements found in operations.  Item type, forensic discipline, offense code, and assignment (workflow) status are just a few of the many configurable and modifiable fields within the LIMS.  The LIMS is set up to provide the automatic update of statuses where appropriate.
+3.1.19
+The LIMS can intake evidence on an existing case that was previously submitted by a different agency. 
+5
+Explanation: The LIMS can received additional evidence on cases previously submitted by a different agency.     
+3.1.20
+The LIMS allows the submission of evidence from a stand-alone application for agencies without internet access.  
+5
+Explanation: Porter Lee has a stand-alone application which may be distributed to local agencies who do not have internet access.  Submissions can be received either from electronic media, email, or 2D barcode.
+3.1.21
+The LIMS permits the submission and tracking of sexual assault cases as outlined in the Illinois Sexual Assault Evidence Submission Act.
+725 ILCS 202/et seq.
+5
+Explanation: The Crime Fighter BEAST LIMS can track all necessary details surrounding sexual assault cases from the initiation of the case by the collection facility, local agency, to the Laboratory submission, analysis, DNA database registration, certification, and expungement. 
+Section 3.1 – Additional Information by Offeror:
+
+Scoring Criteria
+3.2 Work Item Assignments / Case Management
+3.2.1
+The LIMS provides a configurable workflow manager across disciplines to assign and track all casework including unassigned cases, uncompleted cases, assignments of cases, rush cases, cases prioritized by court date, and cases awaiting peer review. 
+5
+Explanation: The Case Manager function within the LIMS provides for complete management of assignments by discipline.  This function allows for batch assigning of unassigned cases, reprioritization based on rush status and court dates.  The batch routing function triggers the management of cases awaiting peer review so as to notify reviewers that cases need to be reviewed. 
+3.2.2
+The LIMS allows supervisors, or designees, the ability to assign work in progress to individual analysts by discipline.
+5
+Explanation: Authorized users have the ability to assign cases to individual analysts who have been configured to be able to complete analyses for the forensic discipline requested.  
+3.2.3
+The LIMS allows supervisors the ability to review all cases and reassign cases to individual analysts by discipline. 
+5
+Explanation: Supervisors can review current status of all open assignments by discipline and reassign cases to individual analysts.
+3.2.4
+The LIMS allows analysts and/or supervisors to review all case and evidence data for items with a pending status prior to assignment. 
+5
+Explanation: All case data and request information is available for review by all authorized users prior to assigning.  This data can be viewed in one simple view without having to navigate to several different areas. 
+3.2.5
+The LIMS allows the analyst and/or supervisor the ability to transfer evidence into a personal locker or storage area. 
+5
+Explanation: All authorized users have the ability to transfer evidence into any configured location they have access to, including personal lockers and storage areas.
+3.2.6
+The LIMS permits analysts to record completed activities against the work assignment. 
+5
+Explanation: Analysts working on assignments are able to record all tests, notes, examinations, tasks, and other activities as they complete them.
+3.2.7
+The LIMS provides the ability to list all unassigned work by discipline. 
+5
+Explanation: The Assignment Search feature provides for the searching of all pending work, including those assignments that are not yet assigned to an analyst. 
+3.2.8
+The LIMS records, schedule, and track court activities and court appearance by case, analyst, discipline. 
+5
+Explanation: All court related activities can be recorded in the case with completely configurable fields such as discipline, court date, analyst, discipline, court location, time traveled, testimony monitoring, etc.
+
+Scoring Criteria
+3.2.9
+The LIMS permits the identification and tracking of specific cases and evidence within cases for priority (i.e., rush) assignments. 
+5
+Explanation: The Assignment Priority field provides for the setting of priority such as rush which can then be searched in the Assignment Search feature.  Additionally, notifications can be made to the appropriate supervisors and/or analysts that priority assignments have been generated.
+3.2.10
+The LIMS permits the appropriate law enforcement agency or State’s Attorney’s Office to request priorities for case assignments. This must be through a secure web portal. 
+5
+Explanation: The Web Prelog application of the LIMS can be configured to provide law enforcement agencies and State’s Attorney’s Offices to request priorities for submitted cases.
+3.2.11
+The LIMS provides the ability to track and manage outsourced cases. 
+5
+Explanation: Porter Lee has worked with many agencies that outsource especially within the Biology/DNA section. Most recently, we provided the means of managing and tracking Databank samples with vendors, Orchid Cellmark and BODE. By utilizing the manifest, the outsourcing vendor provides, we are able to import, track, and store the sample information as well as each sample's DNA profile. Having the sample information then readily available within LIMS allows the analysts to evaluate the data, export the profiles to CODIS, and write reports and/or letters with the capability of cross referencing Casework cases. This allows the laboratory to continue with a paperless system.
+       Section 3.2 – Additional Information by Offeror:
+
+
+Scoring Criteria
+3.3 Lean Laboratory/Continuous Improvement
+3.3.1
+The LIMS allows for the automation of the controlled release of work into the laboratory based on the workload levelling strategy. 
+4
+Explanation: The LIMS has the ability to set workload thresholds as to what cases can be assigned and released into the laboratory.  Once existing workloads dip below a threshold, assignment made be updated automatically so they are available for work. Until that time, assignments may be placed in a “Hold” status.
+3.3.2
+The LIMS allows for visual and quick assessment of the workflow process at strategic points. 
+5
+Explanation: The Workflow Manager function displays a graphical representation of the workflow process so that evaluators can monitor where strategic bottlenecks may exist.
+3.3.3
+The LIMS provides tools that map actual workflow identifying potential failure points. 
+4
+Explanation: See 3.3.2 above.
+       Section 3.3 – Additional Information by Offeror:
+
+
+
+Scoring Criteria
+3.4 System Infrastructure and Security 
+3.4.1
+The LIMS logs all case information accessed by users and administrators and stores these records in a searchable format for upper management.
+5
+Explanation: Application Level Audit Logging is available for searching out of the box. This allows the LIMS administrator to search, view, and print all case and configuration changes made by LIMS users through the LIMS application.  The DBA can also implement database level logging if desired. This type of logging is extremely resource intensive if implemented across all tables in the database. Although it is supported by the database, database Level logging is not configured by PLC.
+3.4.2
+The LIMS has the ability to manage the volume of data produced by the laboratory. 
+5
+Explanation: The LIMS is compatible with SQL Server and Oracle either of which can store multiple terabytes of data. The LIMS application itself is currently run in large enterprise level environments including Los Angeles County Sheriff’s Department and New York City Crime Lab.
+3.4.3
+The LIMS exhibits low network latency during interactions.
+5
+Explanation: The LIMS is a multi-tier, browser based application which is designed to provide a responsive interface for the users; the LIMS uses a combination of JavaScript, AJAX, Local URI and Web Services, Web Server Caching, Report Server Offloading, server side processing using stored procedures, and Database indexing to accomplish this.
+3.4.4
+The LIMS provides a mechanism to archive data, including metadata.
+3
+Explanation: Large DATABASE tables including AUDITLOG, ARRESULT, PDFDATA, OLEDATA can be moved to an archive instance of the database and accessed using JOIN statements.  Data from the ARCHIVE Database can be move off line and restored as needed by the DBA.
+3.4.5
+The LIMS is based on a reliable, effective, and supported data storage system, preferably Microsoft SQL Server or Oracle.  
+5
+Explanation: MSSQL and ORACLE are both supported fully. ISP can decide which database works the best for them. PLC has large enterprise level customers who use both.
+3.4.6
+The LIMS provides an interface to a third-party reporting tool. 
+5
+Explanation: The LIMS provide an interface to SAP Crystal Reports. PLC is currently implementing an interface to Microsoft Power BI in 2016. Which will become an optional interface starting in 2017.
+3.4.7
+The LIMS data storage mechanism supports the ability to modify data structures as needed. 
+4
+Explanation: Several application modules support “User Definable” data fields that can be edited by the LIMS system administrator.  Also, columns can be added to the database tables by the DBA and incorporated into the LIMS using technology named PLCDBPANEL and PLCDBGRID. This allows new columns to be added along with the business rules that make them useful without having to modify the base system software.
+3.4.8
+The LIMS data storage tools allows for minimally three environments (development, test, production) and the ability to move records from one environment to the other. 
+4
+Explanation: Each environment can exist independently from each other and the DBA can move records from one to another. There is no LIMIT to the number of environments other than available hardware and storage capacity. The LIMS provides a utility that can copy a case from one database to another.
+
+Scoring Criteria
+3.4.9
+The LIMS data storage tool has the ability to fine tune performance and security of the data.
+4
+Explanation: Security can be fine-tuned by a DBA or Authorized LIMS Administrator. A DBA might be tasked to create a ROLE for an external interface. The LIMS Administrator would maintain application security groups.
+3.4.10
+The LIMS data storage tools support industry best practices for backup and recovery.
+4
+Explanation: SQL (Server) Management Studio (Or Oracle Enterprise Manager) can be used to configure database backups and restores when necessary. Both of these RDMS systems are compatible with all major backup and recovery tools.
+3.4.11
+The LIMS architecture is clearly separated into logical modules with standard interfaces between the modules. 
+5
+Explanation: The LIMS consists of a main component that allows cases and evidence to be received and custody and workflow to be tracked.  It also includes several optional but fully integrated modules, namely:  Service Requests, Analysis Reports, Management Reports, Laboratory Asset Management (LAM), Quality Management System (QMS), DNA Analysis, Instrument Interface, Prelog and Department Inquiry Portal. These modules are loosely coupled allowing the LIMS to function without any of them giving the lab the ability choose specific modules for implementation. PLC proposes implementing function across all modules to meet the specifications of this RFP.
+3.4.12
+The LIMS utilizes the hardware platform as efficiently as possible to allow for concurrent usage and high peak usage. 
+5
+Explanation: LIMS is an ASP.NET application which can run on a single web server or can be scaled to use multiple web and report servers. The system can also be configured to make use hardware or software load balancing and/or web gardens.
+3.4.13
+The LIMS data storage tools are replicable to ensure recoverability in the event of hardware failure.
+5
+Explanation: The LIMS Database (both SQL Server or Oracle) can be run in a clustered or replicated environment high availability environment.
+3.4.14
+The LIMS has the ability to run on Windows PCs, Windows mobile devices, and iOS mobile devices. 
+5
+Explanation: The LIMS can run on HTML5 Compatible browsers such as IE11, Edge, Chrome, Firefox, and Safari.
+3.4.15
+The LIMS utilizes Microsoft Active Directory for a single logon experience for workstations and LIMS administrators. 
+5
+Explanation: The LIMS is compatible out of the box with Active Directory and Single Sign on.
+3.4.16
+The LIMS maintains control of all records in a manner to comply with ISO/IEC 17025:2005.
+5
+Explanation: Many of our customers are periodically audited for ISO17025 compliance and have become certified. The proposed LIMS was developed from the start in this environment and has become a helpful tool that can be utilized to meet ISO requirements.
+
+Scoring Criteria
+3.4.17
+The LIMS handles criminal justice information in compliance with the FBI’s Criminal Justice Information Services (CJIS) Security Policy.
+https://www.fbi.gov/about-us/cjis/cjis-security-policy-resource-center/view
+4
+Explanation: The LIMS will be installed and configured in a manner that will comply with CJIS Security Policy as implemented by ISP.
+3.4.18
+The LIMS permits access to previously released analysis, administrative and statistical reports from a secure web site.
+5
+Explanation: The Department Inquiry Portal provides access to final analytical reports as well as any statistical reports that ISP wishes to publish for authorized users.  
+       Section 3.4 – Additional Information by Offeror:
+
+Scoring Criteria
+3.5 Integration and Interfaces
+3.5.1
+The LIMS has the capability to trigger an instrument event based upon the number of uses of that instrument. 
+4
+Explanation: LIMS System Administrators can control notifications sent as a result of instrument usage. For example, is an instrument is used on 100 assignments, the system can send an email to the quality department to let them know it is time for service.
+3.5.2
+The LIMS is able to automatically take an instrument offline when calibration or maintenance dates expire. 
+5
+Explanation: The system automatically disables use of Instruments or Chemicals which have expired or been placed out of service due to maintenance issues.
+3.5.3
+The LIMS provides auto sampler and robotic controls.
+5
+Explanation: The Crime Fighter Beast has integrated with a series of instruments within the DNA Module as well as the Toxicology Module via barcode integration or import and export files. Instruments integrated with include, but are not limited to the following: BSD Punch, Wallac Punch, Copan Punch, Maxwell, Hamilton, Automate, QiAgility, EpMotion, QiaCube, QiaSymphony, 7000, 7500, RotorGene, Biomek, Tecan, 310, 3130, 3500, Genemapper, Agilent Gas Chromatograph / Headspace GC, Olympus, Tecan Evo Freedom, Dynex DSX ELISA , Perkin-Elmer Volatiles (Headspace-GC), BD Viper, Balances.
+3.5.4
+The LIMS captures the personnel or instrument information relating to results/determinations entered into the system.
+5
+Explanation:  The LIMS allows all analytical work performed to be linked to the instruments, equipment used as well as the technicians who performed it. The DNA Module specifically allows for the storing of employee's DNA profiles in order to check cross contamination against the imported resulting batch data from Genemapper. Results and interpretations can then be made on the probability and frequency of the profiles prior to exporting the data to CODIS from within LIMS. 
+3.5.5
+The LIMS transfers the sequence of unknown samples and control standards in cases where the instrument interfaces with the LIMS.
+5
+Explanation: With all instrument interfacing, files can be exported to the instrument for set-up and analysis. The file contains the sequence and location of each sample for the instrument to then identify. Instruments capable of reading barcodes such as, but not limited to Hamilton Tecan, will read the barcode on each test tube to identify the sample and its location on the actual instrument.
+
+Scoring Criteria
+3.5.6
+The LIMS accepts the instrument results in cases where the instrument interfaces with the LIMS. 
+5
+Explanation: After the instrument has finished its analysis, files can be exported from the instrument and then accepted into LIMS. LIMS will pull all necessary information determined by the laboratory from the file and store it electronically within the associated module. Data and samples can be flagged if thresholds are not met. Calculations can be automatically applied throughout the process where needed as well.
+3.5.7
+The LIMS supports integration with simple laboratory instruments via multiple communication transmissions (e.g., RS 232, LAN cable, or Bluetooth serial converter connection).
+5
+Explanation: LIMS instrument integration can be done with multiple communication channels. The LIMS software and the instrument integration follows the requirements of laboratory procedure and protocol.
+3.5.8
+The LIMS supports bi-directional interface with complex laboratory instrumentation software.  
+5
+Explanation:  Bi-directional interfacing with complex laboratory instrumentation software can be accomplished in several manners including, but not limited to import and export files between the instrument software and LIMS. Barcodes can and will be incorporated throughout the process, provided the instrument allows for such functionality.  Interfacing to some instruments is done through direct connection using serial or USB ports.
+3.5.9
+The LIMS provides utilities to allow for calculations to be performed with result data, inter and intra test, inter and intra sample including the use of advanced mathematical functions.
+5
+Explanation: The Crime Fighter Beast provides at multiple steps throughout the analytical process the capability of performing calculations on data imported from instrument software, or data manually entered by an analyst. Advanced mathematical functions and calculations can be handled entirely by the program software, eliminating human error. These functions and calculations can be applied within, for example the DNA Module, or within the Report Writing area of the program to determine and report out uncertainty of measurement. 
+3.5.10
+The LIMS provides the ability to track the inventory amounts of commodities. 
+5
+Explanation: The Crime Fighter BEAST LIMS provides the ability to track the amount of commodities through the Laboratory Asset Manager (LAM) module. 
+3.5.11
+The LIMS provides a means to communicate status changes for dynamic entities (samples, lots, instruments) to and from external systems. 
+5
+Explanation: The proposed LIMS supports bidirectional communications to external systems using built in as well as custom industry standard APIs. For example, database mail can be configured to notify external systems.  
+3.5.12
+The LIMS provides a means to communicate status changes to external systems. 
+5
+Explanation: The Crime Fighter BEAST LIMS provides a means to communicate status changes to external systems. All notifications can be configured within the system. 
+3.5.13
+The LIMS has a well-documented application programming interface (API) for interfacing with the application’s underlying functionality at a granular level. 
+5
+Explanation: The LIMS Configuration Guide defines the API used to modify database grids, edit panels, and crystal reports used in the system.
+
+Scoring Criteria
+3.5.14
+The LIMS provides a means to integrate and exchange data based on common methods based on the National Information Exchange Model and related Information Exchange Package Documentation (IEPD). 
+2
+Explanation: The system can produce or accept data in XML format. Database Jobs and Triggers can be configured or programmed to send or receive NEIM compatible data packets to/from interested parties assuming the specific requirements are provided to PLC. The cost for development of an api for general import and export of data in NEIM format is included and is estimated to take 120 hours.
+3.5.15
+The LIMS supports interfacing with enterprise resource planning (ERP) systems, particularly SAP. 
+2
+Explanation: The hourly cost for development of an interface to SAP’s ERP system is provided in the cost proposal. When provided with specific requirements PLC will provide a time estimate for developing the interface.  It is expected that ISP will provide access to any development environment, toolkits or licenses required to create these interfaces.  This has been estimated to take 80 hours.
+3.5.16
+The LIMS interfaces with enterprise middleware and web services.
+2
+Explanation: The system can produce or accept data using web services or middleware APIs. The cost for development of specific or custom interfaces is provided in the cost proposal. When provided with specific requirements PLC will provide a time estimate for developing the interface.  It is expected that ISP will provide access to any development environment, toolkits or licenses required to create these interfaces. The cost to develop a custom web service is estimated to be 80 hours.
+3.5.17
+The LIMS has the ability to interface with radio-frequency identification (RFID) to track property and evidence.
+5
+Explanation: The LIMS is capable of utilizing RFID chips embedded in the labels. Special printers and scanners are required for encoding and scanning these chips. Specific types of chips are required based on the type of material they will be affixed to as well as the read range the chips will be required to support.  
+3.5.18
+The LIMS has the ability to interface with barcode scanners and digital signature pads. 
+5
+Explanation: The Crime Fighter BEAST LIMS supports both 1D and 2D barcode scanning and has the ability to interface with digital signature pads. 
+3.5.19
+The LIMS allows for the capture of electronic signatures, preferably DocuSign.
+2
+Explanation: The proposed LIMS includes a customization to integrate DocuSign into the LIMS. This is estimated to take 80 hours.
+3.5.20
+The LIMS has the capability to deliver integrated and standalone object repositories to allow for digital media storage (photos, text, video, voice, etc.) with seamless integration.
+5
+Explanation: The existing LIMS includes the Image Vault module which a fully integrated image storage and retrieval system. In addition, In addition PLC proposes to develop an interface with the Foray system currently in use at ISP.
+3.5.21
+The LIMS allows the external scheduling of appointments for evidence submissions from a secure web site.
+2
+Explanation: PLC proposes to add this functionality to the PRELOG portal for no additional cost as a part of the delivered LIMS. The work is estimated to take 40 hours.
+
+Scoring Criteria
+3.5.22
+The LIMS communicates with the Automated Fingerprint/Biometric Identification System (AFIS/ABIS) systems, utilizing universally accepted language in ANSI/NIST compliant record format.  
+3
+Explanation: The LIMS can communicate with any available AFIS/ABIS system and will work with ISP in defining and implementing the required interface to these systems.  It is anticipated that it will take approximately 80 hours for the complete interface based on all the requirements set forth in 3.5.22-3.5.28.
+3.5.23
+The LIMS communicates with AFIS/ABIS systems to both send and receive data in NIST compliant packages and be able to separate that data into the appropriate fields for the creation of LIMS reports and tables.  Two way communication may be through a secure singular or circular connection.
+3
+Explanation: Any interface with AFIS/ABIS systems will be bidirectional and will populate the appropriate data fields to create LIMS reports.
+3.5.24
+The LIMS provides the Latent Fingerprint Examiners with AFIS/ABIS results of searches on a readable, storable format including data in a .pdf format sent as Type 20 record.
+3
+Explanation: Search result output received from AFIS/ABIS systems can be compiled in various formats including pdf.
+3.5.25
+The LIMS logs and reports errors in sending or receiving messages between the AFIS/ABIS system and the individual latent fingerprint analyst. 
+3
+Explanation: The AFIS/ABIS interface will log any errors in the transmission of data with the LIMS.
+3.5.26
+The LIMS receives updates on latent impressions that have been registered, deleted, modified in the AFIS/ABIS system, or sent to other AFIS systems, including the FBI’s Next Generation Identification (NGI) system and Chicago Police Department’s AFIS system. Updates to records on the AFIS/ABIS system will reflect the updated status to the individual latent fingerprint analyst. 
+
+Explanation: All updates furnished by the AFIS/ABIS system can be stored in the Crime Fighter BEAST LIMS and supplied to the individual latent fingerprint analyst and anyone else who needs to monitor the updates.
+3.5.27
+The LIMS tracks all transactions sent to the AFIS/ABIS system and provide a systems report to the LIMS Administrator.
+3
+Explanation: System reports can be created of all transactions of the AFIS/ABIS interface and made available to the LIMS Administrator.
+
+Scoring Criteria
+3.5.28
+The LIMS integration will not affect the operations of the AFIS/ABIS system in performing its functions.
+3
+Explanation: Porter Lee acknowledges this requirement.
+3.5.29
+The LIMS integrates with the National Integrated Ballistics Information Network (NIBIN) system permitting bi directional flow of case information. 
+5
+Explanation: The Crime Fighter BEAST LIMS formats the image according to the specification of the NIBIN and sends it to NIBIN. When the LIMS obtains the results, the LIMS will process the results and associate them with the specific assignment or case and notify the user.
+3.5.30
+The LIMS integrates with the Combined DNA Index System (CODIS) systems permitting bi directional flow of case information.
+5
+Explanation: The Crime Fighter BEAST LIMS has a bi directional interface to communicate with CODIS. The LIMS accepts the export file from CODIS and processes it on a daily basis. If samples are removed from CODIS, the user gets notified to take necessary action for expungement. The LIMS can be configured to perform auto expungement as well. The user is also notified of the statistics of the import process, for example, total number samples processed, samples missing in the LIMS, etc.  The LIMS creates the CMF file to upload to CODIS, and has the ability to mark the samples for CODIS upload upon processing the sample or upon technical review completion.   
+      Section 3.5 – Additional Information by Offeror:
+Crime Fighter BEAST LIMS RFID Integration
+The Crime Fighter BEAST LIMS offers RFID integration for evidence, files and asset tracking.  Currently this feature is being implemented as an enhancement to the established barcode tracking solution.  The RFID tracking option provides the following:
+         Portal tracking (e.g. evidence passing in and out of an evidence vault doorway is logged)
+         Exit Portal Alarm (e.g. in addition to logging evidence “traffic”, doorways can be designated to alarm uncertain conditions.  For example, an alarm will sound if an evidence item has a current custody of a lab location or status and an officer walks through the portal with that evidence to leave the building). 
+         Notifications (e.g. at each facility, a group of people can be designated to receive a notification when there is an exit portal alarm.  This notification can be configured to provide the desired information about the location, package etc.)
+         Handheld locator (e.g. a portable handheld device can be used to locate a particular piece of evidence within an evidence room)
+
+Porter Lee uses Active RFID Link Technology.  The integration of the RFID solution is seamless to business processes in that it does not require additional RFID “scan to associate” steps.  Zebra RFID printers directly encode the chips within the labels with unique identifying information.  This important link of information is at the same time stored within the LIMS database.  The end user experience is that they simply print the label with its typical visual identifying information (e.g. unique case number, item number and barcode) within the LIMS.  Behind the scenes the LIMS will immediately have the ability to recognize the emission of the chip when it encounters a reader.  If relabeling ever needs to occur, a new RFID label can be associated to an existing item in LIMS by having an authorized user simply reprint a new label.  
+
+RFID Chip - Passive RFID chips are inlayed within barcode labels.  The term passive simply means that the reader, when in range, activates the barcode with an energy pulse and then the chip in the label sends a signal back.
+
+RFID Antennas/Readers - Leveraging the advancements in tag and reader sensitivity that no longer require facing left and right handed polarized antenna portal type configuration, The Crime Fighter BEAST LIMS uses the latest readers and cutting edge antennas with circular polarization from Alien Technology.  
+
+Future BEAST LIMS RFID feature Roadmap
+
+Future extensions of functionality may include, but are not limited to:
+         RFID tracking on racks and instrumentation through an integrated analysis process (e.g. DNA sample analysis)
+         Inventory Audits
+         Supply Re-ordering and Asset Maintenance
+         Expanded notifications on evidence and asset movement
+         Item Type specific customizations (e.g. Sexual Assault Kit Tracking and Result notifications)
+
+Scoring Criteria
+3.6 Statistics/Reporting
+3.6.1
+ The LIMS has a dashboard screen which permits laboratory managers to run predesignated statistical reports. 
+5
+Explanation: The LIMS has a Reports panel on the dashboard that allow authorized users such as laboratory managers to run a variety of statistical reports that come with the LIMS system.  Reports on Cases, Submissions, Assignments, and Reports are common reports included.  Additionally, custom reports can be generated, configured, and assigned to report groups so that users with access to those report groups can run the reports.  For instance, custom reports pertaining evidence management might be useful for those working in those areas so a report group of Evidence Management would be created and any reports for that group can be assigned accordingly. 
+3.6.2
+The LIMS provides users with the ability to search the status of a case.
+5
+Explanation: Case and Assignment status are searchable fields in the LIMS.
+3.6.3
+The LIMS generates automated reports which report case submissions by agency, discipline, offense, and county.
+5
+Explanation: These reports are included with the LIMS and can be automatically generated on demand or on a preset schedule.
+3.6.4
+The LIMS generates automated reports which identify drug cases by specific controlled substances.
+5
+Explanation: The LIMS can generate automated reports on all analytical data entered into the LIMS, including controlled substances. A NFLIS program is also included to general the necessary drug data for submission on a monthly basis.
+
+Scoring Criteria
+3.6.5
+The LIMS generates automated reports which satisfy grant reporting requirements. 
+5
+Explanation: Grant reports can also be automatically generated in the LIMS.
+3.6.6
+The LIMS generates automated reports which satisfy the Illinois statutory requirements for DNA Testing Backlog Accountability.
+730 ILCS 5/5-4-3a/et seq.
+5
+Explanation: The Crime Fighter BEAST LIMS can produce automated reports that have all the criteria set forth by the DNA Testing Backlog Accountability including a breakdown of forensic biology and DNA submissions, other analyses, and offender samples.
+LIMS generated reports can be based on any given criteria. The requirements listed in the Illinois statute 730 ILCS 5/5-4-3a all have a means of being tracked within the DNA Module and LIMS system. This can then be used to generate an automated report throughout the fiscal year. Backlog reduction reports can be reported out for both Casework and Convicted Offender Databank. A report with similar requirements,  shown below,  was created for WIDOJ Databank section. 
+
+3.6.7
+The LIMS records and tracks information, and generates automated reports to comply with the Illinois statutory requirements for the Electronic Laboratory Information Management System.
+730 ILCS 5/5-4-3b/et seq.
+5
+Explanation: This proposed LIMS included software all software modules and configuration required to meet the minimum requirement as stated in 730 ILCS 5/5-4-3b.
+3.6.8
+The LIMS accepts data and generates automated reports which permit the tracking of overtime funds expended on specific casework.
+5
+Explanation: Typically, our configurations calculate overtime based on user entering data for their overtime activities into an activity log.  An analyst would enter their overtime information details and an automated report could be generated based on desired parameters.  An example screenshot of this feature is below:
+
+If this requires an interface to a third party system, we have extensive experience in this area and would be capable of this task.
+3.6.9
+The LIMS permits case and individual reporting from a secure website to search the case and name database associated with the Illinois Offender DNA database. 
+5
+Explanation: The Convicted Offender Web application provides for searching of case and offender names to view whether a person has been entered or if a sample has been obtained.
+3.6.10
+The LIMS accepts data and generate automated reports which permit participation in Project Foresight.
+http://www.be.wvu.edu/forensic/foresight.htm
+5
+Explanation: Porter Lee is currently working closely with WVU to generate the desired reports and data transmission for Project Foresight.  This is included with the LIMS.
+3.6.11
+The LIMS captures searchable data from electronic worksheets, scans, or photographs for each discipline. 
+5
+Explanation: The LIMS captures all relevant data from worksheets, scans and photographs and is searchable.  
+
+Scoring Criteria
+3.6.12
+The LIMS provides the ability to capture and retrieve forensic case information related to special projects.
+5
+Explanation: The LIMS provides areas in supplement tables for the recording and tracking of  data used for special projects.
+       Section 3.6 – Additional Information by Offeror:
+
+Scoring Criteria
+3.7 Report / Certificate of Analysis Generation
+3.7.1
+The LIMS automatically generates a standard report/certificate format across forensic disciplines. 
+5
+Explanation: The analytical reports generated by the LIMS are completed configurable by forensic discipline.  Typically, as standard template is designed for use by all the disciplines with the substance of the report varying by the desires of the individual discipline.
+3.7.2
+The LIMS provides options to enter standardized language and in certain instances permit editable text fields during report/certificate creation. 
+5
+Explanation: The LIMS takes the entries of the analytical testing and notes and incorporates logic to output standardized language based on the data entered.  Some areas and fields are free text where appropriate.  Once the report is generated, it initially is a MS Word document which can be edited further.  
+3.7.3
+The LIMS delivers reports to user agencies through letter mail, email, FTP, and secure web portal. For electronic delivery mechanisms, the LIMS must track receipt or when a report/certificate was accessed.
+5
+Explanation: The LIMS can deliver reports to agencies via all the mechanisms listed.  An audit trail for access via the Web Prelog application displays who and when reports are accessed.  Email receipts can also be tracked.
+3.7.4
+The LIMS permits the inclusion of specific instructions to be disseminated before certain analysis can take place (e.g., notice that standards are required for comparison, permission to consume biological materials, etc.).
+5
+Explanation: The Web Prelog application of the LIMS provides for both the dissemination of instructions as well as the collection of additional information prior to the forensic requests being accepted into the laboratory. 
+3.7.5
+The LIMS permits the inclusion of discipline and case specific forms to be included when reports/certificates are stored and disseminated (e.g., statutory fee fund reminder letters, motion templates, affidavits). Case specific information must be automatically entered on these forms. 
+5
+Explanation: The LIMS can be configured to include any type of form with the analytical reports/certificates.  As with all forms and reports within LIMS, data is automatically imported. 
+
+Scoring Criteria
+3.7.6
+The LIMS permits the attachment of images and other objects to the report/certificate. 
+5
+Explanation: Any forms and reports/certificates can be populated with images and other objects.
+3.7.7
+The LIMS permits reference footnoting on reports/certificates and inclusion of designated reference materials as attachments.
+5
+Explanation: The LIMS has a footnote feature that can be used for worksheets and reports/certificate.  Reference materials can be attached to the end of reports and worksheets.
+3.7.8
+The LIMS prevents the dissemination of a report/certificate if required administrative or technical review has not taken place. 
+5
+Explanation: The reports generated by the LIMS are kept as assignments until all required reviews are complete. It is only then that reports can then be distributed to submitting agencies.
+       Section 3.7 – Additional Information from Offeror:
+
+Scoring Criteria
+3.8 Quality Assurance
+3.8.1
+The LIMS provides a mechanism for administrative and technical review of all analytical findings and reports. The mechanism will ensure all individuals taking part in the review and their comments are documented. 
+5
+Explanation: The technical and administrative review processes are documented using section-specific checklists. Reviewers can view the report, the report writing matrix (used to enter analytical findings), and worksheets from review checklist screen. Multiple checklists can be defined for each level of review, and the checklists can be completed by different reviewers. If the report is rejected, reviewers can enter their comments and route the report back to the assigned analyst from the checklist screen. The review checklists will be available on Reports tab with the completed report and associated analytical notes.
+3.8.2
+The LIMS provides the ability to create and utilize process-specific checklists when performing technical review. 
+5
+Explanation: Checklists in the Crime Fighter BEAST LIMS are section-specific. Multiple checklists can be created for each section to use during the technical review process, and the individual checklists can be required or optional.
+3.8.3
+The LIMS permits and tracks quality reviews of outsourced cases. 
+5
+Explanation:  The LIMS required that assignments go through a review cycle before final approval. This applies to internal as well as outsourced work.
+3.8.4
+The LIMS documents and tracks non conformances, corrective actions, and other quality actions which relate to specific items, cases, individuals, or instruments. 
+5
+Explanation: Corrective and other quality actions can be tracked and documented within the Quality Management System (QMS) module. The specific item, case, individual, or instrument that they relate to can be also be indicated. 
+
+Scoring Criteria
+3.8.5
+The LIMS permits the tracking of proficiency testing. 
+5
+Explanation: Proficiency testing can be tracked through the Quality Management System (QMS) module. Quality managers have the ability to link these tests to a specific task type and make the proficiency test required in order for analysts to perform casework with that task type attached to it. The QMS module also supports the creation of proficiency test cases, and can link directly to the case record in the LIMS.  
+3.8.6
+The LIMS identifies cases for random reanalysis and documents the reanalysis. 
+5
+Explanation: The LIMS can randomly select a configurable percentage of reports for re-analysis.
+3.8.7
+The LIMS permits internal audits to be conducted and documented. 
+5
+Explanation: This functionality is available through the Quality Management System (QMS) module. Audits can be performed for specific lab sections. The users performing the audit can be recorded, as well as audit findings and observations. 
+
+3.8.8
+The LIMS administers, stores, and tracks the maintenance of analyst credentials, training, proficiency tests, and respective scope of analysis. 
+5
+Explanation: Credentials as well as the expiration date of those credentials can be stored for specific analysts. Section-specific training programs can be assigned and tracked through the Quality Management System (QMS) module. The QMS module also gives quality managers the ability to link proficiency tests to a specific task type and make that test required in order for analysts to perform casework with that task type attached to it.
+3.8.9
+The LIMS permits top-down case auditing to monitor and track methods, equipment, materials, and analytical findings. 
+5
+Explanation: The QMS Module includes a custom report feature that allows report designers to create and link both summary and detail reports into the system.
+Summary reports can be created and/or used by the auditors to compare statistical values for cases or samples against previous or excepted results.
+If a comparison yields unexpected results, the auditor can use detailed reports to list specific cases or samples to be reviewed more closely.  Case barcodes can be included on the detail reports to allow quick access to the cases to be reviewed by either cherry picking or sequential access.
+       Section 3.8 – Additional Information from Offeror:
+
+
+Scoring Criteria
+3.9 Document Control
+3.9.1
+The LIMS has repository for a dynamic link to a document repository containing worksheets, manuals, safety documents and other laboratory content.  Historic copies of all document versions are maintained. 
+5
+Explanation: Laboratory documents can be uploaded via the Document Control feature in the Quality Management System (QMS) module. 
+
+A complete version history is maintained for each document. Users are able to view previous versions from within the Document Properties.
+3.9.2
+The LIMS has the ability to enable submission of new documents to the repository and providing for full versioning of all documents.
+5
+Explanation: Users with the appropriate permissions can add new controlled documents at any time. Documents can be checked into the system as a "new draft," which means they must first undergo review before they are available to users to view from the within the main LIMS, or as the "current version," which means they will be readily available for users to view within the main LIMS. If the document is then checked out from the system, its version number will increase and it must be checked in and reviewed in order for users to view the new version from within the main LIMS. 
+
+Scoring Criteria
+3.9.3
+The LIMS provides the ability to view or print all documents.
+5
+Explanation: The Crime Fighter BEAST LIMS provides the ability to open and print all controlled documents from within their native programs.
+3.9.4
+The LIMS provides for varying access and edit privileges for documents stored in the repository. 
+5
+Explanation: There are varying levels of access to the Controlled Documents that are controlled at the User Security Group level. Users can merely be granted access to the Controlled Documents feature within the QMS module, which will allow them to view and add new documents, or they can be granted varying levels of administrative privileges, some of which include the ability to assign and edit document reviews, delete documents, and select the destination folder for documents that are checked out of the system. 
+3.9.5
+The LIMS permits access, storage, and viewing of varying document formats including Adobe PDF and Microsoft Office.
+5
+Explanation: The Crime Fighter BEAST LIMS supports multiple image and document file formats, including Adobe PDF and Microsoft Office.
+
+3.9.6
+The LIMS permits the import and management of court subpoenas and orders, including linking the court document to the particular analyst/case and managing responses and appearance dates.  
+5
+Explanation: The Crime Fight BEAST LIMS can log the subpoena and the corresponding court appearances, linking them to the specific case via the Case Correspondence feature. Related documents can be uploaded to the LIMS through the Image Vault. 
+       Section 3.9 – Additional Information from Offeror:
+
+Scoring Criteria
+3.10 Record Management / Archiving 
+3.10.1
+The LIMS creates, manages, and preserves electronic records in a manner consistent with the requirements of the Illinois State Records Act. 
+5 ILCS 160/et seq.
+5
+Explanation: The proposed LIMS can be used to facilitate compliance to 5 ILCS 160/et seq. as implemented.
+3.10.2
+The LIMS prevents data files from being deleted until confirmation that they have been successfully archived. 
+5
+Explanation: Permission to delete database information is controlled by the LIMS administrator and can be revoked from all users if desired. If authority to delete information from the database is granted to a user or group, and they decide to delete information from the database, it is first archived into the LIMS auditlog by the LIMS system. This audit log can be searched, filtered, sorted and printed after the deletion.
+3.10.3
+The LIMS has a mechanism for addressing court-ordered expungements and sealing of records. 
+5
+Explanation: The LIMS can record expungement orders and information can be reviewed and anonymized or deleted as required by the court order.
+
+Scoring Criteria
+3.10.4
+The LIMS has a mechanism to produce records pursuant to Freedom of Information Act (FOIA) requests which automatically redact designated information.  
+5
+Explanation: The LIMS includes the ability to produce and / or attach redacted versions or reports to the LIMS case file.
+3.10.5
+The LIMS provides traceability for records which are subject to frequent manipulations and have an impact on quality or safety. A secure audit trail must be created and preserved for these records. 
+5
+Explanation: All modifications to data records related to evidence receipt, transfer ot disposition are recorded in the auditlog.  Normal users may not edit or delete the chain of custody
+       Section 3.10 – Additional Information from Offeror:
+
+Scoring Criteria
+3.11 Laboratory / Analytical Processes
+3.11.1
+The LIMS contains distinct modules which are configurable to the specific workflow across laboratory disciplines.
+5
+Explanation: The Crime Fighter BEAST LIMS can be configured to the specific workflow across all laboratory disciplines starting when the initial request for analysis is made. From there, the service request review process and assignment of lab work is also configurable. Section-specific templates can be defined for worksheets and laboratory analysis reports. The primary report writing tool, the matrix, is highly configurable, and allows for data entry fields to be defined according to each discipline’s needs. In addition, the LIMS includes robust DNA and Toxicology modules that allow for batch result entry. In addition to highly configurable report writing tools, the technical and administrative review processes can also be configured according to each section’s specific workflow. 
+3.11.2
+The LIMS tracks the commodities, equipment/instruments utilized during forensic analysis. 
+5
+Explanation: Any commodities and equipment/instruments entered in the Laboratory Asset Manager (LAM) module can be tracked during forensic analysis. 
+3.11.3
+The LIMS has the ability to define and set individual instrument calibration and maintenance schedules.
+5
+Explanation: The service history for individual instruments can be tracked in the Laboratory Asset Manager (LAM) module. When an instrument is initially entered into the system, the maintenance type (e.g., monthly, annually) is selected, and this is used to automatically calculate the next service date. 
+3.11.4
+The LIMS has the ability to set tolerance limits and/or calibration according to designated timeframes. 
+5
+Explanation: Tolerance limits can be defined for toxicological results and instrument calibration can be tracked according a designated timeframe through the Laboratory Asset Manager (LAM) module. 
+3.11.5
+The LIMS sends email notifications when an instrument reaches its tolerance or calibration date. 
+5
+Explanation: This is base functionality for the Laboratory Asset Manager (LAM) module to send notifications based on configurable parameters. 
+
+Scoring Criteria
+3.11.6
+The LIMS identifies instruments that are out of calibration, beyond preventative maintenance dates, or under repair/investigation. 
+5
+Explanation: This is base functionality for the Laboratory Asset Manager (LAM) module to send notifications based on configurable parameters.
+3.11.7
+The LIMS retains all calibration data for the lifetime of instruments.  
+5
+Explanation: The Crime Fighter BEAST LIMS retains all calibration data for the lifetime of instruments entered in the Laboratory Asset Manager module. The data is even searchable based upon a specific date range. 
+3.11.8
+The LIMS tracks all performance checks run on instruments, equipment, commodities, reagents, or other necessary items (e.g., analytical balances, reference materials, or prepared reagents).
+5
+Explanation: Validation and calibration information can be tracked for all items entered in the Laboratory Asset Manager (LAM) module, including, instruments, equipment, commodities, and reagents. 
+3.11.9
+The LIMS tracks when internal reference collections or materials (e.g., firearms reference collection or glass libraries) are used by analysts on specific cases. 
+5
+Explanation: The Crime Fighter BEAST can track any internal reference collections or materials that are entered in the Laboratory Asset Manager (LAM) module used by analysts on specific cases during the report writing process. 
+3.11.10
+The LIMS tracks when materials in controlled substances reference collections are used by analysts on specific cases. This includes spectral instrumental data and weight of controlled substance. 
+5
+Explanation: The Crime Fighter BEAST can track any materials in controlled substance reference collections that are entered in the Laboratory Asset Manager (LAM) module that are used by analysts on specific cases during the report writing process. Users can select the specific instrument so long as it is entered in the LAM and entry fields for weight of the controlled substance can be configured in the report writing matrix. 
+       Section 3.11 – Additional Information from Offeror:
+
+Scoring Criteria
+3.12 File / Object Management
+3.12.1
+The LIMS allows for file objects (text, images, graphics, audio, etc.) to be associated with a record and accessed from within the LIMS.
+5
+Explanation: The Crime Fighter BEAST LIMS has a complete solution for storing and retrieving any type of file to any piece of data element in the system. For example, files can be associated with the case, name, evidence, or a specific Chain of Custody event. Files can also be associated with examination or specific results. For example, electropherograms or chromatographic results can be imported and attached to the examination results. Users have the ability to upload a batch of files, scan images/documents, down files, print and view.
+
+3.12.2
+The LIMS provides for the storage and security of all objects residing in its database or file management system.  
+5
+Explanation: The Crime Fighter BEAST LIMS stores all the objects in the database. The LIMS has security permissions to control what users upload, download, view or print objects. The objects can be stored as restricted files and can be viewed or downloaded based on the user's permissions. The database administrator can also restrict the access of the objects. 
+
+Scoring Criteria
+3.12.3
+The LIMS applies a checksum function for digital objects stored, maintains checksum values, and validates object integrity.
+5
+Explanation: When the objects are attached in the Crime Fighter BEAST LIMS, the LIMS creates a hash value and stores it in the database for every object to validate the security and integrity of the objects. If for any reason the object has been altered the system will notify the user. Checksum includes various elements to create the encryption file.
+3.12.4
+The LIMS maintains an original image file and permit image file manipulations on copies (i.e., zoom in, zoom out, written annotations, image enhancement, image measurements).
+5
+Explanation: The Crime Fighter BEAST LIMS has the ability to attach multiple versions of the objects. The LIMS uses the native viewers, which have the ability to zoom in, zoom out, and more. Images can be annotated during analysis and saved in LIMS.
+
+
+3.12.5
+The LIMS permits the layering of annotations and measurements on image copies. 
+5
+Explanation: The Crime Fighter BEAST LIMS saves all the annotations in the database and permits viewing or printing of the original image or applying the annotation layer on top it. 
+3.12.6
+The LIMS provides direct image acquisition from digital scanner, cameras, or microscopes. 
+5
+Explanation: The Crime Fighter BEAST LIMS has a scan monitor feature, which allows the application to listen to the specified network or local folder for new files. This feature will allow the user to acquire images directly from scanners, cameras, microscopes, or any other similar devices.
+3.12.7
+The LIMS manages and tracks all workflow and manipulation functions applied to images.  
+5
+Explanation: The Crime Fighter BEAST LIMS saves all the manipulation of the objects in the database and stores the audit trails of the changes.
+       Section 3.12 – Additional Information from Offeror:
+
+Scoring Criteria
+3.13 Crime Scene Unit
+3.13.1
+The LIMS permits the single entry of crime scene and evidence information to generate reports, manifests, and evidence labels.
+5
+Explanation: The Crime Fighter BEAST LIMS does include a fully integrated mobile Crime Scene Mobile Application. However, If the department chooses to purchase CrimePad by Visionnations for crime scene data collection, we are pleased to include complete integration at no additional cost.  Field generated evidence manifests, evidence labels, and lift labels can all be produced while still on scene.
+3.13.2
+The LIMS generates automated crime scene reports with standardized language and designated sections for short text narratives. 
+5
+Explanation: As with other disciplines, the LIMS generates crime scene reports with standardized language and utilizes data entered in field which is imported into the LIMS. Designated short text narrative fields are easily configured for the note taking or report writing process.
+
+Scoring Criteria
+3.13.3
+The LIMS has the ability to create customized crime scene worksheets and store completed worksheets under specific cases.  
+5
+Explanation: Custom crime scene worksheets can be created in the field or in the LIMS depending on the required workflow.  All worksheets are stored under the relevant case number.
+3.13.4
+The LIMS permits the uploading and storing numerous digital photos, videos, audio, and Adobe PDF files under specific case files.
+5
+Explanation: The LIMS provides for the attachment of any file type under the specific case number.  This is also available within CrimePad as well.
+3.13.5
+The LIMS has a customizable case review function that permits supervisor to review all reports, photographs, worksheets, and associated files before approving. 
+5
+Explanation: The review function within the LIMS is configurable to each discipline including crime scene.  All relevant materials, including worksheets, photographs and associated files are compiled into a single notes packet with the report so that reviewers have easy access to all necessary data to complete the review.
+3.13.6
+The LIMS permits bi directional transfer of case and evidence information between the laboratory and crime scene unit. 
+5
+Explanation: The interface between the LIMS and CrimePad is bidirectional. Case face sheet information can be imported to the Crime Scene module to initiate collection at the scene. (Cases can also be originate at the scene without prior LIMS involvement. Information entered at the scene can be exported to the LIMS. This occurs automatically in the background during normal operation of the software. 
+3.13.7
+The LIMS has the ability to operate on wireless laptops, tablets, or mobile devices over the Illinois Wireless Information Network (IWIN) or a secure internet connection.
+5
+Explanation: Both the LIMS and CrimePad portion of the system can operate on laptops, tables or phones over any network.  CrimePad can even operate in an offline mode were connectivity is not available for extremely remote scenes.  Data can then be synced up once connectivity is restored. 
+       Section 3.13 – Additional Information by Offeror:
+CrimePad is a mobile-first, active investigation management system designed for all members involved in an investigation, including crime scene professionals, detectives, supervisors, and command staff. 
+CrimePad provides an array of tools, such as case and scene data forms, lead management, evidence logging, photo/video/ document storage, interviews, and reports. With these and a host of other features, CrimePad creates real time collaboration between all team members. As a result, information is shared quickly and efficiently, leading to high quality and effective inves- tigations. 
+Using cloud-based technology (private or securely hosted) coupled with tablets, smartphones, laptops, and desktops, CrimePad is available at any location at any time. This allows CSIs and investigators to stay in the field longer without having to return to an office for debriefing or for transcribing notes. 
+All physical evidence must be thoroughly documented and collected. The Evidence element allows you to completely record evidence numbers, collection information, evidence descriptions, processing information, packaging, and anticipated forensic analysis. This element also allows you to print evidence labels to a portable label printer so that you can label packaging with pertinent information rather than writing on the packaging by hand. This can save a tremendous amount of time. 
+CrimePad allows you to attach any case, scene, or element file that supplements the entered data. Digital photographs, for example, are common les to upload and store within the secure CrimePad electronic case file. Audio, video, PDF, Word, and other file types can also be stored and attached to specific elements within the case. These can dramatically aid the investigation and provide a centralized repository for all case files. 
+As investigations progress dynamically and data is collected, it is important for supervisors and command staff to monitor the state of the investigation and allocate resources. To aid in this, CrimePad includes dashboards that provide a snapshot of the entire case in a succinct and intuitive way. It displays where resources and personnel have been applied and helps facilitate the assignment of tasks and leads as they emerge. 
+
+CrimePad and the Crime Fighter BEAST LIMS work together through a tight interface, passing required information that make sense from a workflow perspective between the ISP Crime Scene Services Command and the Laboratory.
+
+ Prepared by Porter Lee Corporation		Page 26 of 41
